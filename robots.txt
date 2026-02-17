@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tesla-referral-eu.vercel.app/sitemap.xml
+Sitemap: https://tesla-referral-eu.netlify.app/sitemap.xml
