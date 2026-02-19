@@ -484,4 +484,37 @@ footer {
     .savings-amount {
         font-size: 1.5rem;
     }
+
+    .lang-switcher {
+        gap: 6px;
+    }
+
+    .lang-link {
+        font-size: 1.1rem;
+    }
+}
+
+/* Language Switcher */
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lang-link {
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.5;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    line-height: 1;
+}
+
+.lang-link:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+.lang-link.active {
+    opacity: 1;
+    transform: scale(1.15);
 }
