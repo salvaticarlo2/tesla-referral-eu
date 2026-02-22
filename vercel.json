@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://tesla-referral-eu.netlify.app/$1",
+      "destination": "https://teslablog.eu/$1",
       "statusCode": 301
     }
   ]
