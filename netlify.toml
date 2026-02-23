@@ -1,0 +1,6 @@
+# Redirect old netlify.app domain to custom domain
+[[redirects]]
+  from = "https://tesla-referral-eu.netlify.app/*"
+  to = "https://teslablog.eu/:splat"
+  status = 301
+  force = true
