@@ -150,4 +150,10 @@
     <priority>0.85</priority>
   </url>
 
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-software-update-2026/</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
