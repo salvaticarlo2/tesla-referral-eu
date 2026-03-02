@@ -8,10 +8,12 @@ DOMAIN="https://teslablog.eu"
 TODAY_UTC="$(date -u +%F)"
 SITEMAP_FILE="sitemap.xml"
 SITEMAP_ALT_FILE="sitemap-v2.xml"
+SITEMAP_MIN_FILE="sitemap-min.xml"
 TMP_FILE="$(mktemp)"
+TMP_MIN_FILE="$(mktemp)"
 
 cleanup() {
-  rm -f "$TMP_FILE"
+  rm -f "$TMP_FILE" "$TMP_MIN_FILE"
 }
 trap cleanup EXIT
 
@@ -66,13 +68,37 @@ done < <(find blog -mindepth 1 -maxdepth 1 -type d -printf "%f\n" | sort)
 
 echo "</urlset>" >> "$TMP_FILE"
 
+awk '
+BEGIN {
+  print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+  print "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">"
+}
+/<url>/ { in_url=1; loc=""; lastmod="" }
+in_url && /<loc>/ { loc=$0 }
+in_url && /<lastmod>/ { lastmod=$0 }
+/<\/url>/ {
+  if (in_url && loc != "") {
+    print "  <url>"
+    print loc
+    if (lastmod != "") print lastmod
+    print "  </url>"
+  }
+  in_url=0
+}
+END {
+  print "</urlset>"
+}
+' "$TMP_FILE" > "$TMP_MIN_FILE"
+
 if command -v xmllint >/dev/null 2>&1; then
   xmllint --noout "$TMP_FILE"
+  xmllint --noout "$TMP_MIN_FILE"
 fi
 
 mv "$TMP_FILE" "$SITEMAP_FILE"
 cp "$SITEMAP_FILE" "$SITEMAP_ALT_FILE"
-chmod 644 "$SITEMAP_FILE" "$SITEMAP_ALT_FILE"
+mv "$TMP_MIN_FILE" "$SITEMAP_MIN_FILE"
+chmod 644 "$SITEMAP_FILE" "$SITEMAP_ALT_FILE" "$SITEMAP_MIN_FILE"
 
 url_count="$(grep -c "<loc>" "$SITEMAP_FILE")"
-echo "Generated ${SITEMAP_FILE} and ${SITEMAP_ALT_FILE} with ${url_count} URLs"
+echo "Generated ${SITEMAP_FILE}, ${SITEMAP_ALT_FILE}, and ${SITEMAP_MIN_FILE} with ${url_count} URLs"
