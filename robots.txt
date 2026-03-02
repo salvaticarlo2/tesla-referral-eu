@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://teslablog.eu/sitemap.xml
+Sitemap: https://teslablog.eu/sitemap-v2.xml

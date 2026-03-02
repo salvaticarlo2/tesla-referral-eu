@@ -7,6 +7,7 @@ cd "$ROOT_DIR"
 DOMAIN="https://teslablog.eu"
 TODAY_UTC="$(date -u +%F)"
 SITEMAP_FILE="sitemap.xml"
+SITEMAP_ALT_FILE="sitemap-v2.xml"
 TMP_FILE="$(mktemp)"
 
 cleanup() {
@@ -43,45 +44,17 @@ XML
 
 cat > "$TMP_FILE" <<XML
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 XML
 
-cat >> "$TMP_FILE" <<XML
-  <url>
-    <loc>${DOMAIN}/</loc>
-    <lastmod>$(lastmod_for "index.html")</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="${DOMAIN}/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="${DOMAIN}/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="${DOMAIN}/fr/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="${DOMAIN}/nl/"/>
-    <xhtml:link rel="alternate" hreflang="no" href="${DOMAIN}/no/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="${DOMAIN}/it/"/>
-  </url>
-XML
-
+emit_url "/" "$(lastmod_for "index.html")" "weekly" "1.0"
 emit_url "/blog/" "$(lastmod_for "blog/index.html")" "weekly" "0.9"
 emit_url "/referral/" "$(lastmod_for "referral/index.html")" "monthly" "0.9"
 
 for lang in de fr nl no it; do
   page_path="${lang}/index.html"
   if [ -f "$page_path" ]; then
-    cat >> "$TMP_FILE" <<XML
-  <url>
-    <loc>${DOMAIN}/${lang}/</loc>
-    <lastmod>$(lastmod_for "$page_path")</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="${DOMAIN}/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="${DOMAIN}/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="${DOMAIN}/fr/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="${DOMAIN}/nl/"/>
-    <xhtml:link rel="alternate" hreflang="no" href="${DOMAIN}/no/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="${DOMAIN}/it/"/>
-  </url>
-XML
+    emit_url "/${lang}/" "$(lastmod_for "$page_path")" "monthly" "0.7"
   fi
 done
 
@@ -98,7 +71,8 @@ if command -v xmllint >/dev/null 2>&1; then
 fi
 
 mv "$TMP_FILE" "$SITEMAP_FILE"
-chmod 644 "$SITEMAP_FILE"
+cp "$SITEMAP_FILE" "$SITEMAP_ALT_FILE"
+chmod 644 "$SITEMAP_FILE" "$SITEMAP_ALT_FILE"
 
 url_count="$(grep -c "<loc>" "$SITEMAP_FILE")"
-echo "Generated ${SITEMAP_FILE} with ${url_count} URLs"
+echo "Generated ${SITEMAP_FILE} and ${SITEMAP_ALT_FILE} with ${url_count} URLs"
