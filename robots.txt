@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://teslablog.eu/sitemap_index.xml
+Sitemap: https://teslablog.eu/sitemap-min.xml
 Sitemap: https://teslablog.eu/sitemap.xml
 Sitemap: https://teslablog.eu/sitemap-v2.xml
-Sitemap: https://teslablog.eu/sitemap-min.xml

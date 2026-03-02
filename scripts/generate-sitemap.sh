@@ -9,6 +9,7 @@ TODAY_UTC="$(date -u +%F)"
 SITEMAP_FILE="sitemap.xml"
 SITEMAP_ALT_FILE="sitemap-v2.xml"
 SITEMAP_MIN_FILE="sitemap-min.xml"
+SITEMAP_INDEX_FILE="sitemap_index.xml"
 TMP_FILE="$(mktemp)"
 TMP_MIN_FILE="$(mktemp)"
 
@@ -98,7 +99,26 @@ fi
 mv "$TMP_FILE" "$SITEMAP_FILE"
 cp "$SITEMAP_FILE" "$SITEMAP_ALT_FILE"
 mv "$TMP_MIN_FILE" "$SITEMAP_MIN_FILE"
-chmod 644 "$SITEMAP_FILE" "$SITEMAP_ALT_FILE" "$SITEMAP_MIN_FILE"
+
+cat > "$SITEMAP_INDEX_FILE" <<XML
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>${DOMAIN}/sitemap-min.xml</loc>
+    <lastmod>${TODAY_UTC}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>${DOMAIN}/sitemap.xml</loc>
+    <lastmod>${TODAY_UTC}</lastmod>
+  </sitemap>
+</sitemapindex>
+XML
+
+if command -v xmllint >/dev/null 2>&1; then
+  xmllint --noout "$SITEMAP_INDEX_FILE"
+fi
+
+chmod 644 "$SITEMAP_FILE" "$SITEMAP_ALT_FILE" "$SITEMAP_MIN_FILE" "$SITEMAP_INDEX_FILE"
 
 url_count="$(grep -c "<loc>" "$SITEMAP_FILE")"
-echo "Generated ${SITEMAP_FILE}, ${SITEMAP_ALT_FILE}, and ${SITEMAP_MIN_FILE} with ${url_count} URLs"
+echo "Generated ${SITEMAP_FILE}, ${SITEMAP_ALT_FILE}, ${SITEMAP_MIN_FILE}, and ${SITEMAP_INDEX_FILE} with ${url_count} URLs"
