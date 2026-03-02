@@ -1,3 +1,7 @@
+[build]
+  command = "bash scripts/generate-sitemap.sh"
+  publish = "."
+
 # Redirect old netlify.app domain to custom domain
 [[redirects]]
   from = "https://tesla-referral-eu.netlify.app/*"
