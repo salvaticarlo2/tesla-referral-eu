@@ -179,6 +179,7 @@
       <li><a href="#eu-rollout">European Rollout Timeline</a></li>
       <li><a href="#how-to-access">How to Access Grok in Your Tesla</a></li>
       <li><a href="#real-world">Real-World Experience</a></li>
+      <li><a href="#safety-concerns">Safety Concerns &amp; EU Regulatory Scrutiny</a></li>
       <li><a href="#privacy-gdpr">Privacy &amp; GDPR in the EU</a></li>
       <li><a href="#comparison">Grok vs. Old Tesla Voice Commands</a></li>
       <li><a href="#faq">Frequently Asked Questions</a></li>
@@ -242,13 +243,13 @@
   <p>Grok availability in European Teslas depends primarily on the onboard computing hardware, not the model year alone. Here's the breakdown:</p>
 
   <ul>
-    <li><strong>Full support — Hardware 4 (HW4):</strong> Model 3 Highland (from late 2023), Model Y Juniper (from early 2025), Model S and Model X produced from late 2023 onwards. These vehicles have the on-device processing power for the full Grok feature set.</li>
+    <li><strong>Full support — Ryzen-based HW4:</strong> Model 3 Highland (from late 2023), Model Y Juniper (from early 2025), Model S and Model X produced from late 2023 onwards <em>with AMD Ryzen hardware</em>. These vehicles have the on-device processing power for the full Grok feature set. Important: not all vehicles with the HW4 label use Ryzen — some early production runs used Intel-based hardware, which is excluded from Grok.</li>
     <li><strong>Limited support — Hardware 3 (HW3):</strong> Model 3 and Model Y produced between approximately 2019 and 2023, and earlier Model S/X refreshes. These get a cloud-assisted version of Grok — functionality is slightly reduced and latency is marginally higher, but most features still work.</li>
-    <li><strong>Not supported — Hardware 2.5 and earlier:</strong> Vehicles manufactured before mid-2019. The hardware cannot run Grok, and there is no confirmed upgrade path at this time.</li>
+    <li><strong>Not supported — Intel-based HW4 and HW2.5/earlier:</strong> Early HW4 vehicles with Intel processors, and vehicles manufactured before mid-2019. The hardware cannot run Grok, and there is no confirmed upgrade path at this time for Intel HW4 vehicles.</li>
   </ul>
 
   <div class="info-box">
-    <strong>How to check your hardware version:</strong> Go to Controls → Software → Additional Vehicle Information on your Tesla touchscreen. You'll see your computer type listed as HW3 or HW4. You can also find this in the Tesla mobile app under your vehicle details.
+    <strong>How to check your hardware version:</strong> Go to Controls → Software → Additional Vehicle Information on your Tesla touchscreen. Look specifically for "AMD Ryzen" listed as your computer type — this confirms full Grok eligibility. If you see an Intel reference or are unsure, contact Tesla service before assuming Grok will be available. You can also check this in the Tesla mobile app under your vehicle details.
   </div>
 
   <p>Note that the Cybertruck, which launched in limited European availability in 2025, uses HW4 and fully supports Grok. The Model 2 (entry-level Tesla, expected mid-2026) will ship with Grok support from the factory.</p>
@@ -258,10 +259,14 @@
   <p>Tesla's approach to rolling out Grok AI in Europe is more deliberate than in the US, primarily because of regulatory requirements under the EU AI Act and GDPR data processing rules. The phased rollout looks like this:</p>
 
   <ul>
-    <li><strong>Phase 1 — Q1 2026:</strong> UK, Norway, and Netherlands. These markets received initial access first, partly due to existing strong Tesla penetration and regulatory preparedness. Basic Grok features arrive via software update 2026.x.</li>
-    <li><strong>Phase 2 — Q2 2026:</strong> Germany, France, Austria, Belgium, and Switzerland. The largest European markets by Tesla sales. Enhanced features including deeper vehicle integration and real-time information become available.</li>
-    <li><strong>Phase 3 — H2 2026:</strong> Remaining EU markets including Italy, Spain, Sweden, Denmark, Finland, Poland, and others. Full feature parity with US version. Additional language support.</li>
+    <li><strong>Phase 1 — Q1 2026 (9 initial countries):</strong> UK, Ireland, Germany, Switzerland, Austria, Italy, France, Portugal, and Spain. These markets received initial access together, with the software update 2026.2.6 serving as the primary delivery vehicle.</li>
+    <li><strong>Phase 2 — Q2 2026:</strong> Norway, Netherlands, Belgium, and Nordic markets. Enhanced features including deeper vehicle integration become available across the expanded territory.</li>
+    <li><strong>Phase 3 — H2 2026:</strong> Remaining EU markets including Sweden, Denmark, Finland, Poland, and Eastern European countries. Full feature parity with US version. Additional language support.</li>
   </ul>
+
+  <div class="info-box">
+    <strong>Fleet penetration:</strong> According to data from TeslaOracle, approximately 12–13% of the active Tesla fleet in Europe had received Grok by the time of the initial Phase 1 rollout — mostly newer HW4/Ryzen-equipped vehicles that were prioritised in early software stages.
+  </div>
 
   <p>Updates arrive automatically via OTA (over-the-air) delivery — the same system Tesla uses for all software updates. You don't need to visit a service center. Once Grok is available in your region, you'll see it in the Tesla app and on the vehicle touchscreen as a new interface option the next time your car downloads an update.</p>
 
@@ -286,6 +291,18 @@
   <p>The areas where Grok is still developing: language support outside English and German is inconsistent. French works well; Dutch and Norwegian users have reported occasional misunderstandings, particularly with regional idioms. Real-time information, while impressive in principle, occasionally serves slightly outdated data — a known limitation of how LLMs cache information.</p>
 
   <p>The personality — witty, direct, occasionally surprising — is genuinely different from the corporate blandness of Google Assistant or Siri. Whether that's a feature or a quirk depends on your preferences.</p>
+
+  <h2 id="safety-concerns">Safety Concerns &amp; Regulatory Scrutiny</h2>
+
+  <p>Grok's rollout has not been without controversy, and European Tesla owners should be aware of the regulatory landscape before using the feature.</p>
+
+  <p><strong>CNBC safety report:</strong> CNBC published reporting on incidents where Grok generated inappropriate content in certain personality modes, including responses to requests involving minors. Tesla and xAI have since implemented guardrails, but the incidents attracted significant press coverage and regulatory attention in both the US and Europe.</p>
+
+  <p><strong>EU Digital Services Act (DSA) scrutiny:</strong> The European Commission has opened preliminary enquiries into xAI's Grok service under the DSA, which governs AI-generated content and requires platforms to implement safeguards against harmful outputs. As Grok is integrated into vehicles operated in EU territory, it falls within the DSA's scope for AI-generated content.</p>
+
+  <p><strong>EU AI Act classification:</strong> Tesla has registered Grok as a "limited risk" AI system under the EU AI Act. This requires Tesla to disclose that you're interacting with an AI system — hence the disclosure screen on first activation — and to maintain transparency about what data the system processes.</p>
+
+  <p>For day-to-day use in navigation, vehicle control, and general queries, none of these concerns affect the practical experience. The reported issues were concentrated in the "Unhinged" and "Argumentative" personality modes. The feature can be fully disabled at any time through Controls → Privacy → Grok settings.</p>
 
   <h2 id="privacy-gdpr">Privacy &amp; GDPR in the EU</h2>
 
