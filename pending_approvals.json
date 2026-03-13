@@ -283,5 +283,39 @@
     "created": "2026-03-12T09:20:00Z",
     "agent": "tesla",
     "notes": "Spain is +74% YoY in Feb 2026 \u2014 one of the fastest growing EU Tesla markets. /fr/ page exists, /de/ page exists, /es/ was missing. Added hreflang es tag. Sitemaps updated. After push: submit to IndexNow + Google Indexing API."
+  },
+  {
+    "id": "tesla-norway-guide-2026",
+    "title": "Tesla in Norway 2026: The Complete Buyer's Guide",
+    "description": "New blog post targeting 'tesla norway 2026' keyword. Norway has no English blog post despite being Tesla's #1 market (98% EV share, Tesla #1 at 16.6%). ~1,500 words covering prices in NOK, VAT/tax exemptions, Supercharger network, winter charging, referral code. Targets kr 5,500 referral saving. Includes FAQ schema, BreadcrumbList, internal links to /no/, cheapest-country, referral guide, FSD post.",
+    "type": "new_post",
+    "file": "/root/tesla-referral-eu/blog/tesla-norway-guide-2026/index.html",
+    "url": "https://teslablog.eu/blog/tesla-norway-guide-2026/",
+    "target_keyword": "tesla norway 2026",
+    "secondary_keywords": [
+      "tesla in norway",
+      "tesla referral code norway",
+      "buying tesla norway",
+      "tesla pris norge"
+    ],
+    "status": "pending",
+    "created_at": "2026-03-13T11:10:00Z",
+    "action_needed": "1) Carlo: review + approve. 2) git push (add blog/index.html entry + sitemap line first \u2014 see EXECUTION.md for git push command). 3) Submit to IndexNow after push.",
+    "notes": "Scheduled for Mar 16+ push (weekly post limit: 6 posts this week already). Norway has no existing English guide blog post. /no/ country page exists (Norwegian language) but no buyer guide. Strong angle: Norway 98% EV + Tesla #1 + March 31 urgency + FSD Early Access rollout."
+  },
+  {
+    "id": "tesla-roadster-europe-2026",
+    "title": "Tesla Roadster Europe 2026 \u2014 April 1 Reveal, Price & EU Availability",
+    "description": "Pre-event content targeting April 1 Roadster reveal. ~1500w. Covers specs, EU price estimate (~\u20ac180K+), delivery timeline, reservation status, referral tie-in. Target keyword: tesla roadster europe 2026. Time-sensitive: publish before April 1 to capture search traffic. Commit 11abf4c.",
+    "source": "tesla-agent",
+    "type": "blog_post",
+    "status": "pending",
+    "slug": "tesla-roadster-europe-2026",
+    "target_url": "https://teslablog.eu/blog/tesla-roadster-europe-2026/",
+    "priority": "medium",
+    "push_after": "2026-03-16",
+    "commit": "11abf4c",
+    "created_at": "2026-03-13T13:10:00Z",
+    "notes": "Time-sensitive \u2014 push before Apr 1 to rank for pre-event searches. Blog index + sitemap updated. After push: submit to IndexNow."
   }
 ]
