@@ -317,5 +317,34 @@
     "commit": "11abf4c",
     "created_at": "2026-03-13T13:10:00Z",
     "notes": "Time-sensitive \u2014 push before Apr 1 to rank for pre-event searches. Blog index + sitemap updated. After push: submit to IndexNow."
+  },
+  {
+    "id": "tesla-referral-code-poland",
+    "title": "Tesla Referral Code Poland 2026 \u2014 Kod Polecenia Tesla, Save \u20ac500",
+    "description": "New country referral page for Poland. Targets 'tesla referral code poland 2026' and 'kod polecenia tesla 2026'. ~1,700 words. Bilingual EN/PL. Covers M\u00f3j Elektryk subsidy compatibility, Supercharger locations in Poland (Warsaw, Krak\u00f3w, Wroc\u0142aw, Gda\u0144sk), step-by-step in Polish, 5 FAQs, March 31 urgency banner. Poland = 38M people, fast-growing EV market. Commit faa1f82.",
+    "source": "tesla-agent",
+    "type": "blog_post",
+    "status": "pending",
+    "slug": "tesla-referral-code-poland",
+    "target_url": "https://teslablog.eu/blog/tesla-referral-code-poland/",
+    "priority": "high",
+    "push_after": "2026-03-16",
+    "commit": "faa1f82",
+    "created_at": "2026-03-13T22:15:00Z",
+    "notes": "Country referral pages = highest conversion rate. Poland missing from blog pipeline until now. Blog index + sitemap updated. After push: submit to IndexNow."
+  },
+  {
+    "id": "reddit-lead-nl-apr-mar13",
+    "source": "tesla-agent",
+    "type": "reddit_reply",
+    "status": "pending",
+    "title": "Reddit Lead \u2014 Tesla NL 0% APR (r/TeslaEurope)",
+    "description": "Active EU buyer asking about 0% APR financing in NL. Reply drafted \u2014 answer their question first, then introduce \u20ac500 referral code naturally. March 31 urgency = 18 days. HIGH priority.",
+    "url": "https://www.reddit.com/r/TeslaEurope/comments/1mfiwcz/when_can_we_expect_the_next_0_apr_financing/",
+    "draft_file": "/root/obsidian-vault/tesla-agent/cowork/lead-draft-nl-apr-march2026.md",
+    "action_needed": "Carlo: Reply on Reddit with the draft text. Check post is <2 weeks old first.",
+    "priority": "HIGH",
+    "expires": "2026-03-31",
+    "created_at": "2026-03-13T22:41:00Z"
   }
 ]
