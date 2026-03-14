@@ -24,8 +24,8 @@
     "id": "code-parrainage-tesla-update-mar10",
     "site": "teslablog",
     "source": "tesla-agent",
-    "title": "Update: Code Parrainage Tesla \u2014 March 2026 refresh (pos 92.5 recovery)",
-    "description": "Updated /blog/code-parrainage-tesla-guide-2026/ with: (1) March 2026 urgency box (\u20ac500 Supercharging + 0% APR deadline Mar 31), (2) savings table with Bonus \u00c9cologique cumul, (3) Model 3 Standard \u20ac38,990 card added, (4) dateModified\u21922026-03-10. Root cause of pos 75\u219292 drop: teslageek.fr updated Mar 7, monparrainagetesla.fr has keyword in domain. Fix: freshen content + urgency signals. CAN push with Mar 11 sprint.",
+    "title": "Update: Code Parrainage Tesla — March 2026 refresh (pos 92.5 recovery)",
+    "description": "Updated /blog/code-parrainage-tesla-guide-2026/ with: (1) March 2026 urgency box (€500 Supercharging + 0% APR deadline Mar 31), (2) savings table with Bonus Écologique cumul, (3) Model 3 Standard €38,990 card added, (4) dateModified→2026-03-10. Root cause of pos 75→92 drop: teslageek.fr updated Mar 7, monparrainagetesla.fr has keyword in domain. Fix: freshen content + urgency signals. CAN push with Mar 11 sprint.",
     "type": "page-update",
     "status": "pending",
     "priority": "medium",
@@ -43,7 +43,7 @@
     "id": "tesla-model-3-standard-europe-2026",
     "source": "tesla-agent",
     "status": "published",
-    "title": "Tesla Model 3 Standard Range Europe 2026: Price, Range & How to Save \u20ac500",
+    "title": "Tesla Model 3 Standard Range Europe 2026: Price, Range & How to Save €500",
     "description": "New blog post targeting 'tesla model 3 standard europe 2026'. ~1,400w buyer guide. FAQPage + BreadcrumbList. File ready at /root/tesla-referral-eu/blog/tesla-model-3-standard-europe-2026/index.html. Approved by Carlo Mar 9.",
     "action_needed": "git push + IndexNow submit. Schedule: Mar 11.",
     "created_at": "2026-03-09T06:40:00Z",
@@ -69,8 +69,8 @@
     "id": "tesla-fr-page-expansion-2026",
     "source": "tesla-agent",
     "status": "pending",
-    "title": "France /fr/ Page Expansion \u2014 1116w \u2192 2693w (position drop fix)",
-    "description": "URGENT: /fr/ page dropped from pos 42 \u2192 62.4 (-20 positions). Root cause: thin content vs French competitors. Expanded to 2,693 words: Bonus \u00c9cologique section, 2026 pricing table (Model 3 \u20ac38,990 \u2192 Model X), France +55% Feb 2026 market data, Supercharger France section (700+ stations), 6 FAQ items. dateModified=2026-03-10. File: /root/tesla-referral-eu/fr/index.html. Needs: git push + IndexNow.",
+    "title": "France /fr/ Page Expansion — 1116w → 2693w (position drop fix)",
+    "description": "URGENT: /fr/ page dropped from pos 42 → 62.4 (-20 positions). Root cause: thin content vs French competitors. Expanded to 2,693 words: Bonus Écologique section, 2026 pricing table (Model 3 €38,990 → Model X), France +55% Feb 2026 market data, Supercharger France section (700+ stations), 6 FAQ items. dateModified=2026-03-10. File: /root/tesla-referral-eu/fr/index.html. Needs: git push + IndexNow.",
     "action_needed": "Approve for Mar 11 sprint push. Fixes -20 position drop.",
     "created_at": "2026-03-10T08:10:00Z",
     "priority": "HIGH"
@@ -79,8 +79,8 @@
     "id": "tesla-it-page-expansion-2026",
     "source": "tesla-agent",
     "status": "pending",
-    "title": "Italy /it/ Page Expansion \u2014 1095w \u2192 2868w (position drop fix)",
-    "description": "URGENT: /it/ page dropped from pos 9.1 \u2192 21.5 (-12 positions). Root cause: thin content vs Italian competitors. Expanded to 2,868 words: Italy pricing table, incentivi auto Italia 2026, 0% APR financing section, Supercharger Italy network (200+ stations N/C/S), 8 FAQ items. dateModified=2026-03-10. File: /root/tesla-referral-eu/it/index.html. Needs: git push + IndexNow.",
+    "title": "Italy /it/ Page Expansion — 1095w → 2868w (position drop fix)",
+    "description": "URGENT: /it/ page dropped from pos 9.1 → 21.5 (-12 positions). Root cause: thin content vs Italian competitors. Expanded to 2,868 words: Italy pricing table, incentivi auto Italia 2026, 0% APR financing section, Supercharger Italy network (200+ stations N/C/S), 8 FAQ items. dateModified=2026-03-10. File: /root/tesla-referral-eu/it/index.html. Needs: git push + IndexNow.",
     "action_needed": "Approve for Mar 11 sprint push. Target: return to pos 9-12.",
     "created_at": "2026-03-10T08:40:00Z",
     "priority": "HIGH"
@@ -89,7 +89,7 @@
     "id": "tesla-referral-code-europe-ctr-fix",
     "source": "tesla-agent",
     "status": "pending",
-    "title": "CTR Fix: /blog/tesla-referral-code-europe/ \u2014 Remove Code from Meta Description",
+    "title": "CTR Fix: /blog/tesla-referral-code-europe/ — Remove Code from Meta Description",
     "description": "Page has 403 impressions at pos 6.1 but 0 clicks. Raw code (carlo719460) visible in SERP meta desc = no need to click. Fix: replaced code with value-based CTA. File: /root/tesla-referral-eu/blog/tesla-referral-code-europe/index.html. Low risk, high upside.",
     "action_needed": "Approve for Mar 11 sprint push.",
     "created_at": "2026-03-09T11:40:00Z",
@@ -99,7 +99,7 @@
     "id": "tesla-de-howto-enhancement-mar11",
     "source": "tesla-agent",
     "status": "pending",
-    "title": "Germany /de/ HOW-TO Enhancement \u2014 Beat szturmaj.de (#1 competitor)",
+    "title": "Germany /de/ HOW-TO Enhancement — Beat szturmaj.de (#1 competitor)",
     "description": "szturmaj.de is #1 for 'tesla referral code germany' via HOW-TO guide + screenshots. Our /de/ page lacks step-by-step how-to section. Added: bilingual HOW-TO steps targeting 'wo gebe ich den Tesla Empfehlungscode ein' query, German terms (Empfehlungslink, Supercharging-Credits), dateModified=2026-03-11. File: /root/tesla-referral-eu/blog/tesla-referral-code-germany/index.html.",
     "action_needed": "Approve for Mar 11 sprint push. Targets #1 competitor gap.",
     "created_at": "2026-03-10T10:10:00Z",
@@ -109,8 +109,8 @@
     "id": "tesla-portugal-update-mar10",
     "source": "tesla-agent",
     "status": "pending",
-    "title": "Portugal Page Update \u2014 +112% YoY Feb 2026 + 0% APR urgency",
-    "description": "Updated /blog/tesla-referral-code-portugal/ with: Portugal +112% YoY Feb 2026 market growth section, 0% APR urgency box (expires Mar 31), Model 3 Standard ~\u20ac38,990 + full pricing table, 2 new FAQs. dateModified=2026-03-10. File ready.",
+    "title": "Portugal Page Update — +112% YoY Feb 2026 + 0% APR urgency",
+    "description": "Updated /blog/tesla-referral-code-portugal/ with: Portugal +112% YoY Feb 2026 market growth section, 0% APR urgency box (expires Mar 31), Model 3 Standard ~€38,990 + full pricing table, 2 new FAQs. dateModified=2026-03-10. File ready.",
     "action_needed": "Approve for Mar 11 sprint push.",
     "created_at": "2026-03-10T12:20:00Z",
     "priority": "MEDIUM"
@@ -119,8 +119,8 @@
     "id": "tesla-spain-update-mar10",
     "site": "teslablog",
     "source": "tesla-agent",
-    "title": "Spain Referral Page Update \u2014 +74% Growth Data, 0% APR Urgency, Pricing Table (2,640 \u2192 3,076 words)",
-    "description": "Enhanced /blog/tesla-referral-code-spain/ with: (1) Spain +74% YoY Feb 2026 market momentum section; (2) 0% APR urgency box (expires Mar 31); (3) Pricing table for all models (Model 3 Standard ~\u20ac38,990 entry); (4) 2 new FAQ items (0% APR + Model 3 Standard price); (5) dateModified \u2192 2026-03-10. Page grew from 2,640 to 3,076 words. Spain +74% is the sharpest major-market growth in EU Feb 2026 \u2014 strong buyer intent hook.",
+    "title": "Spain Referral Page Update — +74% Growth Data, 0% APR Urgency, Pricing Table (2,640 → 3,076 words)",
+    "description": "Enhanced /blog/tesla-referral-code-spain/ with: (1) Spain +74% YoY Feb 2026 market momentum section; (2) 0% APR urgency box (expires Mar 31); (3) Pricing table for all models (Model 3 Standard ~€38,990 entry); (4) 2 new FAQ items (0% APR + Model 3 Standard price); (5) dateModified → 2026-03-10. Page grew from 2,640 to 3,076 words. Spain +74% is the sharpest major-market growth in EU Feb 2026 — strong buyer intent hook.",
     "type": "page-update",
     "status": "pending",
     "priority": "medium",
@@ -129,7 +129,7 @@
     "file": "/root/tesla-referral-eu/blog/tesla-referral-code-spain/index.html",
     "action_needed": "git push origin main from /root/tesla-referral-eu/ then IndexNow submit /blog/tesla-referral-code-spain/",
     "slug": "tesla-referral-code-spain",
-    "keyword": "c\u00f3digo referido tesla espa\u00f1a 2026",
+    "keyword": "código referido tesla españa 2026",
     "word_count": 3076,
     "previous_word_count": 2640,
     "position_before": "~unknown (no GSC data yet for this page)"
@@ -138,8 +138,8 @@
     "id": "tesla-grok-ai-update-mar11",
     "site": "teslablog",
     "source": "tesla-agent",
-    "title": "Grok AI Europe Post \u2014 March 2026 Update (2026.2.6 fleet data)",
-    "description": "Updated /blog/grok-ai-tesla-europe/ with: (1) March 2026 info-box: Grok Navigation Commands (Beta) live for Ryzen EU vehicles via 2026.2.6; (2) Updated fleet penetration to 49% (13th batch); (3) Language support updated to 5 EU languages confirmed in 2026.2.6; (4) dateModified=2026-03-11. Page has 1,840 impressions at pos 7.6 \u2014 freshness signal important.",
+    "title": "Grok AI Europe Post — March 2026 Update (2026.2.6 fleet data)",
+    "description": "Updated /blog/grok-ai-tesla-europe/ with: (1) March 2026 info-box: Grok Navigation Commands (Beta) live for Ryzen EU vehicles via 2026.2.6; (2) Updated fleet penetration to 49% (13th batch); (3) Language support updated to 5 EU languages confirmed in 2026.2.6; (4) dateModified=2026-03-11. Page has 1,840 impressions at pos 7.6 — freshness signal important.",
     "type": "page-update",
     "status": "pending",
     "priority": "HIGH",
@@ -149,14 +149,14 @@
     "action_needed": "git push origin main (bundle with sprint batch), then IndexNow /blog/grok-ai-tesla-europe/",
     "slug": "grok-ai-tesla-europe",
     "keyword": "grok ai tesla europe",
-    "notes": "1,840 impressions at pos 7.6 \u2014 top organic traffic page. Update boosts freshness signal and adds concrete 2026.2.6 fleet data."
+    "notes": "1,840 impressions at pos 7.6 — top organic traffic page. Update boosts freshness signal and adds concrete 2026.2.6 fleet data."
   },
   {
     "id": "tesla-software-update-2026-2-3-mar11",
     "site": "teslablog",
     "source": "tesla-agent",
-    "title": "Software Update Post \u2014 2026.2.3 EU Rollout Section Added (title + meta refresh)",
-    "description": "Updated /blog/tesla-software-update-2026/ with: (1) New title covers both 2026.2.3 + 2026.2.6; (2) Meta description updated with 2026.2.3 EU rollout details (EU Supercharger maps Belgium confirmed, Type 2 door-handle cable release, Child Detection Model Y, HW3 FSD Trip Weights); (3) dateModified=2026-03-11; (4) 'Updated March 11 2026' in meta. Page has 3,973 impressions at pos 9.4 \u2014 our #1 traffic page. CTR is 0.03% \u2014 freshness + better title could help.",
+    "title": "Software Update Post — 2026.2.3 EU Rollout Section Added (title + meta refresh)",
+    "description": "Updated /blog/tesla-software-update-2026/ with: (1) New title covers both 2026.2.3 + 2026.2.6; (2) Meta description updated with 2026.2.3 EU rollout details (EU Supercharger maps Belgium confirmed, Type 2 door-handle cable release, Child Detection Model Y, HW3 FSD Trip Weights); (3) dateModified=2026-03-11; (4) 'Updated March 11 2026' in meta. Page has 3,973 impressions at pos 9.4 — our #1 traffic page. CTR is 0.03% — freshness + better title could help.",
     "type": "page-update",
     "status": "pending",
     "priority": "HIGH",
@@ -166,20 +166,20 @@
     "action_needed": "git push origin main (bundle with sprint batch), then IndexNow /blog/tesla-software-update-2026/",
     "slug": "tesla-software-update-2026",
     "keyword": "tesla software update 2026",
-    "notes": "3,973 impressions at pos 9.4 (top page by impressions). 0.03% CTR \u2014 very low. Updated title now covers 2026.2.3 which is actively rolling out in EU right now = strong freshness signal."
+    "notes": "3,973 impressions at pos 9.4 (top page by impressions). 0.03% CTR — very low. Updated title now covers 2026.2.3 which is actively rolling out in EU right now = strong freshness signal."
   },
   {
     "id": "tesla-referral-code-france-update-mar11",
     "source": "tesla-agent",
     "status": "pending",
     "type": "page_update",
-    "title": "Tesla Referral Code France \u2014 March 2026 Update",
+    "title": "Tesla Referral Code France — March 2026 Update",
     "slug": "blog/tesla-referral-code-france",
-    "description": "Updated /blog/tesla-referral-code-france/ with: March 2026 urgency box (0% APR expires Mar31), France +55% YoY Feb 2026 market section, pricing table, new FAQ (0% TAE + parrainage), dateModified=2026-03-11. Page is at pos 10.0 with 98 impressions \u2014 freshness push to break into page 1.",
+    "description": "Updated /blog/tesla-referral-code-france/ with: March 2026 urgency box (0% APR expires Mar31), France +55% YoY Feb 2026 market section, pricing table, new FAQ (0% TAE + parrainage), dateModified=2026-03-11. Page is at pos 10.0 with 98 impressions — freshness push to break into page 1.",
     "files_changed": [
       "blog/tesla-referral-code-france/index.html"
     ],
-    "seo_signal": "pos 10.0, 98 imp, 0 clicks \u2014 freshness + urgency update to push into top 10",
+    "seo_signal": "pos 10.0, 98 imp, 0 clicks — freshness + urgency update to push into top 10",
     "indexnow_urls": [
       "https://teslablog.eu/blog/tesla-referral-code-france/"
     ],
@@ -189,10 +189,10 @@
     "id": "tesla-march-2026-deals-update-mar11",
     "type": "page-update",
     "status": "pending",
-    "title": "Tesla March 2026 Deals \u2014 Urgency Update (US Cuts + 20-Day Countdown)",
+    "title": "Tesla March 2026 Deals — Urgency Update (US Cuts + 20-Day Countdown)",
     "slug": "blog/tesla-march-2026-deals",
     "file": "blog/tesla-march-2026-deals/index.html",
-    "changes": "Added red urgency box about Tesla US referral cuts (Mar6) confirming EU \u20ac500 still active. Added countdown to 20-day deadline. Added new FAQ Q&A about US cuts vs EU program. Updated FAQPage schema. dateModified 2026-03-11.",
+    "changes": "Added red urgency box about Tesla US referral cuts (Mar6) confirming EU €500 still active. Added countdown to 20-day deadline. Added new FAQ Q&A about US cuts vs EU program. Updated FAQPage schema. dateModified 2026-03-11.",
     "target_keyword": "tesla march 2026 deals europe",
     "rationale": "Post published Mar4 with dateModified=2026-03-04. 7-day-old post with no updates = declining freshness. Adding US-cuts urgency angle (act now before EU changes too) + 20-day countdown creates strong reason to act. Freshness signal could improve SERP CTR on this time-sensitive deal page.",
     "indexnow_urls": [
@@ -202,7 +202,7 @@
   },
   {
     "id": "tesla-leasing-page-mar12-urgency",
-    "title": "Tesla Leasing Europe 2026 \u2014 0% APR March Urgency Update",
+    "title": "Tesla Leasing Europe 2026 — 0% APR March Urgency Update",
     "status": "pending",
     "source": "tesla-agent",
     "created_at": "2026-03-12T05:40:00Z",
@@ -222,7 +222,7 @@
   {
     "id": "tesla-model-s-x-discontinued-update",
     "source": "tesla-agent",
-    "title": "Model S/X Discontinued Post \u2014 Double-Urgency Update (June 2026 production end)",
+    "title": "Model S/X Discontinued Post — Double-Urgency Update (June 2026 production end)",
     "description": "Added double-urgency info-box: 0% APR expires Mar31 + Model S/X production ends June 2026. These deadlines collide for buyers considering final units. Also updated meta description to lead with 'confirmed' for SEO clarity. Updated dateModified=2026-03-12. File: blog/tesla-model-s-x-discontinued-2026/index.html.",
     "type": "post-update",
     "status": "pending",
@@ -237,8 +237,8 @@
   {
     "id": "tesla-model-y-l-europe-2026",
     "source": "tesla-agent",
-    "title": "NEW POST: Tesla Model Y L Europe 2026 \u2014 The 6-Seater Coming Soon?",
-    "description": "1,600w buyer guide for 'tesla model y l europe 2026'. Covers: what the Model Y L is (177mm longer, 6-seat), EU launch timeline (Korea/AUS confirmed H1 2026, EU late 2026/2027 estimate), comparison vs current 7-seat Model Y option, competitor table (Kia EV9, Mercedes EQB, VW ID.7), expected EU pricing ~\u20ac52-62k, buy-now vs wait analysis, and \u20ac500 referral CTA. FAQPage + BreadcrumbList + Article schema. Internal links to model-3-standard, tesla-vs-byd, should-i-buy, march-deals, leasing posts. Urgency: 0% APR hook (Mar31).",
+    "title": "NEW POST: Tesla Model Y L Europe 2026 — The 6-Seater Coming Soon?",
+    "description": "1,600w buyer guide for 'tesla model y l europe 2026'. Covers: what the Model Y L is (177mm longer, 6-seat), EU launch timeline (Korea/AUS confirmed H1 2026, EU late 2026/2027 estimate), comparison vs current 7-seat Model Y option, competitor table (Kia EV9, Mercedes EQB, VW ID.7), expected EU pricing ~€52-62k, buy-now vs wait analysis, and €500 referral CTA. FAQPage + BreadcrumbList + Article schema. Internal links to model-3-standard, tesla-vs-byd, should-i-buy, march-deals, leasing posts. Urgency: 0% APR hook (Mar31).",
     "type": "new-post",
     "status": "pending",
     "priority": "medium",
@@ -249,13 +249,13 @@
     "action_needed": "git push origin main + update blog/index.html + sitemap-min.xml + IndexNow submit",
     "keyword": "tesla model y l europe 2026",
     "word_count": 1600,
-    "note": "Korea Energy Agency cleared Model Y L for H1 2026; AUS/NZ confirmed. Giga Shanghai is EU export hub \u2014 EU launch likely late 2026/H1 2027. Good buyer-intent post for families. 0% APR urgency hook for near-term conversion."
+    "note": "Korea Energy Agency cleared Model Y L for H1 2026; AUS/NZ confirmed. Giga Shanghai is EU export hub — EU launch likely late 2026/H1 2027. Good buyer-intent post for families. 0% APR urgency hook for near-term conversion."
   },
   {
     "id": "cheapest-country-tesla-europe-2026",
     "source": "tesla-agent",
     "status": "pending",
-    "title": "NEW POST: Cheapest Country to Buy a Tesla in Europe 2026 \u2014 Price Comparison",
+    "title": "NEW POST: Cheapest Country to Buy a Tesla in Europe 2026 — Price Comparison",
     "slug": "blog/cheapest-country-tesla-europe-2026",
     "target_keyword": "cheapest country to buy tesla europe 2026",
     "urgency": "medium",
@@ -271,8 +271,8 @@
     "type": "new_page",
     "priority": "HIGH",
     "title": "New Spanish Language Country Page: /es/",
-    "description": "Full Spanish-language landing page targeting 'c\u00f3digo referido Tesla Espa\u00f1a' queries. Spain +74% Feb 2026 market growth. Modeled after /fr/ page. Includes: hero CTA, 3-step how-to, model benefits table (all 4 models), MOVES aid compatibility section, pricing table, market data, Supercharger section, FAQ (6 questions), internal links to /blog/tesla-referral-code-spain/ and best-country article.",
-    "target_keyword": "c\u00f3digo referido Tesla Espa\u00f1a",
+    "description": "Full Spanish-language landing page targeting 'código referido Tesla España' queries. Spain +74% Feb 2026 market growth. Modeled after /fr/ page. Includes: hero CTA, 3-step how-to, model benefits table (all 4 models), MOVES aid compatibility section, pricing table, market data, Supercharger section, FAQ (6 questions), internal links to /blog/tesla-referral-code-spain/ and best-country article.",
+    "target_keyword": "código referido Tesla España",
     "url": "https://teslablog.eu/es/",
     "files_changed": [
       "es/index.html",
@@ -282,7 +282,7 @@
     "status": "staged",
     "created": "2026-03-12T09:20:00Z",
     "agent": "tesla",
-    "notes": "Spain is +74% YoY in Feb 2026 \u2014 one of the fastest growing EU Tesla markets. /fr/ page exists, /de/ page exists, /es/ was missing. Added hreflang es tag. Sitemaps updated. After push: submit to IndexNow + Google Indexing API."
+    "notes": "Spain is +74% YoY in Feb 2026 — one of the fastest growing EU Tesla markets. /fr/ page exists, /de/ page exists, /es/ was missing. Added hreflang es tag. Sitemaps updated. After push: submit to IndexNow + Google Indexing API."
   },
   {
     "id": "tesla-norway-guide-2026",
@@ -300,13 +300,13 @@
     ],
     "status": "pending",
     "created_at": "2026-03-13T11:10:00Z",
-    "action_needed": "1) Carlo: review + approve. 2) git push (add blog/index.html entry + sitemap line first \u2014 see EXECUTION.md for git push command). 3) Submit to IndexNow after push.",
+    "action_needed": "1) Carlo: review + approve. 2) git push (add blog/index.html entry + sitemap line first — see EXECUTION.md for git push command). 3) Submit to IndexNow after push.",
     "notes": "Scheduled for Mar 16+ push (weekly post limit: 6 posts this week already). Norway has no existing English guide blog post. /no/ country page exists (Norwegian language) but no buyer guide. Strong angle: Norway 98% EV + Tesla #1 + March 31 urgency + FSD Early Access rollout."
   },
   {
     "id": "tesla-roadster-europe-2026",
-    "title": "Tesla Roadster Europe 2026 \u2014 April 1 Reveal, Price & EU Availability",
-    "description": "Pre-event content targeting April 1 Roadster reveal. ~1500w. Covers specs, EU price estimate (~\u20ac180K+), delivery timeline, reservation status, referral tie-in. Target keyword: tesla roadster europe 2026. Time-sensitive: publish before April 1 to capture search traffic. Commit 11abf4c.",
+    "title": "Tesla Roadster Europe 2026 — April 1 Reveal, Price & EU Availability",
+    "description": "Pre-event content targeting April 1 Roadster reveal. ~1500w. Covers specs, EU price estimate (~€180K+), delivery timeline, reservation status, referral tie-in. Target keyword: tesla roadster europe 2026. Time-sensitive: publish before April 1 to capture search traffic. Commit 11abf4c.",
     "source": "tesla-agent",
     "type": "blog_post",
     "status": "pending",
@@ -316,12 +316,12 @@
     "push_after": "2026-03-16",
     "commit": "5d84d3b",
     "created_at": "2026-03-13T13:10:00Z",
-    "notes": "Time-sensitive \u2014 push before Apr 1 to rank for pre-event searches. Blog index + sitemap updated. After push: submit to IndexNow. Updated Mar 14: trademark filings signal added, dateModified bumped."
+    "notes": "Time-sensitive — push before Apr 1 to rank for pre-event searches. Blog index + sitemap updated. After push: submit to IndexNow. Updated Mar 14: trademark filings signal added, dateModified bumped."
   },
   {
     "id": "tesla-referral-code-poland",
-    "title": "Tesla Referral Code Poland 2026 \u2014 Kod Polecenia Tesla, Save \u20ac500",
-    "description": "New country referral page for Poland. Targets 'tesla referral code poland 2026' and 'kod polecenia tesla 2026'. ~1,700 words. Bilingual EN/PL. Covers M\u00f3j Elektryk subsidy compatibility, Supercharger locations in Poland (Warsaw, Krak\u00f3w, Wroc\u0142aw, Gda\u0144sk), step-by-step in Polish, 5 FAQs, March 31 urgency banner. Poland = 38M people, fast-growing EV market. Commit faa1f82.",
+    "title": "Tesla Referral Code Poland 2026 — Kod Polecenia Tesla, Save €500",
+    "description": "New country referral page for Poland. Targets 'tesla referral code poland 2026' and 'kod polecenia tesla 2026'. ~1,700 words. Bilingual EN/PL. Covers Mój Elektryk subsidy compatibility, Supercharger locations in Poland (Warsaw, Kraków, Wrocław, Gdańsk), step-by-step in Polish, 5 FAQs, March 31 urgency banner. Poland = 38M people, fast-growing EV market. Commit faa1f82.",
     "source": "tesla-agent",
     "type": "blog_post",
     "status": "pending",
@@ -338,8 +338,8 @@
     "source": "tesla-agent",
     "type": "reddit_reply",
     "status": "pending",
-    "title": "Reddit Lead \u2014 Tesla NL 0% APR (r/TeslaEurope)",
-    "description": "Active EU buyer asking about 0% APR financing in NL. Reply drafted \u2014 answer their question first, then introduce \u20ac500 referral code naturally. March 31 urgency = 18 days. HIGH priority.",
+    "title": "Reddit Lead — Tesla NL 0% APR (r/TeslaEurope)",
+    "description": "Active EU buyer asking about 0% APR financing in NL. Reply drafted — answer their question first, then introduce €500 referral code naturally. March 31 urgency = 18 days. HIGH priority.",
     "url": "https://www.reddit.com/r/TeslaEurope/comments/1mfiwcz/when_can_we_expect_the_next_0_apr_financing/",
     "draft_file": "/root/obsidian-vault/tesla-agent/cowork/lead-draft-nl-apr-march2026.md",
     "action_needed": "Carlo: Reply on Reddit with the draft text. Check post is <2 weeks old first.",
@@ -349,7 +349,7 @@
   },
   {
     "id": "tesla-referral-code-denmark-2026",
-    "title": "Tesla Referral Code Denmark 2026 \u2014 \u20ac500 Free Supercharging (Anbefalingskode)",
+    "title": "Tesla Referral Code Denmark 2026 — €500 Free Supercharging (Anbefalingskode)",
     "status": "pending",
     "type": "blog_post",
     "source": "tesla-agent",
@@ -357,6 +357,18 @@
     "url": "https://teslablog.eu/blog/tesla-referral-code-denmark/",
     "git_commit": "6c5ba13",
     "action_needed": "git push after Mar 16 (weekly limit). Submit to IndexNow after push.",
-    "notes": "Denmark = last missing Scandinavian market. \u20ac500 benefit in EUR (equiv ~3,500-4,500 DKK). 390 lines, 6 FAQs, Supercharger table, urgency banner. Target: tesla referral code denmark 2026 / tesla anbefalingskode 2026."
+    "notes": "Denmark = last missing Scandinavian market. €500 benefit in EUR (equiv ~3,500-4,500 DKK). 390 lines, 6 FAQs, Supercharger table, urgency banner. Target: tesla referral code denmark 2026 / tesla anbefalingskode 2026."
+  },
+  {
+    "id": "tesla-referral-code-turkey-2026",
+    "title": "Tesla Referral Code Turkey 2026 — 1,000 km Free Supercharging (Tavsiye Kodu)",
+    "status": "pending",
+    "type": "blog_post",
+    "source": "tesla-agent",
+    "created_at": "2026-03-14T17:15:00Z",
+    "url": "https://teslablog.eu/blog/tesla-referral-code-turkey/",
+    "git_commit": "07a9f46",
+    "action_needed": "git push with Mar 16 batch. Submit to IndexNow after push.",
+    "notes": "BREAKING: Tesla activated referral program in Turkey on Mar 14 2026. Benefit: 1,000 km free Supercharging (not EUR-based). Program name: Tavsiye Edin ve Kazanin. Source: log.com.tr / Tesla X community. Target: tesla referral code turkey / tesla tavsiye kodu 2026. Zero competition today. 6 FAQs, benefit table, Supercharger section."
   }
 ]
