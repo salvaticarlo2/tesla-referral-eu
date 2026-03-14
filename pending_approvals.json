@@ -314,9 +314,9 @@
     "target_url": "https://teslablog.eu/blog/tesla-roadster-europe-2026/",
     "priority": "medium",
     "push_after": "2026-03-16",
-    "commit": "11abf4c",
+    "commit": "5d84d3b",
     "created_at": "2026-03-13T13:10:00Z",
-    "notes": "Time-sensitive \u2014 push before Apr 1 to rank for pre-event searches. Blog index + sitemap updated. After push: submit to IndexNow."
+    "notes": "Time-sensitive \u2014 push before Apr 1 to rank for pre-event searches. Blog index + sitemap updated. After push: submit to IndexNow. Updated Mar 14: trademark filings signal added, dateModified bumped."
   },
   {
     "id": "tesla-referral-code-poland",
@@ -346,5 +346,17 @@
     "priority": "HIGH",
     "expires": "2026-03-31",
     "created_at": "2026-03-13T22:41:00Z"
+  },
+  {
+    "id": "tesla-referral-code-denmark-2026",
+    "title": "Tesla Referral Code Denmark 2026 \u2014 \u20ac500 Free Supercharging (Anbefalingskode)",
+    "status": "pending",
+    "type": "blog_post",
+    "source": "tesla-agent",
+    "created_at": "2026-03-14T12:45:00Z",
+    "url": "https://teslablog.eu/blog/tesla-referral-code-denmark/",
+    "git_commit": "6c5ba13",
+    "action_needed": "git push after Mar 16 (weekly limit). Submit to IndexNow after push.",
+    "notes": "Denmark = last missing Scandinavian market. \u20ac500 benefit in EUR (equiv ~3,500-4,500 DKK). 390 lines, 6 FAQs, Supercharger table, urgency banner. Target: tesla referral code denmark 2026 / tesla anbefalingskode 2026."
   }
 ]
