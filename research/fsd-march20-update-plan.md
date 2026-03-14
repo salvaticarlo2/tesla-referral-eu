@@ -1,6 +1,14 @@
 # FSD Post: March 20 Update Plan
 *Prepared: 2026-03-11 18:10 UTC | Updated: 2026-03-11 23:10 UTC*
 
+## 🆕 NEW SIGNALS (2026-03-13 10:10 UTC): Community + Software Confirmation
+
+- **r/TeslaEurope TODAY**: Post "Apparently the latest European release finally contains FSD!" — community confirming FSD 14.2.2.5 visible in EU 2026.2.9 on HW4 Early Access vehicles. High engagement = social proof for our post.
+- **FSD v14.2.2.5 EU supervised demo EXTENDED through Mar31**: Italy + Germany testers confirmed (teslaaccessories.com, Mar 12). Not just NL anymore — multi-country Early Access now confirmed.
+- **Tesla 2026.2.9 EU release** (notanfsdtracker.com, 1 day ago): Blue underglow in EU Summon = FSD V14 running in background. EU HW4 Early Access owners seeing "Navigate on Autosteer" in their UI NOW.
+- **FSD testing in Luxembourg + Denmark + France** (r/TeslaEurope, active threads) — broad EU geographic spread of Early Access.
+- **Action for March 20 post update**: Add these signals to the "Navigate on Autosteer is HERE now" section — strengthens the call to action. Community confirmation is the most powerful buyer signal.
+
 ## 🆕 NEW SIGNAL (2026-03-11 23:10 UTC): FSD Rebranding
 - Tesla 2026.2.9 renamed "FSD Computer" → **"AI Computer"** and "Navigate on Autopilot" → **"Navigate on Autosteer"**
 - Reason: legal/regulatory pressure around FSD marketing claims (California + EU regulators)
