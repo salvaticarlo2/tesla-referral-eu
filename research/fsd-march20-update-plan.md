@@ -1,5 +1,12 @@
 # FSD Post: March 20 Update Plan
-*Prepared: 2026-03-11 18:10 UTC | Updated: 2026-03-11 23:10 UTC*
+*Prepared: 2026-03-11 18:10 UTC | Updated: 2026-03-14 11:40 UTC*
+
+## 🆕 NEW SIGNALS (2026-03-14 11:40 UTC): Germany April 2026 Timeline
+
+- **Germany: April 2026** — teslaacessories.com (Mar 12, 2 days ago) states FSD Supervised country rollout: Netherlands immediate, Belgium within weeks, **Germany April 2026**. Source is a marketing blog (low authority) — treat as unconfirmed speculation. DO NOT publish without corroboration. But it's a useful content angle if confirmed on/after Mar 20.
+- **Action if confirmed**: Add country-by-country rollout table to Navigate on Autosteer post and FSD approval post. "Germany next (April 2026)" is high buyer-intent for our /de/ page.
+- **Referral angle**: "FSD coming to Germany in April — buy now with Carlo's referral code and save €500 before March 31." Strong urgency combo.
+- **Belgium signal**: "within weeks" after NL — also unconfirmed but useful for /be/ page update if confirmed.
 
 ## 🆕 NEW SIGNALS (2026-03-13 10:10 UTC): Community + Software Confirmation
 
