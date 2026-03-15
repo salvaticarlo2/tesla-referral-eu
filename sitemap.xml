@@ -2,314 +2,246 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://teslablog.eu/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-03-15</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-03-15</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/referral/</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-03-15</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/de/</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/es/</loc>
+    <lastmod>2026-03-15</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/fr/</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/nl/</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/no/</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-03-15</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/it/</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-03-15</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/grok-ai-europe-2026-2-6-update/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://teslablog.eu/nl/</loc>
+    <lastmod>2026-03-15</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/grok-ai-tesla-europe/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-charging-europe-complete-guide-2026/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-model-3-highland-europe-guide-2026/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-model-s-x-discontinued-2026/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-model-y-7-seater-europe-2026/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-model-y-long-range-vs-standard-range-europe-2026/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-code-europe/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-code-europe-2026-guide/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-code-france/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-code-germany/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-code-italy/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-code-netherlands/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-code-spain/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-europe-guide/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-software-update-2026/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-fsd-europe-approval-2026/</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-march-2026-deals/</loc>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-spring-2026-europe-updates-prices/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/code-parrainage-tesla-guide-2026/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-fared-worse-than-any-automaker-in-eu-in-2025-even-as-e/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-fsd-europe-2026-when-how/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://teslablog.eu/no/</loc>
+    <lastmod>2026-03-15</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/best-country-buy-tesla-europe-2026/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/tesla-autopilot-vs-fsd-europe-2026/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://teslablog.eu/blog/cheapest-country-tesla-europe-2026/</loc>
+    <lastmod>2026-03-12</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/tesla-switzerland-2026-complete-guide/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://teslablog.eu/blog/code-parrainage-tesla-guide-2026/</loc>
+    <lastmod>2026-03-12</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/tesla-germany-guide-2026/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://teslablog.eu/blog/grok-ai-europe-2026-2-6-update/</loc>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/tesla-leasing-europe-2026-guide/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://teslablog.eu/blog/grok-ai-tesla-europe/</loc>
+    <lastmod>2026-03-13</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/tesla-netherlands-guide-2026/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-spain-2026-complete-guide/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-italy-guide-2026/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-france-2026-complete-guide/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/blog/tesla-belgium-guide-2026/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://teslablog.eu/blog/should-i-buy-tesla-europe-2026/</loc>
+    <lastmod>2026-03-12</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/tesla-austria-2026-complete-guide/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/tesla-uk-guide-2026/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://teslablog.eu/blog/tesla-autopilot-vs-fsd-europe-2026/</loc>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-code-switzerland/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://teslablog.eu/blog/tesla-belgium-guide-2026/</loc>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-code-austria/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://teslablog.eu/blog/tesla-charging-europe-complete-guide-2026/</loc>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-code-sweden/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://teslablog.eu/blog/tesla-fared-worse-than-any-automaker-in-eu-in-2025-even-as-e/</loc>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-code-belgium/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://teslablog.eu/blog/tesla-france-2026-complete-guide/</loc>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/tesla-referral-code-portugal/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://teslablog.eu/blog/tesla-fsd-europe-2026-when-how/</loc>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/blog/tesla-model-3-preis-schweiz-2026/</loc>
+    <loc>https://teslablog.eu/blog/tesla-fsd-europe-approval-2026/</loc>
     <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-fsd-hardware-3-europe-2026/</loc>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-germany-guide-2026/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-giga-berlin-2026-gewerkschaft-robotaxi/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-italy-guide-2026/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-leasing-europe-2026-guide/</loc>
+    <lastmod>2026-03-15</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/tesla-lieferzeit-europa-2026/</loc>
     <lastmod>2026-03-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://teslablog.eu/es/</loc>
+    <loc>https://teslablog.eu/blog/tesla-maintenance-costs-europe-2026/</loc>
+    <lastmod>2026-03-10</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-march-2026-deals/</loc>
     <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-model-3-highland-europe-guide-2026/</loc>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-model-3-preis-schweiz-2026/</loc>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-model-3-standard-europe-2026/</loc>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-model-s-x-discontinued-2026/</loc>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-model-y-7-seater-europe-2026/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-model-y-l-europe-2026/</loc>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-model-y-long-range-vs-standard-range-europe-2026/</loc>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/tesla-navigate-on-autosteer-europe-2026/</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-netherlands-guide-2026/</loc>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/tesla-norway-guide-2026/</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-code-austria/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-code-belgium/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-code-europe/</loc>
+    <lastmod>2026-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-code-europe-2026-guide/</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-code-france/</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-code-germany/</loc>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-code-italy/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-code-netherlands/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-code-portugal/</loc>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-code-spain/</loc>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-code-sweden/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-code-switzerland/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-referral-europe-guide/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-software-update-2026/</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-spain-2026-complete-guide/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-spring-2026-europe-updates-prices/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-switzerland-2026-complete-guide/</loc>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-uk-guide-2026/</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-uk-trade-in-bonus-march-2026/</loc>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-vs-byd-europe-2026/</loc>
+    <lastmod>2026-03-12</lastmod>
   </url>
 </urlset>
