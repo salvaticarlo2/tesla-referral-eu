@@ -6,7 +6,7 @@ from all post directories. Run by Netlify on every deploy.
 import os, re, json
 from pathlib import Path
 from datetime import datetime
-from html import escape
+from html import escape, unescape
 
 SITE_ROOT = Path(__file__).parent.parent
 BLOG_DIR = SITE_ROOT / 'blog'
@@ -145,7 +145,7 @@ def extract_post(post_dir):
 
     # Description from meta
     desc_m = re.search(r'<meta name="description" content="([^"]+)"', html)
-    description = desc_m.group(1) if desc_m else ''
+    description = unescape(desc_m.group(1)) if desc_m else ''
 
     # Category from first category-tag span
     cat_m = re.search(r'class="category-tag"[^>]*>([^<]+)<', html)
