@@ -297,11 +297,15 @@ home_html = f'''<!DOCTYPE html>
   <p class="lead">An independent blog by a Tesla owner in Europe. Practical coverage of software updates, buying guides, and EV news.</p>
 </div>
 
-<div class="article-list-home">
-  <p class="list-section-label">Latest</p>
+<div class="layout-cols">
+  <div class="main-col">
+    <p class="list-section-label">Latest</p>
 
 {post_items_html}
 
+  </div>
+
+  {SIDEBAR}
 </div>
 
 {FOOTER_CTA}
