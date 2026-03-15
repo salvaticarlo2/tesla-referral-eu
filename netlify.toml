@@ -1,5 +1,5 @@
 [build]
-  command = "python3 scripts/generate-indexes.py && bash scripts/generate-sitemap.sh"
+  command = "bash scripts/build-site.sh"
   publish = "."
 
 # Redirect old netlify.app domain to custom domain
