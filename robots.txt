@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://teslablog.eu/sitemap.xml
 Sitemap: https://teslablog.eu/sitemap-min.xml
