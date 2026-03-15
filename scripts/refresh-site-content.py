@@ -34,6 +34,11 @@ def replace_required(text: str, pattern: str, replacement, path: Path) -> str:
     return updated
 
 
+def replace_optional(text: str, pattern: str, replacement) -> str:
+    updated, _ = re.subn(pattern, replacement, text, flags=re.MULTILINE)
+    return updated
+
+
 def update_date_modified(text: str, path: Path) -> str:
     return replace_required(
         text,
@@ -109,17 +114,15 @@ def refresh_navigate_on_autosteer(text: str, path: Path) -> str:
 
 
 def refresh_referral_program_update(text: str, path: Path) -> str:
-    text = replace_required(
+    text = replace_optional(
         text,
         r"That's \d+ days from [A-Za-z]+ \d{1,2}, \d{4}\.",
         referral_deadline_sentence(TODAY),
-        path,
     )
-    text = replace_required(
+    text = replace_optional(
         text,
         r"As of [A-Za-z]+ \d{1,2}, \d{4},",
         f"As of {TODAY_HUMAN},",
-        path,
     )
     text = update_date_modified(text, path)
     text = replace_required(
