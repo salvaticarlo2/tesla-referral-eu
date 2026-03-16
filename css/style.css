@@ -60,6 +60,97 @@ header {
 }
 .nav-logo:hover { color: var(--gray-600); }
 .nav-logo span { font-weight: 400; }
+.nav-inner > .nav-logo,
+.nav-inner > .logo {
+  margin-right: auto;
+}
+.logo {
+  font-family: var(--font);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--black);
+  text-decoration: none;
+  letter-spacing: -0.3px;
+  white-space: nowrap;
+}
+.logo:hover { color: var(--gray-600); }
+.logo span { font-weight: 400; }
+
+body > nav {
+  background: var(--white);
+  border-bottom: 1px solid var(--gray-200);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-inner ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-inner ul a {
+  color: var(--gray-600);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.nav-inner ul a:hover { color: var(--black); }
+.nav-inner > nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-left: auto;
+}
+.nav-inner > nav a {
+  color: var(--gray-600);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.nav-inner > nav a:hover { color: var(--black); }
+
+header > nav:not(.nav-inner) {
+  max-width: var(--max-w-wide);
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header > nav:not(.nav-inner) > a:first-child {
+  font-family: var(--font);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--black);
+  text-decoration: none;
+  letter-spacing: -0.3px;
+  white-space: nowrap;
+  margin-right: auto;
+}
+header > nav:not(.nav-inner) > a:not(:first-child) {
+  color: var(--gray-600);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+header > nav:not(.nav-inner) > a:not(:first-child):hover { color: var(--black); }
+header > nav:not(.nav-inner) ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  margin: 0 0 0 auto;
+  padding: 0;
+}
+header > nav:not(.nav-inner) li { list-style: none; }
+header > nav:not(.nav-inner) ul a {
+  color: var(--gray-600);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+header > nav:not(.nav-inner) ul a:hover { color: var(--black); }
 
 .nav-links {
   display: flex;
@@ -593,7 +684,9 @@ details[open] .faq-question::after { content: '−'; }
   display: grid;
   grid-template-columns: 1fr 280px;
   gap: 48px;
-  padding: 32px 0 60px;
+  max-width: var(--max-w-wide);
+  margin: 0 auto;
+  padding: 32px 24px 60px;
 }
 .main-col {}
 .list-heading {
@@ -638,6 +731,51 @@ details[open] .faq-question::after { content: '−'; }
   color: var(--gray-600);
   line-height: 1.6;
   margin-bottom: 8px;
+}
+.blog-card {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--gray-200);
+}
+.blog-card-content {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+.blog-card .category-tag {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--gray-400);
+  margin-bottom: 4px;
+}
+.blog-card h2 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  line-height: 1.35;
+  margin-bottom: 8px;
+  color: var(--black);
+}
+.blog-card h2 a {
+  color: var(--black);
+  text-decoration: none;
+}
+.blog-card h2 a:hover { text-decoration: underline; }
+.blog-card p {
+  font-size: 0.9rem;
+  color: var(--gray-600);
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+.blog-card .article-meta {
+  font-size: 0.77rem;
+  color: var(--gray-400);
+}
+.article-list .article-card .article-content {
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* ===== SIDEBAR ===== */
@@ -911,6 +1049,9 @@ footer {
 }
 @media (max-width: 680px) {
   .nav-links { display: none; }
+  .nav-inner ul { display: none; }
+  header > nav:not(.nav-inner) ul { display: none; }
+  header > nav:not(.nav-inner) > a:not(:first-child) { display: none; }
   .site-intro h1, .hero-section h1 { font-size: 1.55rem; }
   .article-header h1 { font-size: 1.55rem; }
   .ref-hero-inner { flex-direction: column; gap: 20px; }
@@ -924,7 +1065,9 @@ footer {
 }
 @media (max-width: 480px) {
   .nav-inner { padding: 0 16px; }
+  header > nav:not(.nav-inner) { padding: 0 16px; }
   .site-intro, .hero-section { padding: 32px 16px 24px; }
+  .layout-cols { padding: 24px 16px 40px; }
   .article-header { padding: 0 16px; }
   .article-content { padding: 0 16px 40px; }
   main { padding: 0 16px; }

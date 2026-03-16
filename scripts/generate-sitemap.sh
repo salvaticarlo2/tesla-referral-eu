@@ -41,10 +41,11 @@ XML
 # Core pages
 emit_url "/" "$(lastmod_for "index.html")"
 emit_url "/blog/" "$(lastmod_for "blog/index.html")"
+emit_url "/privacy/" "$(lastmod_for "privacy/index.html")"
 emit_url "/referral/" "$(lastmod_for "referral/index.html")"
 
 # Language pages
-for lang in de fr nl no it; do
+for lang in de es fr it nl no; do
   page_path="${lang}/index.html"
   if [ -f "$page_path" ]; then
     emit_url "/${lang}/" "$(lastmod_for "$page_path")"
@@ -56,7 +57,7 @@ while IFS= read -r slug; do
   page_path="blog/${slug}/index.html"
   [ -f "$page_path" ] || continue
   emit_url "/blog/${slug}/" "$(lastmod_for "$page_path")"
-done < <(find blog -mindepth 1 -maxdepth 1 -type d -printf "%f\n" | sort)
+done < <(find blog -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort)
 
 echo "</urlset>" >> "$TMP_FILE"
 
