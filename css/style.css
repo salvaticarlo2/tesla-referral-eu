@@ -1074,3 +1074,39 @@ footer {
   .article-list-home { padding: 0 16px; }
   .ref-hero { padding: 28px 16px; }
 }
+
+/* --- News Aggregator --- */
+.news-feed { display: flex; flex-direction: column; gap: 1.5rem; }
+.news-card { border-bottom: 1px solid var(--gray-200); padding-bottom: 1.5rem; }
+.news-card h2 { font-size: 1.25rem; margin: 0.25rem 0; }
+.news-card h2 a { color: var(--black); text-decoration: none; }
+.news-card h2 a:hover { text-decoration: underline; }
+.news-card-meta { font-size: 0.85rem; color: var(--gray-400); margin: 0; }
+.news-source-link { margin-top: 1.5rem; }
+.news-source-link a { color: #e31937; font-weight: 600; }
+.news-article { max-width: var(--max-w); }
+
+/* Category tags */
+.category-tag { display: inline-block; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.15rem 0.5rem; border-radius: 3px; background: var(--gray-100); color: var(--gray-600); }
+.category-tag.vehicles { background: #e8f4fd; color: #1a6fb5; }
+.category-tag.fsd-autopilot { background: #fef3e2; color: #b5651d; }
+.category-tag.optimus { background: #f0e8fd; color: #6b3fa0; }
+.category-tag.energy { background: #e8fde8; color: #2d8a2d; }
+.category-tag.business { background: #fde8e8; color: #b51a1a; }
+.category-tag.regulatory { background: #fdf8e8; color: #8a7a2d; }
+.category-tag.robotaxi { background: #e8f0fd; color: #1a3fb5; }
+
+/* Pagination */
+.pagination { display: flex; justify-content: space-between; align-items: center; margin: 2rem 0; padding-top: 1.5rem; border-top: 1px solid var(--gray-200); }
+.pagination a { display: inline-block; padding: 0.4rem 0.8rem; font-size: 0.85rem; color: var(--black); border: 1px solid var(--gray-200); border-radius: 4px; text-decoration: none; }
+.pagination a:hover { background: var(--gray-100); }
+.page-info { font-size: 0.9rem; color: var(--gray-400); }
+
+/* Latest news on homepage */
+.latest-news { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 2px solid var(--gray-200); }
+.latest-news h2 { margin-bottom: 0.75rem; }
+.news-list { list-style: none; padding: 0; margin: 0 0 1rem 0; }
+.news-item { padding: 0.5rem 0; border-bottom: 1px solid var(--gray-100); }
+.news-item a { color: var(--black); text-decoration: none; font-weight: 500; }
+.news-item a:hover { text-decoration: underline; }
+.news-item-source { font-size: 0.8rem; color: var(--gray-400); margin-left: 0.5rem; }
