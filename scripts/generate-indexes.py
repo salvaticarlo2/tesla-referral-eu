@@ -172,7 +172,7 @@ def extract_post(post_dir):
 
     # Title from <title> tag (cleanest source)
     title_m = re.search(r'<title>([^<]+)</title>', html)
-    title = title_m.group(1).strip() if title_m else post_dir.name
+    title = unescape(title_m.group(1).strip()) if title_m else post_dir.name
     # Remove site suffix if present
     title = re.sub(r'\s*[|—]\s*TeslaBlog\.eu$', '', title).strip()
 
@@ -182,7 +182,7 @@ def extract_post(post_dir):
 
     # Category from first category-tag span
     cat_m = re.search(r'class="category-tag"[^>]*>([^<]+)<', html)
-    category = cat_m.group(1).strip() if cat_m else 'Article'
+    category = unescape(cat_m.group(1).strip()) if cat_m else 'Article'
 
     # Read time
     rt_m = re.search(r'(\d+)\s*min\s*read', html)
