@@ -61,7 +61,8 @@ Auto-generated from blog posts + news items. Serves two purposes:
 - Pulls from configured RSS feeds (Electrek, InsideEVs, Tesla Investor Relations, Reddit r/tesla, r/TeslaMotors)
 - Deduplicates by exact URL match + title similarity (normalized Levenshtein distance > 0.85 = duplicate)
 - Categorizes: Vehicles, FSD/Autopilot, Optimus, Energy, Business/Earnings, Regulatory
-- **Summary generation:** Extract lead paragraph from RSS `<description>` or `<content:encoded>`, then rewrite into 2-3 original sentences using Ollama (llama3 or mistral) running locally on VPS. Fallback: truncated lead paragraph if Ollama is unavailable. No paid API calls.
+- **Summary generation (v1):** Extract lead paragraph from RSS `<description>` or `<content:encoded>`, trim to 2-3 sentences. No AI, no external API. Fast and reliable.
+- **Summary generation (v2, optional upgrade):** Use Claude API via existing OAuth on VPS for higher-quality rewrites. Cost: ~$0.001/item, ~$0.30/month at 10 items/day. VPS already has Claude OAuth credentials at `/root/openclaw-data/`. Ollama skipped — VPS RAM (7.6GB) too tight alongside existing services.
 - Stores in `news.json` with: title, summary, source_url, source_name, category, timestamp, slug
 
 ### 3.3 News page generator (`generate-news.py`)
