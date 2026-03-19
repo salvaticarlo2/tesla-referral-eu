@@ -255,6 +255,7 @@ home_html = f'''<!DOCTYPE html>
   <meta name="description" content="Independent Tesla blog for European drivers. Software updates, buying guides, Grok AI coverage, and practical tips from a Tesla owner in Europe.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://teslablog.eu/">
+  <link rel="alternate" type="application/rss+xml" title="TeslaBlog.eu RSS Feed" href="https://teslablog.eu/feed.xml">
   <link rel="alternate" hreflang="en" href="https://teslablog.eu/">
   <link rel="alternate" hreflang="de" href="https://teslablog.eu/de/">
   <link rel="alternate" hreflang="fr" href="https://teslablog.eu/fr/">
@@ -331,6 +332,7 @@ blog_html = f'''<!DOCTYPE html>
   <meta name="description" content="All articles from TeslaBlog.eu — independent Tesla blog for European drivers. Software updates, buying guides, Grok AI, and EV news.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
   <link rel="canonical" href="https://teslablog.eu/blog/">
+  <link rel="alternate" type="application/rss+xml" title="TeslaBlog.eu RSS Feed" href="https://teslablog.eu/feed.xml">
   <link rel="alternate" hreflang="en" href="https://teslablog.eu/blog/">
   <link rel="alternate" hreflang="x-default" href="https://teslablog.eu/">
   <meta property="og:type" content="website">
