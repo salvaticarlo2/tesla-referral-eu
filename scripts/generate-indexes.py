@@ -18,6 +18,7 @@ NAV_HEADER_HOME = '''<header>
     <a href="/" class="nav-logo">Tesla<span>Blog</span>.eu</a>
     <div class="nav-links">
       <a href="/" class="active">Home</a>
+      <a href="/news/">News</a>
       <a href="/blog/">Blog</a>
       <a href="/referral/">Referral</a>
     </div>
@@ -37,6 +38,7 @@ NAV_HEADER_BLOG = '''<header>
     <a href="/" class="nav-logo">Tesla<span>Blog</span>.eu</a>
     <div class="nav-links">
       <a href="/">Home</a>
+      <a href="/news/">News</a>
       <a href="/blog/" class="active">Blog</a>
       <a href="/referral/">Referral</a>
     </div>
@@ -59,6 +61,7 @@ FOOTER = '''<footer>
   <div class="footer-inner">
     <nav class="footer-nav">
       <a href="/">Home</a>
+      <a href="/news/">News</a>
       <a href="/blog/">Blog</a>
       <a href="/referral/">Referral Code</a>
       <a href="/blog/grok-ai-tesla-europe/">Grok AI</a>
@@ -120,6 +123,36 @@ COPY_SCRIPT = '''<script>
 
 LANG_FLAGS = {'de': '🇩🇪 Deutsch', 'fr': '🇫🇷 Français', 'nl': '🇳🇱 Nederlands',
               'no': '🇳🇴 Norsk', 'it': '🇮🇹 Italiano', 'es': '🇪🇸 Español'}
+
+def render_latest_news(max_items=5):
+    """Render latest news section for homepage."""
+    news_file = Path('/root/tesla-data/news.json')
+    if not news_file.exists():
+        # Fallback: check local path for dev/Netlify builds
+        local_news = SITE_ROOT / 'news.json'
+        if not local_news.exists():
+            return ''
+        news_file = local_news
+    with open(news_file, 'r') as f:
+        items = json.load(f)
+    if not items:
+        return ''
+    items = items[:max_items]
+    cards = ''
+    for it in items:
+        title = escape(it['title'])
+        slug = it['slug']
+        source = escape(it.get('source_name', ''))
+        cards += f'''<li class="news-item">
+  <a href="/news/{slug}/">{title}</a>
+  <span class="news-item-source">{source}</span>
+</li>\n'''
+    return f'''<section class="latest-news">
+  <h2>Latest Tesla News</h2>
+  <ul class="news-list">{cards}</ul>
+  <a href="/news/" class="btn-referral">All News &rarr;</a>
+</section>'''
+
 
 def extract_post(post_dir):
     html_file = post_dir / 'index.html'
@@ -245,6 +278,7 @@ jsonld_posts = json.dumps([{
 } for p in top10[:5]], indent=6)
 
 post_items_html = '\n'.join(render_post_item(p) for p in top10)
+latest_news_html = render_latest_news()
 
 home_html = f'''<!DOCTYPE html>
 <html lang="en">
@@ -300,7 +334,8 @@ home_html = f'''<!DOCTYPE html>
 
 <div class="layout-cols">
   <div class="main-col">
-    <p class="list-section-label">Latest</p>
+    {latest_news_html}
+    <p class="list-section-label">Latest Articles</p>
 
 {post_items_html}
 
