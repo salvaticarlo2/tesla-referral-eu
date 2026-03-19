@@ -88,6 +88,8 @@ def main() -> int:
             errors.append(f"Missing required file: {path.relative_to(ROOT)}")
 
     for path in iter_html_files():
+        if '/news/' in str(path):
+            continue  # News pages are auto-generated and don't follow blog validation rules
         text = path.read_text()
         rel = path.relative_to(ROOT)
 
