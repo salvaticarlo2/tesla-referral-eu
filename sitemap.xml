@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://teslablog.eu/</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/privacy/</loc>
@@ -357,6 +357,10 @@
     <lastmod>2026-03-19</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/nhtsa-elevates-tesla-fsd-probe-to-engineering-analysis/</loc>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/now-we-know-why-tesla-killed-autopilot/</loc>
     <lastmod>2026-03-19</lastmod>
   </url>
@@ -391,6 +395,14 @@
   <url>
     <loc>https://teslablog.eu/news/tesla-cybertruck-gets-long-awaited-safety-feature/</loc>
     <lastmod>2026-03-19</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-delays-fsd-approval-in-europe-again-now-expects-april-10/</loc>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-full-self-driving-gets-huge-breakthrough-on-european-expansion/</loc>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-full-self-driving-gets-latest-bit-of-scrutiny-from-nhtsa/</loc>
@@ -495,6 +507,10 @@
   <url>
     <loc>https://teslablog.eu/news/teslas-new-fsd-terms-say-it-can-change-the-price-and-features-at-any-time/</loc>
     <lastmod>2026-03-19</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-tsla-reportedly-in-talks-to-buy-29b-in-chinese-solar-equipment-for-100-gw/</loc>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-vehicles-finally-come-to-africa/</loc>
