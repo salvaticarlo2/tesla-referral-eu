@@ -6,7 +6,7 @@
   </url>
   <url>
     <loc>https://teslablog.eu/blog/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-03-21</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/privacy/</loc>
@@ -305,6 +305,10 @@
     <lastmod>2026-03-19</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/autonomousbots-roller-out-the-175-billion-future-of-self-driving-asphalt/</loc>
+    <lastmod>2026-03-21</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/autonomous-driving-news-tesla-sues-bmw-bails/</loc>
     <lastmod>2026-03-19</lastmod>
   </url>
@@ -319,6 +323,10 @@
   <url>
     <loc>https://teslablog.eu/news/did-tesla-just-pull-in-a-years-worth-of-orders-for-the-cybertruck/</loc>
     <lastmod>2026-03-19</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/does-the-tesla-semi-face-critical-market-challenges/</loc>
+    <lastmod>2026-03-21</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/dual-motor-awd-cybertruck-now-costs-69990/</loc>
@@ -339,6 +347,10 @@
   <url>
     <loc>https://teslablog.eu/news/elon-musk-teases-crazy-outlook-for-xai-against-its-competitors/</loc>
     <lastmod>2026-03-19</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/elon-musk-teases-expectations-for-teslas-ai6-self-driving-chip/</loc>
+    <lastmod>2026-03-21</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/ford-ceo-jim-farley-absolutely-flabbergasted-after-ripping-apart-tesla-we-hadnt/</loc>
@@ -367,6 +379,10 @@
   <url>
     <loc>https://teslablog.eu/news/now-we-know-why-tesla-killed-autopilot/</loc>
     <lastmod>2026-03-19</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/one-pedal-driving-isnt-a-safety-issue-feds/</loc>
+    <lastmod>2026-03-21</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/orders-open-for-model-y-l-in-australia-and-new-zealand-available-in-awd-edition/</loc>
@@ -603,5 +619,9 @@
   <url>
     <loc>https://teslablog.eu/news/page/4/</loc>
     <lastmod>2026-03-21</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/page/5/</loc>
+    <lastmod>2026-03-20</lastmod>
   </url>
 </urlset>
