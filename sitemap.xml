@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://teslablog.eu/</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-03-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/</loc>
@@ -126,7 +126,7 @@
   </url>
   <url>
     <loc>https://teslablog.eu/blog/tesla-march-2026-deals/</loc>
-    <lastmod>2026-03-21</lastmod>
+    <lastmod>2026-03-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/tesla-model-3-highland-europe-guide-2026/</loc>
@@ -409,6 +409,10 @@
     <lastmod>2026-03-21</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/production-cybercab-on-display-at-the-sxsw-shows-larger-fsd-cameras-interior-det/</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/rivian-r2-vs-tesla-model-y-which-american-mid-size-ev-suv-is-best/</loc>
     <lastmod>2026-03-19</lastmod>
   </url>
@@ -483,6 +487,10 @@
   <url>
     <loc>https://teslablog.eu/news/tesla-made-the-cybertruck-way-cheaper-then-elon-musk-said-it-was-already-going-a/</loc>
     <lastmod>2026-03-19</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-may-release-trailer-with-battery/</loc>
+    <lastmod>2026-03-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-model-y-l-gets-new-entertainment-feature/</loc>
@@ -626,22 +634,22 @@
   </url>
   <url>
     <loc>https://teslablog.eu/news/</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-03-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/2/</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-03-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/3/</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-03-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/4/</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-03-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/5/</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-03-23</lastmod>
   </url>
 </urlset>
