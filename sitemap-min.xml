@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://teslablog.eu/</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-03-24</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/</loc>
@@ -373,6 +373,10 @@
     <lastmod>2026-03-19</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/jay-leno-drives-the-500-mile-tesla-semi/</loc>
+    <lastmod>2026-03-24</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/jay-leno-says-the-tesla-semis-biggest-advantage-isnt-its-range/</loc>
     <lastmod>2026-03-24</lastmod>
   </url>
@@ -662,22 +666,22 @@
   </url>
   <url>
     <loc>https://teslablog.eu/news/</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-03-24</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/2/</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-03-24</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/3/</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-03-24</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/4/</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-03-24</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/5/</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-03-24</lastmod>
   </url>
 </urlset>
