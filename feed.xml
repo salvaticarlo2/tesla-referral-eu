@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://teslablog.eu/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Tesla lands on Fortune’s 2026 Most Innovative Companies and the Cybercab is why</title>
+      <link>https://teslablog.eu/news/tesla-lands-on-fortunes-2026-most-innovative-companies-and-the-cybercab-is-why/</link>
+      <description>Fortune has named Tesla to its America’s Most Innovative Companies 2026 list , and the timing could not carry more weight. With Cybercab production ramping at Gigafactory Texas and a driverless Robotaxi service expanding to key cities in the US, Tesla’s inclusion is a direct reflection of the fut...</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/tesla-lands-on-fortunes-2026-most-innovative-companies-and-the-cybercab-is-why/</guid>
+      <pubDate>Fri, 27 Mar 2026 01:26:51 +0000</pubDate>
+    </item>
+    <item>
       <title>Tesla ‘Killer’ heads to the graveyard as AFEELA taps out</title>
       <link>https://teslablog.eu/news/tesla-killer-heads-to-the-graveyard-as-afeela-taps-out/</link>
       <description>There have been many Tesla “Killers” over the years, all of which have either failed to dethrone the automaker from its dominance in the United States, or even make it to the market altogether . The Sony Honda Mobility (SHM) project, known as AFEELA, is the latest to make it to the grave, as the ...</description>
@@ -348,13 +355,6 @@
       <description>I’m honestly surprised it has taken this long for a serious problem to surface related to Tesla’s Full Self Driving (FSD) system, based entirely around small cameras on the sensor side, and the weather. Having had a Tesla Model 3 with Full Self Driving (FSD) for more than 6 years,   ... [continue...</description>
       <guid isPermaLink="true">https://teslablog.eu/news/teslas-camera-weather-problem-is-serious/</guid>
       <pubDate>Sat, 21 Mar 2026 03:58:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>A 24/7 solar farm-building robot just hit the market</title>
-      <link>https://teslablog.eu/news/a-247-solar-farm-building-robot-just-hit-the-market/</link>
-      <description>The US needs a lot more electricity fast, and one company thinks robots can help build it quicker. Berkeley, California-based Terabase Energy says its next-gen Terafab automated solar construction system has finished field testing and is now ready to ship commercially. Terafab V2 brings autonomou...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/a-247-solar-farm-building-robot-just-hit-the-market/</guid>
-      <pubDate>Fri, 20 Mar 2026 21:52:29 +0000</pubDate>
     </item>
   </channel>
 </rss>
