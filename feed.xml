@@ -7,6 +7,20 @@
     <language>en</language>
     <atom:link href="https://teslablog.eu/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Tesla Robotaxi gets a small but significant change</title>
+      <link>https://teslablog.eu/news/tesla-robotaxi-gets-a-small-but-significant-change/</link>
+      <description>In the world of Tesla, where billion-dollar battery breakthroughs and autonomy milestones dominate headlines, a quiet design update can still pack a punch. Last week in downtown Austin, sharp-eyed observers spotted a subtle but telling evolution on the Cybercab: a new “ROBOTAXI” logo graphic now ...</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/tesla-robotaxi-gets-a-small-but-significant-change/</guid>
+      <pubDate>Sat, 28 Mar 2026 16:21:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tesla makes latest announcement on Model S and Model X</title>
+      <link>https://teslablog.eu/news/tesla-makes-latest-announcement-on-model-s-and-model-x/</link>
+      <description>Tesla has officially begun winding down production of its flagship Model S and Model X in the United States, notifying owners via email that the long-running models will soon reach the end of the line. The email, sent to U.S. customers on March 27, opens with gratitude.</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/tesla-makes-latest-announcement-on-model-s-and-model-x/</guid>
+      <pubDate>Sat, 28 Mar 2026 13:29:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Tesla drives drunk owner while he naps, Police still arrest him on DUI</title>
       <link>https://teslablog.eu/news/tesla-drives-drunk-owner-while-he-naps-police-still-arrest-him-on-dui/</link>
       <description>A Northern California man found a creative solution to drunk driving this week by letting his Tesla drive him around while he took a booze snooze. Police in Vacaville arrested a man on a DUI charge after he was found, what appears to be, completely passed out behind the wheel of a Tesla Model Y, ...</description>
@@ -341,20 +355,6 @@
       <description>Tesla Robotaxi in San Francisco is cheaper than Waymo/Uber/Lyft, offers smooth comparable rides, but has longer waits and rare safety-driver interventions. Unsupervised rollout feels near with upcoming FSD update. Here at CleanTechnica, we have written a lot over the years on Tesla’s long path to...</description>
       <guid isPermaLink="true">https://teslablog.eu/news/tesla-bull-spends-4-days-in-san-francisco-testing-the-robotaxi/</guid>
       <pubDate>Mon, 23 Mar 2026 03:29:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Elon Musk launches TERAFAB: The $25B Tesla-SpaceXAI chip factory that will rewire the AI industry</title>
-      <link>https://teslablog.eu/news/elon-musk-launches-terafab-the-25b-tesla-spacexai-chip-factory-that-will-rewire/</link>
-      <description>Elon Musk took the stage over the weekend at the defunct Seaholm Power Plant in Austin, Texas, to officially unveil TERAFAB, a $20-25 billion joint venture between Tesla, SpaceX, and xAI that he described as “ the most epic chip building exercise in history by far .” The announcement marks the mo...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/elon-musk-launches-terafab-the-25b-tesla-spacexai-chip-factory-that-will-rewire/</guid>
-      <pubDate>Sun, 22 Mar 2026 17:05:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla and SpaceX announce $25B ‘Terafab’ chip factory — here’s why it reeks of desperation</title>
-      <link>https://teslablog.eu/news/tesla-and-spacex-announce-25b-terafab-chip-factory-heres-why-it-reeks-of-despera/</link>
-      <description>Tesla and SpaceX have unveiled “Terafab,” a joint $25 billion chip fabrication facility in Austin, Texas, that Elon Musk claims will produce 1 terawatt of computing power annually. It would be the largest semiconductor fab ever built — by an absurd margin. Musk took the stage at the defunct Seaho...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-and-spacex-announce-25b-terafab-chip-factory-heres-why-it-reeks-of-despera/</guid>
-      <pubDate>Sun, 22 Mar 2026 14:46:29 +0000</pubDate>
     </item>
   </channel>
 </rss>
