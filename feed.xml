@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://teslablog.eu/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Just passed by a prototype cyber SUV in Austin I think</title>
+      <link>https://teslablog.eu/news/just-passed-by-a-prototype-cyber-suv-in-austin-i-think/</link>
+      <description>Saw a funky lookin ev in downtown Austin, thought it looked like a weird gold metallic model y, passed by and it had the cyber truck font text on the side, but no visible Tesla logo submitted by /u/Biggie-Shmaltz [link] [comments]</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/just-passed-by-a-prototype-cyber-suv-in-austin-i-think/</guid>
+      <pubDate>Sun, 29 Mar 2026 02:19:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Tesla Robotaxi gets a small but significant change</title>
       <link>https://teslablog.eu/news/tesla-robotaxi-gets-a-small-but-significant-change/</link>
       <description>In the world of Tesla, where billion-dollar battery breakthroughs and autonomy milestones dominate headlines, a quiet design update can still pack a punch. Last week in downtown Austin, sharp-eyed observers spotted a subtle but telling evolution on the Cybercab: a new “ROBOTAXI” logo graphic now ...</description>
@@ -348,13 +355,6 @@
       <description>submitted by /u/ascottallison [link] [comments]</description>
       <guid isPermaLink="true">https://teslablog.eu/news/tesla-may-release-trailer-with-battery/</guid>
       <pubDate>Mon, 23 Mar 2026 05:22:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla Bull Spends 4 Days In San Francisco Testing The Robotaxi</title>
-      <link>https://teslablog.eu/news/tesla-bull-spends-4-days-in-san-francisco-testing-the-robotaxi/</link>
-      <description>Tesla Robotaxi in San Francisco is cheaper than Waymo/Uber/Lyft, offers smooth comparable rides, but has longer waits and rare safety-driver interventions. Unsupervised rollout feels near with upcoming FSD update. Here at CleanTechnica, we have written a lot over the years on Tesla’s long path to...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-bull-spends-4-days-in-san-francisco-testing-the-robotaxi/</guid>
-      <pubDate>Mon, 23 Mar 2026 03:29:45 +0000</pubDate>
     </item>
   </channel>
 </rss>
