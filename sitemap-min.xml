@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://teslablog.eu/</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-03-30</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/</loc>
@@ -477,6 +477,10 @@
     <lastmod>2026-03-19</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/model-x-home-of-3-years-2-continents-14-countries-and-counting/</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/model-y-is-bestselling-car-in-the-world-for-2025-3rd-year-in-a-row-according-to/</loc>
     <lastmod>2026-03-26</lastmod>
   </url>
@@ -611,6 +615,10 @@
   <url>
     <loc>https://teslablog.eu/news/tesla-finally-breaks-its-13-month-sales-losing-streak-in-europe/</loc>
     <lastmod>2026-03-24</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-fsd-mocks-bmw-human-driver-saves-pedestrian-from-near-miss/</loc>
+    <lastmod>2026-03-30</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-full-self-driving-gets-huge-breakthrough-on-european-expansion/</loc>
@@ -773,6 +781,10 @@
     <lastmod>2026-03-24</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/tesla-semi-million-mile-battery-puts-freight-economics-in-focus/</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/tesla-semi-wins-over-truck-drivers-with-real-world-praise-amid-latest-upgrades/</loc>
     <lastmod>2026-03-27</lastmod>
   </url>
@@ -922,34 +934,38 @@
   </url>
   <url>
     <loc>https://teslablog.eu/news/</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-03-30</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/2/</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-03-30</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/3/</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-03-30</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/4/</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-03-30</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/5/</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-03-30</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/6/</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-03-30</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/7/</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-03-30</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/8/</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-03-30</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/page/9/</loc>
+    <lastmod>2026-03-30</lastmod>
   </url>
 </urlset>
