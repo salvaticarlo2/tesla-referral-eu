@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://teslablog.eu/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/</loc>
@@ -481,6 +481,14 @@
     <lastmod>2026-03-24</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/how-much-further-could-tesla-stock-fall/</loc>
+    <lastmod>2026-03-31</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/how-the-tesla-tsla-story-is-shifting-between-autonomy-hopes-and-profitability-ri/</loc>
+    <lastmod>2026-03-31</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/hsbc-flags-alarming-risk-for-tesla-stock-investors/</loc>
     <lastmod>2026-03-31</lastmod>
   </url>
@@ -585,6 +593,10 @@
     <lastmod>2026-03-23</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/rivian-and-lucid-can-operate-like-tesla-after-new-legislative-win/</loc>
+    <lastmod>2026-03-31</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/rivian-r2-vs-tesla-model-y-which-american-mid-size-ev-suv-is-best/</loc>
     <lastmod>2026-03-19</lastmod>
   </url>
@@ -659,6 +671,10 @@
   <url>
     <loc>https://teslablog.eu/news/tesla-carelessly-promotes-full-self-driving-for-driver-losing-his-eyesight/</loc>
     <lastmod>2026-03-30</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-charging-session/</loc>
+    <lastmod>2026-03-31</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-cybercab-spotted-next-to-model-y-shows-size-comparison/</loc>
@@ -1046,7 +1062,7 @@
   </url>
   <url>
     <loc>https://teslablog.eu/news/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/10/</loc>
@@ -1054,34 +1070,34 @@
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/2/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/3/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/4/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/5/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/6/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/7/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/8/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/9/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
   </url>
 </urlset>
