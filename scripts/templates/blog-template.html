@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="{{LANGUAGE}}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TITLE}} | TeslaBlog.eu</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href="https://teslablog.eu/blog/{{SLUG}}/">
+  <link rel="alternate" type="application/rss+xml" title="TeslaBlog.eu RSS Feed" href="https://teslablog.eu/feed.xml">
+  <link rel="alternate" hreflang="en" href="https://teslablog.eu/blog/{{SLUG}}/">
+  <link rel="alternate" hreflang="x-default" href="https://teslablog.eu/blog/{{SLUG}}/">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://teslablog.eu/blog/{{SLUG}}/">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:image" content="{{OG_IMAGE}}">
+  <meta property="og:site_name" content="TeslaBlog.eu">
+  <meta property="og:locale" content="{{OG_LOCALE}}">
+  <meta property="article:published_time" content="{{DATE}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{TITLE}}">
+  <meta name="twitter:description" content="{{DESCRIPTION}}">
+  <meta name="twitter:image" content="{{OG_IMAGE}}">
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{TITLE_JSON}}",
+    "description": "{{DESCRIPTION_JSON}}",
+    "url": "https://teslablog.eu/blog/{{SLUG}}/",
+    "datePublished": "{{DATE}}",
+    "dateModified": "{{DATE}}",
+    "image": "{{OG_IMAGE}}",
+    "inLanguage": "{{LANGUAGE}}",
+    "author": { "@type": "Organization", "name": "TeslaBlog.eu" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "TeslaBlog.eu",
+      "url": "https://teslablog.eu/"
+    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://teslablog.eu/blog/{{SLUG}}/" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://teslablog.eu/" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://teslablog.eu/blog/" },
+      { "@type": "ListItem", "position": 3, "name": "{{TITLE_JSON}}", "item": "https://teslablog.eu/blog/{{SLUG}}/" }
+    ]
+  }
+  </script>
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VCL5P0HLMR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-VCL5P0HLMR");
+  </script>
+</head>
+<body>
+
+<header>
+  <nav class="nav-inner">
+    <a href="/" class="nav-logo">Tesla<span>Blog</span>.eu</a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/news/">News</a>
+      <a href="/blog/" class="active">Blog</a>
+      <a href="/referral/">Referral</a>
+    </div>
+    <div class="nav-langs">
+      <a href="/" title="English">🇬🇧</a>
+      <a href="/de/" title="Deutsch">🇩🇪</a>
+      <a href="/fr/" title="Français">🇫🇷</a>
+      <a href="/nl/" title="Nederlands">🇳🇱</a>
+      <a href="/no/" title="Norsk">🇳🇴</a>
+      <a href="/it/" title="Italiano">🇮🇹</a>
+    </div>
+  </nav>
+</header>
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span class="sep">›</span>
+  <a href="/blog/">Blog</a>
+  <span class="sep">›</span>
+  <span>{{TITLE}}</span>
+</nav>
+
+<main>
+  <div class="layout-cols">
+
+    <div class="main-col">
+      <article class="article-header">
+        <span class="category-tag">{{CATEGORY}}</span>
+        <h1>{{TITLE}}</h1>
+        <div class="article-meta">
+          <time datetime="{{DATE}}">{{DATE}}</time>
+          <span class="sep">•</span>
+          <span>TeslaBlog.eu</span>
+        </div>
+      </article>
+
+      <article class="article-content">
+{{BODY_HTML}}
+      </article>
+    </div>
+
+    <aside class="sidebar">
+      <div class="sidebar-widget">
+        <h3>Referral Program</h3>
+        <div class="referral-box">
+          <span class="code-label">Save up to €500 on your Tesla</span>
+          <p style="font-size:0.85rem;color:#555;margin:8px 0;">Tesla's referral program is active in Europe. New buyers save up to €500 on any model.</p>
+          <a href="/referral/" class="btn-referral">How it works →</a>
+        </div>
+      </div>
+      <div class="sidebar-widget">
+        <h3>Country Guides</h3>
+        <div class="sidebar-links">
+          <a href="/de/">🇩🇪 Germany</a>
+          <a href="/fr/">🇫🇷 France</a>
+          <a href="/nl/">🇳🇱 Netherlands</a>
+          <a href="/no/">🇳🇴 Norway</a>
+          <a href="/it/">🇮🇹 Italy</a>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+</main>
+
+<div class="footer-cta">
+  <p>Ordering a Tesla in Europe? Save up to €500 with the referral program — <a href="/referral/">see how it works</a>.</p>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <nav class="footer-nav">
+      <a href="/">Home</a>
+      <a href="/news/">News</a>
+      <a href="/blog/">Blog</a>
+      <a href="/referral/">Referral Code</a>
+      <a href="/blog/grok-ai-tesla-europe/">Grok AI</a>
+      <a href="/de/">🇩🇪 DE</a>
+      <a href="/fr/">🇫🇷 FR</a>
+      <a href="/nl/">🇳🇱 NL</a>
+      <a href="/no/">🇳🇴 NO</a>
+      <a href="/it/">🇮🇹 IT</a>
+    </nav>
+    <p class="footer-meta">
+      TeslaBlog.eu is an independent website not affiliated with Tesla, Inc. Referral benefits subject to change.
+      "Tesla", "Model 3", "Model Y", "Model S", "Model X", "Supercharger" and "Autopilot" are trademarks of Tesla, Inc.
+      © 2026 TeslaBlog.eu
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
