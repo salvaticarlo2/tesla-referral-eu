@@ -267,5 +267,15 @@ fi
 mkdir -p "$(dirname "$LOG")"
 printf '%s\tdeploy\t%s\t%s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$SLUG" "$URL" >> "$LOG"
 
+# ---------- 11. notify Carlo ----------
+# Uses ntfy.sh (free push notifications). Carlo subscribes at:
+#   https://ntfy.sh/teslablogeu-deploys (browser, phone app, or email)
+curl -sS -o /dev/null \
+  -H "Title: New post live on TeslaBlog" \
+  -H "Tags: rocket" \
+  -H "Click: $URL" \
+  -d "Deployed: $TITLE — $URL" \
+  "https://ntfy.sh/teslablogeu-deploys" 2>/dev/null || true
+
 echo ""
 echo "Done: $URL"
