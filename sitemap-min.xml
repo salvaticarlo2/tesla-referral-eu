@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://teslablog.eu/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/</loc>
@@ -983,6 +983,10 @@
   <url>
     <loc>https://teslablog.eu/news/everyones-talking-about-the-spacex-ipo-why-i-think-you-should-avoid-it-and-what/</loc>
     <lastmod>2026-04-19</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/exclusive-spacex-targets-in-house-gpus-as-it-warns-investors-of-chip-supply-cost/</loc>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/exclusive-tesla-is-developing-a-new-smaller-cheaper-ev-sources-say/</loc>
@@ -2161,6 +2165,10 @@
     <lastmod>2026-04-10</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/tesla-confirmed-hw3-cant-do-unsupervised-fsd-but-theres-more-to-the-story/</loc>
+    <lastmod>2026-04-23</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/tesla-confirms-model-s-and-model-x-production-is-over-only-600-left/</loc>
     <lastmod>2026-04-02</lastmod>
   </url>
@@ -2303,6 +2311,10 @@
   <url>
     <loc>https://teslablog.eu/news/tesla-earnings-financial-expectations-and-what-we-should-to-hear-about/</loc>
     <lastmod>2026-04-22</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-earnings-highlight-soaring-full-self-driving-supervised-subscriptions-here/</loc>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-earnings-hormuz-and-other-key-things-to-watch-this-week/</loc>
@@ -2513,8 +2525,16 @@
     <lastmod>2026-04-17</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/tesla-inc-2026-q1-results-earnings-call-presentation/</loc>
+    <lastmod>2026-04-23</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/tesla-inches-one-step-closer-to-major-european-breakthrough/</loc>
     <lastmod>2026-04-13</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-inc-tsla-q1-2026-earnings-call-transcript/</loc>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-inc-tsla-stock-outlook-reflects-changing-investor-appetite/</loc>
@@ -2615,6 +2635,10 @@
   <url>
     <loc>https://teslablog.eu/news/tesla-just-delivered-terrible-news-for-its-investors/</loc>
     <lastmod>2026-04-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-just-increased-its-spending-plan-to-25b-heres-where-the-money-is-going/</loc>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-just-made-the-cybertruck-a-lot-more-compelling/</loc>
@@ -2837,12 +2861,20 @@
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/tesla-profits-up-but-growth-concerns-linger-as-musk-lays-out-spending-plans/</loc>
+    <lastmod>2026-04-23</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/tesla-promises-of-future-growth-that-never-come-true-rating-downgrade/</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-promises-of-robots-and-space-data-centers-do-not-justify-this-valuation/</loc>
     <lastmod>2026-03-30</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-pushes-optimus-v3-reveal-later-this-year-again/</loc>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-q1-2026-deliveries-strengthen-the-bearish-outlook/</loc>
@@ -2917,8 +2949,16 @@
     <lastmod>2026-04-23</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/tesla-raises-spending-plans-pours-money-into-ai-chips-and-robots/</loc>
+    <lastmod>2026-04-23</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/tesla-rallies-5-as-q1-earnings-loom-a-33-profit-surge-estimate-has-investors-wat/</loc>
     <lastmod>2026-04-17</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-reframes-growth-around-ai-robots-and-robotaxis-after-q1-rebound/</loc>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-regains-50-day-line-heres-when-the-stock-could-become-actionable/</loc>
@@ -3539,6 +3579,10 @@
   <url>
     <loc>https://teslablog.eu/news/teslas-us-sales-tanked-in-q1-it-still-gained-market-share/</loc>
     <lastmod>2026-04-11</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-takes-big-swing-with-new-model-in-key-market/</loc>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-taped-out-ai5-chip-musk-says-nearly-2-years-behind-schedule/</loc>
@@ -4186,171 +4230,171 @@
   </url>
   <url>
     <loc>https://teslablog.eu/news/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/10/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/11/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/12/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/13/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/14/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/15/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/16/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/17/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/18/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/19/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/2/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/20/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/21/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/22/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/23/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/24/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/25/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/26/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/27/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/28/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/29/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/3/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/30/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/31/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/32/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/33/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/34/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/35/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/36/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/37/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/38/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/39/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/4/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/40/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/41/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/42/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/43/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/44/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/45/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/46/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/47/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/48/</loc>
@@ -4362,22 +4406,22 @@
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/5/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/6/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/7/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/8/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/page/9/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
 </urlset>
