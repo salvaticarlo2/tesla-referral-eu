@@ -7,6 +7,20 @@
     <language>en</language>
     <atom:link href="https://teslablog.eu/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Elon Musk, Chip Giant?</title>
+      <link>https://teslablog.eu/news/elon-musk-chip-giant/</link>
+      <description>Elon Musk’s empire may be expanding if recent plans to spend up to $119 billion in new chip fab facilities become reality. The team discusses the implications for the industry and Musk’s companies.</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/elon-musk-chip-giant/</guid>
+      <pubDate>Sat, 16 May 2026 20:30:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Peter Navarro Once Slammed Tesla Over China Reliance—Now Xi Jinping Says Beijing Will Open Wider To US Companies Amid Trump Visit</title>
+      <link>https://teslablog.eu/news/peter-navarro-once-slammed-tesla-over-china-reliancenow-xi-jinping-says-beijing/</link>
+      <description>President Donald Trump‘s counselor and economist, Peter Navarro, had criticized Elon Musk-led Tesla Inc. last year, calling the company a “car assembler” reliant on overseas parts from China and other countries. Now, Chinese President Xi Jinping has said the country...</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/peter-navarro-once-slammed-tesla-over-china-reliancenow-xi-jinping-says-beijing/</guid>
+      <pubDate>Sat, 16 May 2026 18:02:09 +0000</pubDate>
+    </item>
+    <item>
       <title>Tesla (TSLA) raises Model Y prices by up to $1,000 — first increase in two years</title>
       <link>https://teslablog.eu/news/tesla-tsla-raises-model-y-prices-by-up-to-1000-first-increase-in-two-years/</link>
       <description>Tesla has increased Model Y prices in the US by up to $1,000 across its Premium and Performance trims. It marks the first price increase on the Model Y in two years. The move ends a prolonged period of aggressive price cuts that defined Tesla’s strategy throughout 2024 and 2025, signaling a poten...</description>
@@ -19,6 +33,13 @@
       <description>Tesla raised U.S. Model Y prices for the first time in two years. Tesla stock has forged a new, lower buy point.</description>
       <guid isPermaLink="true">https://teslablog.eu/news/tesla-raises-us-model-y-prices-its-stock-just-forged-a-lower-buy-point/</guid>
       <pubDate>Sat, 16 May 2026 15:58:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ford’s EV Pivot Was Disastrous. Now It’s Trying to Compete with Tesla on Energy Storage.</title>
+      <link>https://teslablog.eu/news/fords-ev-pivot-was-disastrous-now-its-trying-to-compete-with-tesla-on-energy-sto/</link>
+      <description>Ford, which failed to meet its ambitious EV targets, is now betting on the energy storage business. Can the company compete with Tesla there?</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/fords-ev-pivot-was-disastrous-now-its-trying-to-compete-with-tesla-on-energy-sto/</guid>
+      <pubDate>Sat, 16 May 2026 15:00:02 +0000</pubDate>
     </item>
     <item>
       <title>Tesla Model Y prices just went up for the first time in two years</title>
@@ -334,27 +355,6 @@
       <description>Tesla is pushing forward with significant upgrades at its Gigafactory Berlin-Brandenburg in Grünheide, Germany, signaling renewed confidence in its European operations despite past market challenges. The facility, Tesla’s first in Europe, opened in 2022 and has become a cornerstone for Model Y pr...</description>
       <guid isPermaLink="true">https://teslablog.eu/news/tesla-puts-giga-berlin-in-plaid-mode-with-new-massive-investment/</guid>
       <pubDate>Thu, 14 May 2026 16:14:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Panasonic Raises EV Battery Outlook Based On Tesla's Sales Bounce</title>
-      <link>https://teslablog.eu/news/panasonic-raises-ev-battery-outlook-based-on-teslas-sales-bounce/</link>
-      <description>Tesla stock rose after one of its battery suppliers told investors it expected sales to the EV maker to grow this year.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/panasonic-raises-ev-battery-outlook-based-on-teslas-sales-bounce/</guid>
-      <pubDate>Thu, 14 May 2026 15:51:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla Is Now Testing A Virtual Waitlist For Superchargers</title>
-      <link>https://teslablog.eu/news/tesla-is-now-testing-a-virtual-waitlist-for-superchargers/</link>
-      <description>Tesla is looking to solve charger congestion by adding a digital waitlist to Superchargers.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-is-now-testing-a-virtual-waitlist-for-superchargers/</guid>
-      <pubDate>Thu, 14 May 2026 15:21:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Can Tesla's $250M Berlin Expansion Strengthen Its EV Lead?</title>
-      <link>https://teslablog.eu/news/can-teslas-250m-berlin-expansion-strengthen-its-ev-lead/</link>
-      <description>TSLA's $250 million Berlin expansion boosts battery output, adds 1,500 jobs and supports plans to raise EV production in Europe.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/can-teslas-250m-berlin-expansion-strengthen-its-ev-lead/</guid>
-      <pubDate>Thu, 14 May 2026 15:19:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
