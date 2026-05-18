@@ -7,6 +7,20 @@
     <language>en</language>
     <atom:link href="https://teslablog.eu/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>SpaceX just forced Verizon, AT&amp;T and T-Mobile to team up for the first time in history</title>
+      <link>https://teslablog.eu/news/spacex-just-forced-verizon-att-and-t-mobile-to-team-up-for-the-first-time-in-his/</link>
+      <description>America’s three largest wireless carriers, AT&amp;T, T-Mobile, and Verizon, announced on On May 14, 2026 that they had agreed in principle to form a joint venture aimed at pooling their spectrum resources to expand satellite-based direct-to-device (D2D) connectivity across the United States in what c...</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/spacex-just-forced-verizon-att-and-t-mobile-to-team-up-for-the-first-time-in-his/</guid>
+      <pubDate>Mon, 18 May 2026 05:53:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Judge In Australia Not Happy About Tesla Dragging Its Feet In Class Action Case</title>
+      <link>https://teslablog.eu/news/judge-in-australia-not-happy-about-tesla-dragging-its-feet-in-class-action-case/</link>
+      <description>It took a lot longer than I expected, but there are class action lawsuits underway against Tesla in the US and Australia, and they just keep dragging on. In fact, in Australia, Tesla has been dragging things along so much that a judge there is losing his patience. This case   ...</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/judge-in-australia-not-happy-about-tesla-dragging-its-feet-in-class-action-case/</guid>
+      <pubDate>Mon, 18 May 2026 03:00:21 +0000</pubDate>
+    </item>
+    <item>
       <title>Tesla increases Actually Smart Summon speed by 33% in new FSD update</title>
       <link>https://teslablog.eu/news/tesla-increases-actually-smart-summon-speed-by-33-in-new-fsd-update/</link>
       <description>Tesla is rolling out FSD V14.3.3 today, and among the changes is a 33% speed increase to Actually Smart Summon — the feature now tops out at 8 mph, up from the 6 mph cap (less impressive when you put it like that). The speed bump is part of a broader update (software version 2026.14.6.6) that als...</description>
@@ -341,20 +355,6 @@
       <description>Elon Musk joined President Trump’s delegation to China for high level talks with Chinese officials. During the visit, President Xi Jinping told Musk and other US CEOs that China plans to open its door wider to American companies. The trip raised investor focus on potential implications for Tesla’...</description>
       <guid isPermaLink="true">https://teslablog.eu/news/tesla-china-talks-put-fsd-prospects-and-valuation-risks-in-focus/</guid>
       <pubDate>Thu, 14 May 2026 23:19:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla now forces drivers to give feedback when intervening on ‘Full Self-Driving’</title>
-      <link>https://teslablog.eu/news/tesla-now-forces-drivers-to-give-feedback-when-intervening-on-full-self-driving/</link>
-      <description>Tesla has quietly made it mandatory for drivers to provide feedback every time they intervene on “Full Self-Driving.” The prompt, which used to disappear on its own after a few seconds, now stays on screen indefinitely until the driver selects a reason or sends a voice note. The change arrived wi...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-now-forces-drivers-to-give-feedback-when-intervening-on-full-self-driving/</guid>
-      <pubDate>Thu, 14 May 2026 23:09:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla robotaxi rollout features long wait times, safety concerns</title>
-      <link>https://teslablog.eu/news/tesla-robotaxi-rollout-features-long-wait-times-safety-concerns/</link>
-      <description>STORY: Tesla's robotaxi service is experiencing significant operational problems in Texas, raising questions about CEO Elon Musk’s ambitious vision for a near future full of driverless cars. Reuters testing in Dallas, Houston and Austin found long wait times exceeding 30 minutes, limited availabi...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-robotaxi-rollout-features-long-wait-times-safety-concerns/</guid>
-      <pubDate>Thu, 14 May 2026 22:03:37 +0000</pubDate>
     </item>
   </channel>
 </rss>
