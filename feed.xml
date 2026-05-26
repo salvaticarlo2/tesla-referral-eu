@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://teslablog.eu/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>NASA just gave SpaceX more crew missions because Boeing can’t certify</title>
+      <link>https://teslablog.eu/news/nasa-just-gave-spacex-more-crew-missions-because-boeing-cant-certify/</link>
+      <description>NASA has filed a procurement notice announcing its intent to add six post-certification missions to SpaceX’s existing Commercial Crew Transportation Capability contract. The agency said it would order up to three of those missions immediately upon adding them to the contract, with the remaining t...</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/nasa-just-gave-spacex-more-crew-missions-because-boeing-cant-certify/</guid>
+      <pubDate>Tue, 26 May 2026 05:01:24 +0000</pubDate>
+    </item>
+    <item>
       <title>Cybercab Testing in Las Vegas</title>
       <link>https://teslablog.eu/news/cybercab-testing-in-las-vegas/</link>
       <description>Sorry for the glare, but saw this yesterday morning when picking up groceries here in Las Vegas. Super surprising to see! submitted by /u/dam_ships [link] [comments]</description>
@@ -348,13 +355,6 @@
       <description>Tesla’s Cybercab has been certified at 165 Wh/mi, making it the most efficient electric vehicle ever produced — by a wide margin. The next most efficient EV on the market, the Lucid Air Pure, consumes 28% more energy per mile. Tesla VP of Vehicle Engineering Lars Moravy confirmed the figure, whic...</description>
       <guid isPermaLink="true">https://teslablog.eu/news/tesla-cybercab-hate-it-or-love-it-it-is-the-most-efficient-ev-ever/</guid>
       <pubDate>Fri, 22 May 2026 15:17:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>SpaceX Targets $75 Billion IPO at Up to $2 Trillion Valuation</title>
-      <link>https://teslablog.eu/news/spacex-targets-75-billion-ipo-at-up-to-2-trillion-valuation/</link>
-      <description>Filing shows Musk retaining control as SpaceX expands deeper into AI, Starlink and space infrastructure ambitions.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/spacex-targets-75-billion-ipo-at-up-to-2-trillion-valuation/</guid>
-      <pubDate>Fri, 22 May 2026 15:03:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
