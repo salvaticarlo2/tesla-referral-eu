@@ -677,10 +677,6 @@
     <lastmod>2026-06-07</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/news/autonomousbots-roller-out-the-175-billion-future-of-self-driving-asphalt/</loc>
-    <lastmod>2026-03-21</lastmod>
-  </url>
-  <url>
     <loc>https://teslablog.eu/news/auto-transport-roundup-market-talk/</loc>
     <lastmod>2026-04-02</lastmod>
   </url>
@@ -973,12 +969,20 @@
     <lastmod>2026-04-11</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/cathie-wood-makes-bold-tesla-bet-dumps-77-million-in-roku-shares/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/cathie-wood-pours-28-million-in-tesla-stock-after-brutal-sell-off/</loc>
     <lastmod>2026-04-09</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/cathie-wood-predicts-voracious-appetite-for-volatile-spacex-ipo/</loc>
     <lastmod>2026-05-09</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/cathie-wood-rotates-into-tesla-and-snowflake/</loc>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/cathie-woods-arkk-cuts-bmnr-stake-on-bitmines-holdings-pop-joins-trims-of-roku-t/</loc>
@@ -1199,10 +1203,6 @@
   <url>
     <loc>https://teslablog.eu/news/does-teslas-improving-europe-story-change-the-investment-thesis/</loc>
     <lastmod>2026-06-03</lastmod>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/news/does-the-tesla-semi-face-critical-market-challenges/</loc>
-    <lastmod>2026-03-21</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/do-lumpy-q1-deployments-undermine-teslas-energy-momentum/</loc>
@@ -1451,6 +1451,10 @@
   <url>
     <loc>https://teslablog.eu/news/elon-musk-calls-this-the-greatest-company-in-europe/</loc>
     <lastmod>2026-06-16</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/elon-musk-challenges-tesla-credit-rating-from-moodys-after-spacex-gets-a-higher/</loc>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/elon-musk-chimes-in-as-delta-picks-amazon-leo-over-starlink-they-wanted-to-make/</loc>
@@ -2071,10 +2075,6 @@
   <url>
     <loc>https://teslablog.eu/news/elon-musk-takes-swipe-at-gavin-newsom-says-boring-could-build-la-sf-tunnel-at-le/</loc>
     <lastmod>2026-04-10</lastmod>
-  </url>
-  <url>
-    <loc>https://teslablog.eu/news/elon-musk-teases-expectations-for-teslas-ai6-self-driving-chip/</loc>
-    <lastmod>2026-03-21</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/elon-musk-tesla-face-serious-new-threat/</loc>
@@ -3941,10 +3941,6 @@
     <lastmod>2026-05-13</lastmod>
   </url>
   <url>
-    <loc>https://teslablog.eu/news/one-pedal-driving-isnt-a-safety-issue-feds/</loc>
-    <lastmod>2026-03-21</lastmod>
-  </url>
-  <url>
     <loc>https://teslablog.eu/news/one-problem-for-the-spacex-ipo/</loc>
     <lastmod>2026-05-22</lastmod>
   </url>
@@ -4131,6 +4127,10 @@
   <url>
     <loc>https://teslablog.eu/news/ponyai-outlines-autonomous-vehicle-cost-reductions-unveils-driverless-truck/</loc>
     <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/portable-power-new-mitsubishi-ek-cross-pairs-1500-w-plug-with-sub-12k-price/</loc>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/possible-tesla-spacex-merger-reshapes-ai-story-and-rich-valuation/</loc>
@@ -4335,6 +4335,10 @@
   <url>
     <loc>https://teslablog.eu/news/rivian-rallies-8-as-tesla-nio-stall-r2-launch-and-software-growth-in-focus/</loc>
     <lastmod>2026-05-29</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/rivians-ceo-is-taking-on-elon-musk-in-humanoid-robots/</loc>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/rivian-stock-is-cheap-but-does-that-make-it-a-buy-now/</loc>
@@ -6257,6 +6261,10 @@
     <lastmod>2026-06-01</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/tesla-faces-fresh-fsd-roadblock-in-europe/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/tesla-faces-full-self-driving-pushback-in-eu-over-speeding/</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
@@ -6521,6 +6529,10 @@
     <lastmod>2026-05-14</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/tesla-gets-cathie-wood-boost-as-ark-returns-after-spacex-buy/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/tesla-gets-double-dose-of-good-news-from-key-region/</loc>
     <lastmod>2026-06-06</lastmod>
   </url>
@@ -6539,6 +6551,10 @@
   <url>
     <loc>https://teslablog.eu/news/tesla-gives-hw3-owners-another-massive-update/</loc>
     <lastmod>2026-04-29</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-gives-its-biggest-signal-yet-that-cybercab-launch-is-imminent/</loc>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-got-573-million-from-spacex-and-xai-in-2025/</loc>
@@ -6631,6 +6647,10 @@
   <url>
     <loc>https://teslablog.eu/news/tesla-hits-a-milestone-with-semi-truck-production-the-stock-is-up/</loc>
     <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/tesla-hits-eu-speed-bump/</loc>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/tesla-hit-with-class-action-in-quebec-over-up-to-400m-in-heat-pump-failures/</loc>
@@ -9165,6 +9185,10 @@
     <lastmod>2026-06-17</lastmod>
   </url>
   <url>
+    <loc>https://teslablog.eu/news/tesla-tsla-gets-approval-for-its-full-self-driving-fsd-technology-in-denmark/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
     <loc>https://teslablog.eu/news/tesla-tsla-is-down-100-after-compact-suv-plans-and-terafab-deal-question-its-nex/</loc>
     <lastmod>2026-04-09</lastmod>
   </url>
@@ -9563,6 +9587,10 @@
   <url>
     <loc>https://teslablog.eu/news/the-latest-way-byd-is-topping-tesla/</loc>
     <lastmod>2026-06-17</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/the-mag-7-is-irrelevant-as-the-spacex-era-begins/</loc>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/the-mag-7-plus-these-three-ai-companies-make-up-the-new-fab-10/</loc>
@@ -10431,6 +10459,10 @@
   <url>
     <loc>https://teslablog.eu/news/who-is-tesla-selling-1-million-humanoid-robots-a-year-to/</loc>
     <lastmod>2026-05-02</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/news/whos-winning-the-robotaxi-race-its-complicated/</loc>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/news/why-2026-is-a-year-of-foundational-growth-for-tesla/</loc>
