@@ -7,11 +7,32 @@
     <language>en</language>
     <atom:link href="https://teslablog.eu/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Tesla Completes Key AI Chip Milestone in Its Push Beyond the Auto Industry</title>
+      <link>https://teslablog.eu/news/tesla-completes-key-ai-chip-milestone-in-its-push-beyond-the-auto-industry/</link>
+      <description>This is one more step for the business to expand into robotics and AI.</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/tesla-completes-key-ai-chip-milestone-in-its-push-beyond-the-auto-industry/</guid>
+      <pubDate>Sun, 28 Jun 2026 02:50:00 +0000</pubDate>
+    </item>
+    <item>
       <title>A $290,000 Tesla Semi for $50,000?? California’s Incentive Stack Is Real, but the Number Hides as Much as It Reveals.</title>
       <link>https://teslablog.eu/news/a-290000-tesla-semi-for-50000-californias-incentive-stack-is-real-but-the-number/</link>
       <description>A claim is circulating that stops you mid-scroll: a California small fleet can now buy a Tesla Semi for as little as $50,000. The Tesla Semi carries a $290,000 sticker. The post lays out how two California incentive programs stack to knock $240,000 off that price, leaving a net cost of roughly $5...</description>
       <guid isPermaLink="true">https://teslablog.eu/news/a-290000-tesla-semi-for-50000-californias-incentive-stack-is-real-but-the-number/</guid>
       <pubDate>Sat, 27 Jun 2026 21:45:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tesla releases Cybercab First Responder Interaction Plan</title>
+      <link>https://teslablog.eu/news/tesla-releases-cybercab-first-responder-interaction-plan/</link>
+      <description>Interesting points: - A Cybercab equipped with steering wheel, brake pedal, and an acceleration pedal is typically an engineering or test vehicle, and operates at SAE Level 2 autonomy. - First responders can talk to support via B-pillar microphones. - Cybercab Robotaxi can operate autonomously at...</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/tesla-releases-cybercab-first-responder-interaction-plan/</guid>
+      <pubDate>Sat, 27 Jun 2026 20:46:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tesla Left a Big Hole in Short Sellers’ Pockets. It’s SpaceX’s Turn Now.</title>
+      <link>https://teslablog.eu/news/tesla-left-a-big-hole-in-short-sellers-pockets-its-spacexs-turn-now/</link>
+      <description>Short-sellers lost billions of dollars betting against Tesla over the last decade. Can SpaceX also be a short-seller killer like TSLA?</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/tesla-left-a-big-hole-in-short-sellers-pockets-its-spacexs-turn-now/</guid>
+      <pubDate>Sat, 27 Jun 2026 19:30:02 +0000</pubDate>
     </item>
     <item>
       <title>Prediction: Buying Rivian Stock Today Could Set You Up for Life</title>
@@ -334,27 +355,6 @@
       <description>In a major development that will inevitably strengthen Tesla’s dominant position in the American EV market, Polestar has been effectively banned from selling new vehicles in the United States, starting with the 2027 model year. The U.S. Department of Commerce denied Polestar authorization under t...</description>
       <guid isPermaLink="true">https://teslablog.eu/news/one-of-teslas-biggest-threats-just-got-banned-in-the-us/</guid>
       <pubDate>Thu, 25 Jun 2026 20:17:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Is Tesla’s (TSLA) Home-Battery Supercoalition Quietly Rewriting Its Core Energy Narrative?</title>
-      <link>https://teslablog.eu/news/is-teslas-tsla-home-battery-supercoalition-quietly-rewriting-its-core-energy-nar/</link>
-      <description>Earlier this week, Sunrun, Renew Home and Tesla Energy Operations announced a framework to aggregate more than 16 gigawatts of flexible residential energy capacity across the US into turnkey grid solutions for utilities and hyperscale data centers. This coalition aims to operate what could be the...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/is-teslas-tsla-home-battery-supercoalition-quietly-rewriting-its-core-energy-nar/</guid>
-      <pubDate>Thu, 25 Jun 2026 20:07:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>TSLA Stock Dips — Tesla Gears Up To Ramp European Production To 7,500 Vehicles Per Week Amid FSD Push</title>
-      <link>https://teslablog.eu/news/tsla-stock-dips-tesla-gears-up-to-ramp-european-production-to-7500-vehicles-per/</link>
-      <description>André Thierig, Senior Director of Manufacturing at Giga Berlin, said in a post on X that the German gigafactory will increase weekly vehicle production to 7,500 units starting in October.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tsla-stock-dips-tesla-gears-up-to-ramp-european-production-to-7500-vehicles-per/</guid>
-      <pubDate>Thu, 25 Jun 2026 18:49:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mag 7 Stocks Shed Nearly $3 Trillion This Month</title>
-      <link>https://teslablog.eu/news/mag-7-stocks-shed-nearly-3-trillion-this-month/</link>
-      <description>A massive rotation at the expense of big AI spenders has the Magnificent Seven on pace to shed $3 trillion this month. Collectively, Tesla, Apple, Microsoft, Meta Platforms, Nvidia, Amazon.com, and Alphabet have lost $2.99 trillion in market cap so far in June, according to Dow Jones Market Data....</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/mag-7-stocks-shed-nearly-3-trillion-this-month/</guid>
-      <pubDate>Thu, 25 Jun 2026 18:37:24 +0000</pubDate>
     </item>
   </channel>
 </rss>
