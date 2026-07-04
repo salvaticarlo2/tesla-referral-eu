@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
 generate-indexes.py — auto-regenerates index.html and blog/index.html
-from all post directories. Run by Netlify on every deploy.
+from all post directories. Runs on the VPS in every pipeline cycle.
+
+Design: Cold Minimal 5b (Cosmic Orange), Martin Magli handoff 2026-07.
+Referral copy rule: the 2026 allocation for carlo719460 is used; never
+promise buyer benefits through it until Tesla resets the limit.
 """
 import os, re, json
 from pathlib import Path
@@ -13,69 +17,52 @@ BLOG_DIR = SITE_ROOT / 'blog'
 GA_ID = 'G-VCL5P0HLMR'
 REFERRAL_CODE = 'carlo719460'
 
-NAV_HEADER_HOME = '''<header>
-  <nav class="nav-inner">
-    <a href="/" class="nav-logo">Tesla<span>Blog</span>.eu</a>
-    <div class="nav-links">
-      <a href="/" class="active">Home</a>
+LANGS = [('EN', '/'), ('DE', '/de/'), ('FR', '/fr/'), ('NL', '/nl/'),
+         ('NO', '/no/'), ('IT', '/it/'), ('ES', '/es/')]
+
+LANG_FLAGS = {'de': 'DE · Deutsch', 'fr': 'FR · Français', 'nl': 'NL · Nederlands',
+              'no': 'NO · Norsk', 'it': 'IT · Italiano', 'es': 'ES · Español'}
+
+
+def masthead(active='EN'):
+    menu = '\n      '.join(
+        f'<a href="{url}">{code}</a>' for code, url in LANGS if code != active
+    )
+    return f'''<header>
+  <div class="tb-masthead">
+    <a href="/" class="tb-logo">TESLABLOG<span>.EU</span></a>
+    <nav class="tb-nav">
       <a href="/news/">News</a>
       <a href="/blog/">Blog</a>
       <a href="/referral/">Referral</a>
-    </div>
-    <div class="nav-langs">
-      <a href="/" class="active" title="English">🇬🇧</a>
-      <a href="/de/" title="Deutsch">🇩🇪</a>
-      <a href="/fr/" title="Français">🇫🇷</a>
-      <a href="/nl/" title="Nederlands">🇳🇱</a>
-      <a href="/no/" title="Norsk">🇳🇴</a>
-      <a href="/it/" title="Italiano">🇮🇹</a>
-    </div>
-  </nav>
-</header>'''
-
-NAV_HEADER_BLOG = '''<header>
-  <nav class="nav-inner">
-    <a href="/" class="nav-logo">Tesla<span>Blog</span>.eu</a>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/news/">News</a>
-      <a href="/blog/" class="active">Blog</a>
-      <a href="/referral/">Referral</a>
-    </div>
-    <div class="nav-langs">
-      <a href="/" class="active" title="English">🇬🇧</a>
-      <a href="/de/" title="Deutsch">🇩🇪</a>
-      <a href="/fr/" title="Français">🇫🇷</a>
-      <a href="/nl/" title="Nederlands">🇳🇱</a>
-      <a href="/no/" title="Norsk">🇳🇴</a>
-      <a href="/it/" title="Italiano">🇮🇹</a>
-    </div>
-  </nav>
-</header>'''
-
-FOOTER_CTA = '''<div class="footer-cta">
-  <p>Thinking about a Tesla? Read our <a href="/referral/">guide to how Tesla referrals work in Europe</a> and always verify an active referral link before ordering.</p>
-</div>'''
-
-FOOTER = '''<footer>
-  <div class="footer-inner">
-    <nav class="footer-nav">
-      <a href="/">Home</a>
-      <a href="/news/">News</a>
-      <a href="/blog/">Blog</a>
-      <a href="/referral/">Referral Code</a>
-      <a href="/blog/grok-ai-tesla-europe/">Grok AI</a>
-      <a href="/de/">🇩🇪 DE</a>
-      <a href="/fr/">🇫🇷 FR</a>
-      <a href="/nl/">🇳🇱 NL</a>
-      <a href="/no/">🇳🇴 NO</a>
-      <a href="/it/">🇮🇹 IT</a>
+      <details class="tb-lang"><summary>{active} ⌄</summary>
+      <div class="tb-lang-menu">
+      {menu}
+      </div>
+      </details>
     </nav>
-    <p class="footer-meta">
-      TeslaBlog.eu is an independent website not affiliated with Tesla, Inc. Referral benefits subject to change.
-      "Tesla", "Model 3", "Model Y", "Model S", "Model X", "Supercharger" and "Autopilot" are trademarks of Tesla, Inc.
-      © 2026 TeslaBlog.eu
-    </p>
+  </div>
+</header>'''
+
+
+TB_FOOTER = '''<footer>
+  <div class="tb-footer">
+    <div class="tb-flinks">
+      <span>Guides:</span>
+      <a href="/de/">DE</a>
+      <a href="/fr/">FR</a>
+      <a href="/nl/">NL</a>
+      <a href="/no/">NO</a>
+      <a href="/it/">IT</a>
+      <a href="/es/">ES</a>
+      <span>·</span>
+      <a href="/referral/">Referral</a>
+      <span>·</span>
+      <a href="/privacy/">Privacy</a>
+      <span>·</span>
+      <a href="/feed.xml">RSS</a>
+    </div>
+    <p class="tb-legal">Independent website, not affiliated with Tesla, Inc. "Tesla", "Model 3", "Model Y", "Model S", "Model X", "Supercharger" and "Autopilot" are trademarks of Tesla, Inc. © 2026 TeslaBlog.eu</p>
   </div>
 </footer>'''
 
@@ -88,78 +75,56 @@ GA_SNIPPET = f'''<!-- Google Analytics GA4 -->
   gtag("config", "{GA_ID}");
 </script>'''
 
-SIDEBAR = f'''<aside class="sidebar">
-      <div class="sidebar-widget">
-        <h3>Referral Status</h3>
-        <div class="referral-box">
-          <span class="code-label">Tesla referrals in 2026</span>
-          <span class="referral-code-display" id="refCode" title="Click to copy">{REFERRAL_CODE}</span>
-          <span class="copy-feedback" id="copyFeedback">&nbsp;</span>
-          <a href="/referral/" class="btn-referral">How Tesla referrals work →</a>
-          <p class="referral-note">2026 allocation for this code is currently used. Benefits return when Tesla resets referral limits.</p>
-        </div>
-      </div>
-      <div class="sidebar-widget">
-        <h3>Country Guides</h3>
-        <div class="sidebar-links">
-          <a href="/de/">🇩🇪 Germany</a>
-          <a href="/fr/">🇫🇷 France</a>
-          <a href="/nl/">🇳🇱 Netherlands</a>
-          <a href="/no/">🇳🇴 Norway</a>
-          <a href="/it/">🇮🇹 Italy</a>
-        </div>
-      </div>
-      <div class="sidebar-widget">
-        <h3>EV Accessories</h3>
-        <div class="sidebar-links">
-          <a href="https://www.amazon.de/s?k=tesla+model+y+zubehoer&tag=teslablogeu21-21" target="_blank" rel="sponsored noopener">Tesla Accessories</a>
-          <a href="https://www.amazon.de/s?k=tesla+wallbox+11kw&tag=teslablogeu21-21" target="_blank" rel="sponsored noopener">Home Chargers</a>
-          <a href="https://www.amazon.de/s?k=tesla+ladekabel+typ+2&tag=teslablogeu21-21" target="_blank" rel="sponsored noopener">Charging Cables</a>
-        </div>
-      </div>
-    </aside>'''
-
 COPY_SCRIPT = '''<script>
-  document.getElementById('refCode').addEventListener('click', function() {
-    navigator.clipboard.writeText('carlo719460').then(function() {
-      var fb = document.getElementById('copyFeedback');
-      fb.textContent = '✓ Copied';
-      setTimeout(function() { fb.innerHTML = '&nbsp;'; }, 2500);
+document.addEventListener('DOMContentLoaded', function () {
+  var code = document.getElementById('refCode');
+  var fb = document.getElementById('copyFeedback');
+  if (!code) return;
+  code.addEventListener('click', function () {
+    navigator.clipboard.writeText('carlo719460').then(function () {
+      if (fb) { fb.textContent = 'COPIED'; setTimeout(function () { fb.textContent = ''; }, 2000); }
     });
   });
+});
 </script>'''
 
-LANG_FLAGS = {'de': '🇩🇪 Deutsch', 'fr': '🇫🇷 Français', 'nl': '🇳🇱 Nederlands',
-              'no': '🇳🇴 Norsk', 'it': '🇮🇹 Italiano', 'es': '🇪🇸 Español'}
+REFBOX = f'''<div class="tb-refbox">
+      <p>Ordering a Tesla? This site's referral code <span class="tb-code" id="refCode" title="Click to copy">{REFERRAL_CODE}</span><span class="copy-feedback" id="copyFeedback"></span> is capped for 2026 and currently gives buyers no benefits. <a href="/referral/">How Tesla referrals work</a>. Verify an active link before you configure. Reset expected: January 2027.</p>
+    </div>'''
 
-def render_latest_news(max_items=5):
-    """Render latest news section for homepage."""
+
+def mono_date(dt):
+    return dt.strftime('%b %d').upper()
+
+
+def render_news_rows(max_items=5):
+    """News rows for the homepage + latest news datetime."""
     news_file = Path('/root/tesla-data/news.json')
     if not news_file.exists():
-        # Fallback: check local path for dev/Netlify builds
         local_news = SITE_ROOT / 'news.json'
         if not local_news.exists():
-            return ''
+            return '', None
         news_file = local_news
     with open(news_file, 'r') as f:
         items = json.load(f)
     if not items:
-        return ''
-    items = items[:max_items]
-    cards = ''
-    for it in items:
+        return '', None
+    latest_dt = None
+    rows = ''
+    for it in items[:max_items]:
         title = escape(it['title'])
         slug = it['slug']
-        source = escape(it.get('source_name', ''))
-        cards += f'''<li class="news-item">
-  <a href="/news/{slug}/">{title}</a>
-  <span class="news-item-source">{source}</span>
-</li>\n'''
-    return f'''<section class="latest-news">
-  <h2>Latest Tesla News</h2>
-  <ul class="news-list">{cards}</ul>
-  <a href="/news/" class="btn-referral">All News &rarr;</a>
-</section>'''
+        try:
+            dt = datetime.fromisoformat(it.get('timestamp', ''))
+        except (ValueError, TypeError):
+            dt = datetime.now()
+        if latest_dt is None or dt.replace(tzinfo=None) > latest_dt:
+            latest_dt = dt.replace(tzinfo=None)
+        rows += f'''      <div class="tb-nrow">
+        <span class="tb-date">{mono_date(dt)}</span>
+        <a class="tb-ntitle" href="/news/{slug}/">{title}</a>
+      </div>\n'''
+    return rows, latest_dt
 
 
 def extract_post(post_dir):
@@ -168,43 +133,35 @@ def extract_post(post_dir):
         return None
     html = html_file.read_text(encoding='utf-8')
 
-    # Language
     lang_m = re.search(r'<html[^>]+lang="([^"]+)"', html)
     lang = lang_m.group(1) if lang_m else 'en'
 
-    # Date from JSON-LD
     date_m = re.search(r'"datePublished":\s*"(\d{4}-\d{2}-\d{2})', html)
     if not date_m:
         return None
     date_str = date_m.group(1)
 
-    # Title from <title> tag (cleanest source)
     title_m = re.search(r'<title>([^<]+)</title>', html)
     title = unescape(title_m.group(1).strip()) if title_m else post_dir.name
-    # Remove site suffix if present
     title = re.sub(r'\s*[|—]\s*TeslaBlog\.eu$', '', title).strip()
 
-    # Description from meta
     desc_m = re.search(r'<meta name="description" content="([^"]+)"', html)
     description = unescape(desc_m.group(1)) if desc_m else ''
 
-    # Category from first category-tag span
     cat_m = re.search(r'class="category-tag"[^>]*>([^<]+)<', html)
     category = unescape(cat_m.group(1).strip()) if cat_m else 'Article'
 
-    # Read time
     rt_m = re.search(r'(\d+)\s*min\s*read', html)
     read_time = int(rt_m.group(1)) if rt_m else None
 
-    # Format date label
     dt = datetime.strptime(date_str, '%Y-%m-%d')
-    date_label = dt.strftime('%b %Y')
 
     return {
         'slug': post_dir.name,
         'lang': lang,
         'date': date_str,
-        'date_label': date_label,
+        'dt': dt,
+        'date_label': mono_date(dt),
         'title': title,
         'description': description,
         'category': category,
@@ -212,54 +169,30 @@ def extract_post(post_dir):
         'url': f'/blog/{post_dir.name}/',
     }
 
-def read_more_text(category):
-    c = category.lower()
-    if 'guide' in c or 'buying' in c or 'country' in c:
-        return 'Read guide →'
-    return 'Read article →'
 
-def render_post_item(p):
-    """Homepage card format"""
-    rm = read_more_text(p['category'])
-    desc = escape(p['description'])
+def render_article_row(p):
     title = escape(p['title'])
     cat = escape(p['category'])
-    return f'''  <article class="post-item">
-    <div class="post-item-date">{p['date_label']}</div>
-    <div class="post-item-body">
-      <div class="post-item-tag">{cat}</div>
-      <h2><a href="{p['url']}">{title}</a></h2>
-      <p>{desc}</p>
-      <a href="{p['url']}" class="read-more">{rm}</a>
-    </div>
-  </article>'''
+    return f'''      <div class="tb-arow">
+        <span class="tb-date">{p['date_label']}</span>
+        <div class="tb-abody">
+          <a class="tb-atitle" href="{p['url']}">{title}</a>
+          <a class="tb-tag" href="{p['url']}">{cat} ↗</a>
+        </div>
+      </div>'''
 
-def render_blog_card(p):
-    """Blog index card format"""
-    rt = f' · {p["read_time"]} min' if p['read_time'] else ''
-    desc = escape(p['description'])
-    title = escape(p['title'])
-    cat = escape(p['category'])
-    return f'''    <article class="blog-card">
-      <div class="blog-card-content">
-        <span class="category-tag">{cat}</span>
-        <h2><a href="{p['url']}">{title}</a></h2>
-        <p>{desc}</p>
-        <div class="article-meta">{p['date_label']}{rt}</div>
-      </div>
-    </article>'''
 
-def render_lang_card(p):
-    """Blog index other-language card"""
-    flag_label = LANG_FLAGS.get(p['lang'], p['lang'].upper())
+def render_lang_row(p):
     title = escape(p['title'])
-    return f'''        <article class="article-card">
-          <div class="article-content">
-            <span class="category-tag">{flag_label}</span>
-            <h2><a href="{p['url']}">{title}</a></h2>
-            <time>{p['date']}</time>
-          </div>
-        </article>'''
+    label = LANG_FLAGS.get(p['lang'], p['lang'].upper())
+    return f'''      <div class="tb-arow">
+        <span class="tb-date">{p['date_label']}</span>
+        <div class="tb-abody">
+          <a class="tb-atitle" href="{p['url']}">{title}</a>
+          <span class="tb-tag">{escape(label)}</span>
+        </div>
+      </div>'''
+
 
 # ── Scan all posts ──────────────────────────────────────────────────────────
 posts = []
@@ -277,16 +210,31 @@ lang_posts = [p for p in posts if p['lang'] != 'en']
 print(f"Found {len(posts)} posts: {len(en_posts)} EN, {len(lang_posts)} other languages")
 
 # ── Build index.html ────────────────────────────────────────────────────────
-top10 = en_posts[:10]
+top_home = en_posts[:6]
 jsonld_posts = json.dumps([{
     "@type": "BlogPosting",
     "headline": p['title'],
     "url": f"https://teslablog.eu{p['url']}",
     "datePublished": p['date']
-} for p in top10[:5]], indent=6)
+} for p in en_posts[:5]], indent=6)
 
-post_items_html = '\n'.join(render_post_item(p) for p in top10)
-latest_news_html = render_latest_news()
+news_rows, latest_news_dt = render_news_rows()
+article_rows = '\n'.join(render_article_row(p) for p in top_home)
+
+updated_dt = latest_news_dt or (en_posts[0]['dt'] if en_posts else datetime.now())
+if en_posts and en_posts[0]['dt'] > updated_dt:
+    updated_dt = en_posts[0]['dt']
+updated_label = updated_dt.strftime('%b %d %Y').upper()
+
+news_section = ''
+if news_rows:
+    news_section = f'''    <section class="tb-section">
+      <div class="tb-sechead">
+        <span class="tb-num">01</span>
+        <span class="tb-seclabel">News</span>
+        <a class="tb-all" href="/news/">ALL →</a>
+      </div>
+{news_rows}    </section>'''
 
 home_html = f'''<!DOCTYPE html>
 <html lang="en">
@@ -333,38 +281,44 @@ home_html = f'''<!DOCTYPE html>
 </head>
 <body>
 
-{NAV_HEADER_HOME}
+{masthead('EN')}
 
-<div class="site-intro">
-  <h1>Tesla News &amp; Guides for Europe</h1>
-  <p class="lead">An independent blog by a Tesla owner in Europe. Practical coverage of software updates, buying guides, and EV news.</p>
+<div class="tb-wrap">
+
+  <section class="tb-hero">
+    <h1>Tesla news &amp; guides<br>for Europe<span class="tb-dot">.</span></h1>
+    <p class="tb-intro">Independent coverage from an owner. Software updates, buying guides, EV news.</p>
+    <div class="tb-status"><span class="tb-sq"></span>UPDATED {updated_label} · NOT AFFILIATED WITH TESLA, INC.</div>
+  </section>
+
+{news_section}
+
+  <section class="tb-section">
+    <div class="tb-sechead">
+      <span class="tb-num">02</span>
+      <span class="tb-seclabel">Articles</span>
+      <a class="tb-all" href="/blog/">ALL →</a>
+    </div>
+{article_rows}
+  </section>
+
+  {REFBOX}
+
 </div>
 
-<div class="layout-cols">
-  <div class="main-col">
-    {latest_news_html}
-    <p class="list-section-label">Latest Articles</p>
+{TB_FOOTER}
 
-{post_items_html}
-
-  </div>
-
-  {SIDEBAR}
-</div>
-
-{FOOTER_CTA}
-
-{FOOTER}
-
+{COPY_SCRIPT}
 </body>
-</html>'''
+</html>
+'''
 
 (SITE_ROOT / 'index.html').write_text(home_html, encoding='utf-8')
 print("✓ index.html written")
 
 # ── Build blog/index.html ───────────────────────────────────────────────────
-en_cards_html = '\n'.join(render_blog_card(p) for p in en_posts)
-lang_cards_html = '\n'.join(render_lang_card(p) for p in lang_posts)
+en_rows = '\n'.join(render_article_row(p) for p in en_posts)
+lang_rows = '\n'.join(render_lang_row(p) for p in lang_posts)
 
 blog_html = f'''<!DOCTYPE html>
 <html lang="en">
@@ -372,10 +326,9 @@ blog_html = f'''<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog — Tesla News &amp; Guides for Europe | TeslaBlog.eu</title>
-  <meta name="description" content="All articles from TeslaBlog.eu — independent Tesla blog for European drivers. Software updates, buying guides, Grok AI, and EV news.">
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="description" content="All TeslaBlog.eu articles: Tesla buying guides, software updates, FSD coverage, and referral explainers for European drivers.">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://teslablog.eu/blog/">
-  <link rel="alternate" type="application/rss+xml" title="TeslaBlog.eu RSS Feed" href="https://teslablog.eu/feed.xml">
   <link rel="alternate" hreflang="en" href="https://teslablog.eu/blog/">
   <link rel="alternate" hreflang="x-default" href="https://teslablog.eu/">
   <meta property="og:type" content="website">
@@ -409,51 +362,42 @@ blog_html = f'''<!DOCTYPE html>
 </head>
 <body>
 
-{NAV_HEADER_BLOG}
+{masthead('EN')}
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
-  <a href="/">Home</a>
-  <span class="sep">›</span>
-  <span>Blog</span>
-</nav>
+<div class="tb-wrap">
 
-<main>
+  <section class="tb-hero tb-hero-page">
+    <h1>Articles<span class="tb-dot">.</span></h1>
+    <p class="tb-intro">Buying guides, software coverage, and referral explainers for European Tesla drivers.</p>
+    <div class="tb-status"><span class="tb-sq"></span>{len(en_posts)} ARTICLES · {len(lang_posts)} IN OTHER LANGUAGES</div>
+  </section>
 
-  <div class="page-header">
-    <span class="label">All Articles</span>
-    <h1>Tesla Blog Europe</h1>
-    <p class="lead">Independent coverage of Tesla software, news, and buying guides for European drivers.</p>
-  </div>
-
-  <div class="layout-cols">
-    <div class="main-col">
-      <p class="list-heading">Latest Articles</p>
-      <div class="article-list">
-
-{en_cards_html}
-
-      </div>
-
-      <p class="list-heading" style="margin-top:2.5rem;">Articles in Other Languages</p>
-      <div class="article-list">
-
-{lang_cards_html}
-
-      </div>
+  <section class="tb-section">
+    <div class="tb-sechead">
+      <span class="tb-num">01</span>
+      <span class="tb-seclabel">All articles</span>
     </div>
+{en_rows}
+  </section>
 
-    {SIDEBAR}
-  </div>
+  <section class="tb-section">
+    <div class="tb-sechead">
+      <span class="tb-num">02</span>
+      <span class="tb-seclabel">Other languages</span>
+    </div>
+{lang_rows}
+  </section>
 
-</main>
+  {REFBOX}
 
-{FOOTER_CTA}
+</div>
 
-{FOOTER}
+{TB_FOOTER}
 
 {COPY_SCRIPT}
 </body>
-</html>'''
+</html>
+'''
 
 (BLOG_DIR / 'index.html').write_text(blog_html, encoding='utf-8')
 print(f"✓ blog/index.html written ({len(en_posts)} EN posts, {len(lang_posts)} other language posts)")
