@@ -53,8 +53,8 @@ NAV_HEADER_BLOG = '''<header>
   </nav>
 </header>'''
 
-FOOTER_CTA = f'''<div class="footer-cta">
-  <p>Ordering a Tesla? Use referral code <code>{REFERRAL_CODE}</code> to save up to €500 — <a href="https://www.tesla.com/referral/{REFERRAL_CODE}" target="_blank" rel="noopener">order with referral link</a> or <a href="/referral/">read the guide</a>.</p>
+FOOTER_CTA = '''<div class="footer-cta">
+  <p>Thinking about a Tesla? Read our <a href="/referral/">guide to how Tesla referrals work in Europe</a> and always verify an active referral link before ordering.</p>
 </div>'''
 
 FOOTER = '''<footer>
@@ -90,13 +90,13 @@ GA_SNIPPET = f'''<!-- Google Analytics GA4 -->
 
 SIDEBAR = f'''<aside class="sidebar">
       <div class="sidebar-widget">
-        <h3>Referral Code</h3>
+        <h3>Referral Status</h3>
         <div class="referral-box">
-          <span class="code-label">Save up to €500 on your Tesla</span>
+          <span class="code-label">Tesla referrals in 2026</span>
           <span class="referral-code-display" id="refCode" title="Click to copy">{REFERRAL_CODE}</span>
           <span class="copy-feedback" id="copyFeedback">&nbsp;</span>
-          <a href="https://www.tesla.com/referral/{REFERRAL_CODE}" target="_blank" rel="noopener" class="btn-referral">Order with referral →</a>
-          <p class="referral-note">Click the code to copy. Apply before ordering.</p>
+          <a href="/referral/" class="btn-referral">How Tesla referrals work →</a>
+          <p class="referral-note">2026 allocation for this code is currently used. Benefits return when Tesla resets referral limits.</p>
         </div>
       </div>
       <div class="sidebar-widget">
