@@ -59,23 +59,11 @@ while IFS= read -r slug; do
   emit_url "/blog/${slug}/" "$(lastmod_for "$page_path")"
 done < <(find blog -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort)
 
-# News items
-if [ -d "news" ]; then
-  while IFS= read -r slug; do
-    page_path="news/${slug}/index.html"
-    [ -f "$page_path" ] || continue
-    emit_url "/news/${slug}/" "$(lastmod_for "$page_path")"
-  done < <(find news -mindepth 1 -maxdepth 1 -type d -not -name "page" -exec basename {} \; | sort)
-
-  # News index and pagination
+# News: only the section index belongs in the sitemap.
+# Individual /news/ items and pagination pages are noindex (thin aggregated
+# content) and must stay out of the sitemap. Do not re-add them.
+if [ -f "news/index.html" ]; then
   emit_url "/news/" "$(lastmod_for "news/index.html")"
-  if [ -d "news/page" ]; then
-    for page_dir in news/page/*/; do
-      page_num="$(basename "$page_dir")"
-      [ -f "${page_dir}index.html" ] || continue
-      emit_url "/news/page/${page_num}/" "$(lastmod_for "${page_dir}index.html")"
-    done
-  fi
 fi
 
 echo "</urlset>" >> "$TMP_FILE"
