@@ -1,0 +1,52 @@
+# .github/workflows/health-watchdog.yml
+# Replaces the retired VPS health-watchdog.sh.
+# Alerting: GitHub can email on failed workflow runs without secrets.
+name: health-watchdog
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check teslablog.eu health
+        run: |
+          set -euo pipefail
+
+          code=$(curl -s -o /dev/null -w "%{http_code}" https://teslablog.eu/)
+          echo "homepage HTTP $code"
+          [ "$code" = "200" ] || { echo "::error::teslablog.eu returned $code"; exit 1; }
+
+          curl -fsSL https://teslablog.eu/robots.txt -o robots.txt
+          grep -q '^Sitemap: https://teslablog.eu/sitemap.xml$' robots.txt || {
+            echo "::error::robots.txt does not point at the clean sitemap.xml"
+            exit 1
+          }
+
+          curl -fsSL https://teslablog.eu/sitemap.xml -o sitemap.xml
+          url_count=$(grep -c '<url>' sitemap.xml)
+          echo "sitemap URLs: $url_count"
+          [ "$url_count" -ge 50 ] && [ "$url_count" -le 120 ] || {
+            echo "::error::sitemap URL count is outside expected clean range"
+            exit 1
+          }
+
+          news_urls=$(grep -o '<loc>https://teslablog.eu/news/[^<]*</loc>' sitemap.xml | grep -v '<loc>https://teslablog.eu/news/</loc>' || true)
+          if [ -n "$news_urls" ]; then
+            echo "$news_urls"
+            echo "::error::thin /news/ URLs are back in the sitemap"
+            exit 1
+          fi
+
+          curl -fsSL https://teslablog.eu/feed.xml -o feed.xml
+          last=$(grep -oE '<pubDate>[^<]+' feed.xml | head -1 | sed 's/<pubDate>//')
+          echo "newest feed item: $last"
+          [ -n "$last" ] || { echo "::error::feed.xml has no pubDate"; exit 1; }
+          age=$(( ( $(date +%s) - $(date -d "$last" +%s) ) / 3600 ))
+          echo "feed age: ${age}h"
+          [ "$age" -lt 48 ] || {
+            echo "::error::news feed is ${age}h old; pipeline may be stalled"
+            exit 1
+          }
