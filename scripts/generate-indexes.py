@@ -109,9 +109,24 @@ def render_news_rows(max_items=5):
         items = json.load(f)
     if not items:
         return '', None
+    # Source diversity: never let one feed (Yahoo publishes 10x anyone else)
+    # own the homepage. Max 2 items per source, chosen from the 25 newest.
+    picked = []
+    per_source = {}
+    for it in items[:25]:
+        src = it.get('source_name', '?')
+        if per_source.get(src, 0) >= 2:
+            continue
+        picked.append(it)
+        per_source[src] = per_source.get(src, 0) + 1
+        if len(picked) >= max_items:
+            break
+    if len(picked) < max_items:
+        seen = {i['slug'] for i in picked}
+        picked += [i for i in items[:25] if i['slug'] not in seen][:max_items - len(picked)]
     latest_dt = None
     rows = ''
-    for it in items[:max_items]:
+    for it in picked:
         title = escape(it['title'])
         slug = it['slug']
         try:
