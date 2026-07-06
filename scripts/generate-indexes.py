@@ -34,6 +34,7 @@ def masthead(active='EN'):
     <nav class="tb-nav">
       <a href="/news/">News</a>
       <a href="/blog/">Blog</a>
+      <a href="/gear/">Gear</a>
       <a href="/referral/">Referral</a>
       <details class="tb-lang"><summary>{active} ⌄</summary>
       <div class="tb-lang-menu">
@@ -55,6 +56,8 @@ TB_FOOTER = '''<footer>
       <a href="/no/">NO</a>
       <a href="/it/">IT</a>
       <a href="/es/">ES</a>
+      <span>·</span>
+      <a href="/gear/">Gear</a>
       <span>·</span>
       <a href="/referral/">Referral</a>
       <span>·</span>

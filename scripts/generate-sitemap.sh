@@ -43,6 +43,9 @@ emit_url "/" "$(lastmod_for "index.html")"
 emit_url "/blog/" "$(lastmod_for "blog/index.html")"
 emit_url "/privacy/" "$(lastmod_for "privacy/index.html")"
 emit_url "/referral/" "$(lastmod_for "referral/index.html")"
+if [ -f "gear/index.html" ]; then
+  emit_url "/gear/" "$(lastmod_for "gear/index.html")"
+fi
 
 # Language pages
 for lang in de es fr it nl no; do
