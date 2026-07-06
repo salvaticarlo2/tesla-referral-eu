@@ -61,6 +61,8 @@ TB_FOOTER = '''<footer>
       <span>·</span>
       <a href="/referral/">Referral</a>
       <span>·</span>
+      <a href="/about/">About</a>
+      <span>·</span>
       <a href="/privacy/">Privacy</a>
       <span>·</span>
       <a href="/feed.xml">RSS</a>
@@ -275,13 +277,13 @@ home_html = f'''<!DOCTYPE html>
   <meta property="og:url" content="https://teslablog.eu/">
   <meta property="og:title" content="TeslaBlog.eu — Tesla News &amp; Guides for Europe">
   <meta property="og:description" content="Independent Tesla blog for European drivers. Practical tips, software updates, and buying guides.">
-  <meta property="og:image" content="https://teslablog.eu/assets/teslablog-og-default.jpg">
+  <meta property="og:image" content="https://teslablog.eu/assets/og/home.png">
   <meta property="og:site_name" content="TeslaBlog.eu">
   <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="TeslaBlog.eu — Tesla News &amp; Guides for Europe">
   <meta name="twitter:description" content="Independent Tesla blog for European drivers. Software updates, buying guides, and practical tips.">
-  <meta name="twitter:image" content="https://teslablog.eu/assets/teslablog-og-default.jpg">
+  <meta name="twitter:image" content="https://teslablog.eu/assets/og/home.png">
   <link rel="stylesheet" href="/css/style.css">
   <script type="application/ld+json">
   {{
@@ -354,6 +356,9 @@ blog_html = f'''<!DOCTYPE html>
   <meta property="og:title" content="Blog — Tesla News &amp; Guides for Europe | TeslaBlog.eu">
   <meta property="og:description" content="Independent Tesla blog for European drivers. Software updates, buying guides, and EV news.">
   <meta property="og:site_name" content="TeslaBlog.eu">
+  <meta property="og:image" content="https://teslablog.eu/assets/og/blog.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://teslablog.eu/assets/og/blog.png">
   <link rel="stylesheet" href="/css/style.css">
   <script type="application/ld+json">
   {{
@@ -419,3 +424,12 @@ blog_html = f'''<!DOCTYPE html>
 
 (BLOG_DIR / 'index.html').write_text(blog_html, encoding='utf-8')
 print(f"✓ blog/index.html written ({len(en_posts)} EN posts, {len(lang_posts)} other language posts)")
+
+
+# ── Share cards (og:image) — guarded so a missing Pillow never breaks the run
+try:
+    import subprocess
+    subprocess.run(['python3', str(SITE_ROOT / 'scripts' / 'generate-og-images.py'), '--quiet'],
+                   timeout=300, check=False)
+except Exception as e:
+    print(f'og-images skipped: {e}')

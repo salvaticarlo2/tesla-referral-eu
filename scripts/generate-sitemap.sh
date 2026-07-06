@@ -46,6 +46,9 @@ emit_url "/referral/" "$(lastmod_for "referral/index.html")"
 if [ -f "gear/index.html" ]; then
   emit_url "/gear/" "$(lastmod_for "gear/index.html")"
 fi
+if [ -f "about/index.html" ]; then
+  emit_url "/about/" "$(lastmod_for "about/index.html")"
+fi
 
 # Language pages
 for lang in de es fr it nl no; do
