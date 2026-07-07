@@ -106,10 +106,11 @@ def render_news_rows(max_items=5):
     """News rows for the homepage + latest news datetime."""
     news_file = Path('/root/tesla-data/news.json')
     if not news_file.exists():
-        local_news = SITE_ROOT / 'news.json'
-        if not local_news.exists():
-            return '', None
-        news_file = local_news
+        news_file = SITE_ROOT / 'tools' / 'news-pipeline' / 'data' / 'news.json'
+    if not news_file.exists():
+        news_file = SITE_ROOT / 'news.json'
+    if not news_file.exists():
+        return '', None
     with open(news_file, 'r') as f:
         items = json.load(f)
     if not items:

@@ -1,0 +1,52 @@
+# News pipeline: RSS -> HTML -> commit -> Netlify deploy.
+# Replaces the Hetzner VPS cron (migrated 2026-07-07). Runs 4x/day like the old cron.
+name: news-pipeline
+on:
+  schedule:
+    - cron: '0 0,6,12,18 * * *'   # UTC; 5-30 min slack is fine for news
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-pipeline
+  cancel-in-progress: false
+
+jobs:
+  build-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install -r tools/news-pipeline/requirements.txt
+
+      - name: Run news pipeline
+        run: bash tools/news-pipeline/pipeline.sh
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto: news update $(date -u +%Y-%m-%d-%H%M)"
+            git push
+          fi
+
+      - name: Verify site reachable
+        run: |
+          for i in $(seq 1 12); do
+            code=$(curl -s -o /dev/null -w "%{http_code}" https://teslablog.eu/news/ || echo 000)
+            if [ "$code" = "200" ]; then echo "Site OK (HTTP $code)"; exit 0; fi
+            sleep 10
+          done
+          echo "::warning::teslablog.eu/news/ not reachable after 120s"

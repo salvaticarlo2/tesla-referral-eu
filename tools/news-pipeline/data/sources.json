@@ -1,0 +1,142 @@
+{
+  "feeds": [
+    {
+      "name": "Electrek",
+      "url": "https://electrek.co/feed/",
+      "category_default": "Vehicles",
+      "enabled": true
+    },
+    {
+      "name": "InsideEVs",
+      "url": "https://insideevs.com/rss/make/tesla/",
+      "category_default": "Vehicles",
+      "enabled": true
+    },
+    {
+      "name": "Tesla Official Blog",
+      "url": "https://www.tesla.com/blog/feed",
+      "category_default": "Business",
+      "enabled": true
+    },
+    {
+      "name": "Teslarati",
+      "url": "https://www.teslarati.com/feed/",
+      "category_default": "Vehicles",
+      "enabled": true
+    },
+    {
+      "name": "CleanTechnica Tesla",
+      "url": "https://cleantechnica.com/tag/tesla/feed/",
+      "category_default": "Business",
+      "enabled": true
+    },
+    {
+      "name": "Reddit r/TeslaMotors",
+      "url": "https://www.reddit.com/r/TeslaMotors/hot.rss",
+      "category_default": "Vehicles",
+      "enabled": true
+    },
+    {
+      "name": "Yahoo Finance TSLA",
+      "url": "https://finance.yahoo.com/rss/headline?s=TSLA",
+      "category_default": "Finance",
+      "enabled": true
+    },
+    {
+      "name": "Seeking Alpha Tesla",
+      "url": "https://seekingalpha.com/api/sa/combined/TSLA.xml",
+      "category_default": "Finance",
+      "enabled": true
+    },
+    {
+      "name": "MarketWatch Tesla",
+      "url": "https://www.marketwatch.com/rss/market-data/TSLA",
+      "category_default": "Finance",
+      "enabled": true
+    },
+    {
+      "name": "Not a Tesla App",
+      "url": "https://www.notateslaapp.com/rss",
+      "category_default": "Vehicles",
+      "enabled": true
+    },
+    {
+      "name": "electrive",
+      "url": "https://www.electrive.com/feed/",
+      "category_default": "Business",
+      "enabled": true
+    }
+  ],
+  "categories": [
+    "Vehicles",
+    "FSD/Autopilot",
+    "Optimus",
+    "Energy",
+    "Business",
+    "Regulatory",
+    "Robotaxi",
+    "Finance"
+  ],
+  "category_keywords": {
+    "FSD/Autopilot": [
+      "fsd",
+      "full self-driving",
+      "autopilot",
+      "self-driving",
+      "navigate on autopilot"
+    ],
+    "Optimus": [
+      "optimus",
+      "robot",
+      "humanoid"
+    ],
+    "Energy": [
+      "powerwall",
+      "megapack",
+      "solar",
+      "energy",
+      "virtual power plant",
+      "battery storage"
+    ],
+    "Regulatory": [
+      "nhtsa",
+      "regulation",
+      "tariff",
+      "subsidy",
+      "recall",
+      "investigation",
+      "eu regulation"
+    ],
+    "Robotaxi": [
+      "robotaxi",
+      "robo-taxi",
+      "ride-hailing",
+      "cybercab"
+    ],
+    "Business": [
+      "earnings",
+      "deliveries",
+      "factory",
+      "gigafactory",
+      "revenue",
+      "production"
+    ],
+    "Finance": [
+      "stock price",
+      "tsla",
+      "analyst",
+      "price target",
+      "market cap",
+      "short interest",
+      "p/e ratio",
+      "quarterly results",
+      "revenue forecast",
+      "wall street",
+      "bull case",
+      "bear case",
+      "stock market",
+      "share price",
+      "investor"
+    ]
+  }
+}
