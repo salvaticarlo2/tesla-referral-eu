@@ -104,11 +104,18 @@ def mono_date(dt):
 
 def render_news_rows(max_items=5):
     """News rows for the homepage + latest news datetime."""
-    news_file = Path('/root/tesla-data/news.json')
-    if not news_file.exists():
-        news_file = SITE_ROOT / 'tools' / 'news-pipeline' / 'data' / 'news.json'
+    # Repo-local pipeline state first; legacy VPS path only as fallback
+    # (stat'ing /root raises PermissionError on GitHub runners, so guard it).
+    news_file = SITE_ROOT / 'tools' / 'news-pipeline' / 'data' / 'news.json'
     if not news_file.exists():
         news_file = SITE_ROOT / 'news.json'
+    if not news_file.exists():
+        try:
+            vps_file = Path('/root/tesla-data/news.json')
+            if vps_file.exists():
+                news_file = vps_file
+        except OSError:
+            pass
     if not news_file.exists():
         return '', None
     with open(news_file, 'r') as f:
