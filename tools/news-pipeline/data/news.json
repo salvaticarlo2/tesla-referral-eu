@@ -1,5 +1,85 @@
 [
   {
+    "title": "Tesla launches ‘Tesla Home’ with Opticaster AI to cut power bills",
+    "slug": "tesla-launches-tesla-home-with-opticaster-ai-to-cut-power-bills",
+    "summary": "Tesla has launched Tesla Home, a home energy management platform powered by an AI engine called Opticaster that it says makes “hundreds of decisions” a day about when to store and use electricity to lower your bill. However, it’s not an entirely new product as Electrek has been reporting on Tesla...",
+    "source_url": "https://electrek.co/2026/07/08/tesla-home-opticaster-ai-energy-platform/",
+    "source_name": "Electrek",
+    "category": "Energy",
+    "timestamp": "2026-07-08T13:19:13+00:00",
+    "created_at": "2026-07-08T13:26:52.399230+00:00"
+  },
+  {
+    "title": "Prediction: Tesla Stock Will Reach This Price in July (Hint: It's Going to Plummet)",
+    "slug": "prediction-tesla-stock-will-reach-this-price-in-july-hint-its-going-to-plummet",
+    "summary": "Tesla reports second-quarter earnings on July 22.",
+    "source_url": "https://www.fool.com/investing/2026/07/08/prediction-tesla-stock-will-reach-this-price-july/?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Business",
+    "timestamp": "2026-07-08T12:40:00+00:00",
+    "created_at": "2026-07-08T13:26:55.782849+00:00"
+  },
+  {
+    "title": "Tesla latest: The 'inevitable' SpaceX merger, Robotaxi's Miami launch, & more",
+    "slug": "tesla-latest-the-inevitable-spacex-merger-robotaxis-miami-launch-more",
+    "summary": "Barron's associate editor Al Root takes a closer look at Tesla's (TSLA) Robotaxi expansion, potential SpaceX (SPCX) merger, robotics business, and more.",
+    "source_url": "https://finance.yahoo.com/video/tesla-latest-inevitable-spacex-merger-120000921.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Optimus",
+    "timestamp": "2026-07-08T12:00:00+00:00",
+    "created_at": "2026-07-08T13:26:55.814377+00:00"
+  },
+  {
+    "title": "It’s Not Easy to Value SpaceX Stock. Here’s How Wall Street Does It.",
+    "slug": "its-not-easy-to-value-spacex-stock-heres-how-wall-street-does-it",
+    "summary": "Analysts prefer a sum-of-the-parts approach to determining the value of Elon Musk’s rocket and AI company, SpaceX.",
+    "source_url": "https://finance.yahoo.com/m/4f27ab8e-b1f4-3096-96cb-ee3633c003a3/it%E2%80%99s-not-easy-to-value-spacex.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-08T11:29:00+00:00",
+    "created_at": "2026-07-08T13:26:55.831068+00:00"
+  },
+  {
+    "title": "SpaceXAI to Launch Grok 4.5 for Public Access, Musk Confirms (SPCX)",
+    "slug": "spacexai-to-launch-grok-45-for-public-access-musk-confirms-spcx",
+    "summary": "SpaceX (NASDAQ:SPCX) will make its Grok 4. 5 artificial intelligence model publicly available on Thursday, according to a social media post from chief executive Elon Musk.",
+    "source_url": "https://investorshub.advfn.com/market-news/article/31519/spacexai-to-launch-grok-4-5-for-public-access-musk-confirms-spcx?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-08T10:56:09+00:00",
+    "created_at": "2026-07-08T13:26:55.861982+00:00"
+  },
+  {
+    "title": "Tesla launches startup programme for battery cell production in Grünheide",
+    "slug": "tesla-launches-startup-programme-for-battery-cell-production-in-grünheide",
+    "summary": "Tesla is launching the 'Cell Giga Challenge', a new innovation program for battery cell production in Grünheide, Germany. Startups will have the opportunity to test their technologies directly in cell production at the Gigafactory Berlin-Brandenburg. The focus is on solutions that improve the qua...",
+    "source_url": "https://www.electrive.com/2026/07/08/tesla-launches-startup-programme-for-battery-cell-production-in-grunheide/",
+    "source_name": "electrive",
+    "category": "Business",
+    "timestamp": "2026-07-08T10:30:00+00:00",
+    "created_at": "2026-07-08T13:26:57.424911+00:00"
+  },
+  {
+    "title": "Tesla (TSLA) Lands $9 Billion In Megapack Orders And Expands Home Energy Push",
+    "slug": "tesla-tsla-lands-9-billion-in-megapack-orders-and-expands-home-energy-push",
+    "summary": "Tesla (NasdaqGS:TSLA) has reported over US$9b in new Megapack energy storage orders tied to utility scale projects. New contracts include agreements with Esyasoft and NatPower, adding to a growing backlog of energy infrastructure work. Tesla is expanding its partnership with Sunrun and Renew Home...",
+    "source_url": "https://finance.yahoo.com/energy/articles/tesla-tsla-lands-9-billion-101142162.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Energy",
+    "timestamp": "2026-07-08T10:11:42+00:00",
+    "created_at": "2026-07-08T13:26:55.878473+00:00"
+  },
+  {
+    "title": "Tesla's Stock Could Command a 20-30% Premium in a SpaceX Merger, Analysts Say — But Major Obstacles Remain",
+    "slug": "teslas-stock-could-command-a-20-30-premium-in-a-spacex-merger-analysts-say-but-m",
+    "summary": "A merger between Space Exploration Technologies Corp. (NASDAQ:SPCX) and Tesla Inc. (NASDAQ:TSLA) is possible, but significant hurdles stand in the way, say analysts.",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/teslas-stock-could-command-20-094209338.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-08T09:42:09+00:00",
+    "created_at": "2026-07-08T13:26:55.895544+00:00"
+  },
+  {
     "title": "The secret behind Tesla’s Cybercab Gold goes well beyond just the color",
     "slug": "the-secret-behind-teslas-cybercab-gold-goes-well-beyond-just-the-color",
     "summary": "Tesla has spent years trying to engineer its way out of the automotive paint shop, one of the most expensive, space-consuming, and environmentally costly steps in vehicle manufacturing. With the Cybercab, Tesla confirmed on X this week that a new reaction injection molding process will embed colo...",
@@ -27968,85 +28048,5 @@
     "category": "Finance",
     "timestamp": "2026-04-09T13:32:09+00:00",
     "created_at": "2026-04-09T18:00:15.415831+00:00"
-  },
-  {
-    "title": "Tesla (TSLA) reportedly developing new smaller, cheaper EV after killing Model 2",
-    "slug": "tesla-tsla-reportedly-developing-new-smaller-cheaper-ev-after-killing-model-2",
-    "summary": "Tesla is reportedly developing an all-new smaller, cheaper electric SUV — two years after CEO Elon Musk killed the company’s affordable EV program and called building cars for human drivers “pointless.” Reuters reports that four people familiar with the matter say the new compact SUV would be pro...",
-    "source_url": "https://electrek.co/2026/04/09/tesla-reportedly-developing-new-smaller-cheaper-ev-after-killing-model-2/",
-    "source_name": "Electrek",
-    "category": "Finance",
-    "timestamp": "2026-04-09T13:10:07+00:00",
-    "created_at": "2026-04-09T18:00:06.097357+00:00"
-  },
-  {
-    "title": "Intel Terafab Rally Draws Cautious View",
-    "slug": "intel-terafab-rally-draws-cautious-view",
-    "summary": "Intel was rated Hold by Seeking Alpha analysts after its Terafab-related rally.",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/intel-terafab-rally-draws-cautious-125850418.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-09T12:58:50+00:00",
-    "created_at": "2026-04-09T18:00:15.419903+00:00"
-  },
-  {
-    "title": "What Do SpaceX, xAI, And X Have In Common? Is It Tesla?",
-    "slug": "what-do-spacex-xai-and-x-have-in-common-is-it-tesla",
-    "summary": "Billionaire Elon Musk surprised lots of people with his quick February merger between SpaceX and his artificial intelligence lab xAI. He is now in the process of adding up to $75 billion to the current estimated $2 trillion-plus SpaceX valuation, and, with the company’s initial public offering (I...",
-    "source_url": "https://cleantechnica.com/2026/04/09/what-do-spacex-xai-and-x-have-in-common-is-it-tesla/",
-    "source_name": "CleanTechnica Tesla",
-    "category": "Business",
-    "timestamp": "2026-04-09T12:03:43+00:00",
-    "created_at": "2026-04-09T18:00:12.997576+00:00"
-  },
-  {
-    "title": "Market Chatter: Tesla Developing Smaller, Cheaper Electric SUV",
-    "slug": "market-chatter-tesla-developing-smaller-cheaper-electric-suv",
-    "summary": "Tesla (TSLA) is developing a new compact, lower-cost electric SUV as it looks to expand its lineup b",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-tesla-developing-smaller-104711753.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-09T10:47:11+00:00",
-    "created_at": "2026-04-09T12:00:13.357431+00:00"
-  },
-  {
-    "title": "Is Rivian The Next Tesla?",
-    "slug": "is-rivian-the-next-tesla",
-    "summary": "Rivian has lost significant value since it went public.",
-    "source_url": "https://www.fool.com/investing/2026/04/09/is-rivian-the-next-tesla/?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-09T10:35:00+00:00",
-    "created_at": "2026-04-09T12:00:13.361774+00:00"
-  },
-  {
-    "title": "Exclusive-Tesla is developing a new smaller, cheaper EV, sources say",
-    "slug": "exclusive-tesla-is-developing-a-new-smaller-cheaper-ev-sources-say",
-    "summary": "By Reuters staff April 9 (Reuters) - Tesla is developing an all-new smaller, cheaper electric SUV, four people familiar with the matter told Reuters.",
-    "source_url": "https://finance.yahoo.com/sectors/technology/articles/exclusive-tesla-developing-smaller-cheaper-100057930.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-09T10:13:59+00:00",
-    "created_at": "2026-04-09T12:00:13.365963+00:00"
-  },
-  {
-    "title": "From flying cars to self-driving cars: CEOs weigh in",
-    "slug": "from-flying-cars-to-self-driving-cars-ceos-weigh-in",
-    "summary": "Archer Aviation Founder and CEO Adam Goldstein joins Opening Bid Unfiltered with Yahoo Finance Executive Editor Brian Sozzi to chat about the future of flying cars. Goldstein explains why he is so passionate about EVTOLs (Electric Vertical Takeoff and Landing) and key milestones for Archer Aviati...",
-    "source_url": "https://finance.yahoo.com/video/tesla-playbook-autonomous-gm-vehicles-100051276.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "FSD/Autopilot",
-    "timestamp": "2026-04-09T10:00:51+00:00",
-    "created_at": "2026-04-09T12:00:13.370095+00:00"
-  },
-  {
-    "title": "Tesla Supercharger for Business exposes jaw-dropping ROI gap between best and worst locations",
-    "slug": "tesla-supercharger-for-business-exposes-jaw-dropping-roi-gap-between-best-and-wo",
-    "summary": "Tesla has launched an online calculator for its Supercharger for Business program, giving property owners their first transparent look at what it really costs to install Superchargers on site and what kind of return they can expect. The program itself launched in September 2025, allowing business...",
-    "source_url": "https://www.teslarati.com/tesla-supercharger-business-online-roi-calculator/",
-    "source_name": "Teslarati",
-    "category": "Vehicles",
-    "timestamp": "2026-04-09T08:15:24+00:00",
-    "created_at": "2026-04-09T12:00:07.014868+00:00"
   }
 ]
