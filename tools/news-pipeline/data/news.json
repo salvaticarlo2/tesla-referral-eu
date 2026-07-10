@@ -1,5 +1,35 @@
 [
   {
+    "title": "NASA taps SpaceX to launch the telescope that could unlock new worlds",
+    "slug": "nasa-taps-spacex-to-launch-the-telescope-that-could-unlock-new-worlds",
+    "summary": "SpaceX is set to play a central role in one of NASA’s most anticipated science missions in years. The company’s Falcon Heavy rocket, currently the most powerful operational launch vehicle in the world, will carry the Nancy Grace Roman Space Telescope into orbit on August 30 from Kennedy Space Cen...",
+    "source_url": "https://www.teslarati.com/nasa-taps-spacex-to-launch-the-telescope-that-could-unlock-new-worlds/",
+    "source_name": "Teslarati",
+    "category": "Vehicles",
+    "timestamp": "2026-07-10T06:05:04+00:00",
+    "created_at": "2026-07-10T08:58:46.566265+00:00"
+  },
+  {
+    "title": "TSLA Stock Slips Overnight: Analyst Sees 2027, 2028 Revenue Below Consensus On Slower Optimus, Robotaxi Ramp",
+    "slug": "tsla-stock-slips-overnight-analyst-sees-2027-2028-revenue-below-consensus-on-slo",
+    "summary": "Citizens expects Optimus to bring production complexity, delays and higher spending as Tesla enters an Optimus investment cycle.",
+    "source_url": "https://stocktwits.com/news-articles/markets/equity/tsla-analyst-revenue-below-consensus-optimus-robotaxi/cZmAuGKR7Fh?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Optimus",
+    "timestamp": "2026-07-10T05:52:09+00:00",
+    "created_at": "2026-07-10T08:58:48.098005+00:00"
+  },
+  {
+    "title": "How Many Tesla Robotaxis Are In Miami?",
+    "slug": "how-many-tesla-robotaxis-are-in-miami",
+    "summary": "I was traveling a lot last week, and I missed the news until very recently that Tesla launched robotaxi service in Miami. Apparently, Tesla now has some unsupervised Robotaxis operating there. However, as I was learning about it, I saw that only a few vehicles had been spotted (people try   ...",
+    "source_url": "https://cleantechnica.com/2026/07/09/how-many-tesla-robotaxis-are-in-miami/",
+    "source_name": "CleanTechnica Tesla",
+    "category": "Optimus",
+    "timestamp": "2026-07-10T02:03:01+00:00",
+    "created_at": "2026-07-10T08:58:46.746973+00:00"
+  },
+  {
     "title": "Did Tesla’s Miami Robotaxi Launch and Q2 Numbers Just Shift TSLA’s Autonomy‑First Narrative?",
     "slug": "did-teslas-miami-robotaxi-launch-and-q2-numbers-just-shift-tslas-autonomyfirst-n",
     "summary": "In the past week, Tesla reported second-quarter 2026 production of 451,758 vehicles and deliveries of 480,126 units, while also launching driverless Robotaxi operations in Miami, its first such market beyond Texas and California. Together with a rapidly expanding Megapack order book and growing f...",
@@ -27978,45 +28008,5 @@
     "category": "Vehicles",
     "timestamp": "2026-04-11T10:00:26+00:00",
     "created_at": "2026-04-11T12:00:04.024550+00:00"
-  },
-  {
-    "title": "Tesla Stock Investors Just Got Good News From Wall Street Analysts About Robotaxis",
-    "slug": "tesla-stock-investors-just-got-good-news-from-wall-street-analysts-about-robotax",
-    "summary": "Analysts at Bank of America and Morgan Stanley recently provided constructive outlooks for Tesla's autonomous driving business.",
-    "source_url": "https://www.fool.com/investing/2026/04/11/tesla-stock-investors-good-news-from-wall-street/?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-11T08:32:00+00:00",
-    "created_at": "2026-04-11T12:00:07.857256+00:00"
-  },
-  {
-    "title": "5 lessons from hypergrowth companies like Tesla and Lululemon",
-    "slug": "5-lessons-from-hypergrowth-companies-like-tesla-and-lululemon",
-    "summary": "For speed, you need a system that keeps decisions and progress on a short leash.",
-    "source_url": "https://www.fastcompany.com/91523284/5-lessons-from-hypergrowth-companies-like-tesla-and-lululemon?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-11T08:00:00+00:00",
-    "created_at": "2026-04-12T12:00:13.922495+00:00"
-  },
-  {
-    "title": "Tesla’s Semi truck factory is open with a detail that changes everything",
-    "slug": "teslas-semi-truck-factory-is-open-with-a-detail-that-changes-everything",
-    "summary": "Nearly nine years after Elon Musk unveiled the Tesla Semi in November 2017, the company is now opening a dedicated factory just outside of Reno, Nevada, and ramping toward mass production of 50,000 trucks per year. Volume production began in March 2026 at the new Tesla Semi factory, with the comp...",
-    "source_url": "https://www.teslarati.com/tesla-semi-truck-factory-nevada/",
-    "source_name": "Teslarati",
-    "category": "Business",
-    "timestamp": "2026-04-11T03:23:09+00:00",
-    "created_at": "2026-04-11T06:00:06.578047+00:00"
-  },
-  {
-    "title": "Tesla stock shaky after new model denial",
-    "slug": "tesla-stock-shaky-after-new-model-denial",
-    "summary": "Well, that didn't take long. Tesla China denied a report this week that said the electric vehicle company is developing a new, smaller SUV model to be produced at its Shanghai factory. Tesla China says \"market information claiming that Tesla is developing a new, smaller, and cheaper electric SUV ...",
-    "source_url": "https://www.thestreet.com/automotive/tesla-stock-shaky-after-new-model-denial?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Business",
-    "timestamp": "2026-04-11T02:17:00+00:00",
-    "created_at": "2026-04-11T06:00:09.453053+00:00"
   }
 ]
