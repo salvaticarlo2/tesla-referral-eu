@@ -1,5 +1,135 @@
 [
   {
+    "title": "These are the top 10 best-selling EVs in the US so far in 2026",
+    "slug": "these-are-the-top-10-best-selling-evs-in-the-us-so-far-in-2026",
+    "summary": "Tesla is still the king, accounting for about 50% of the US EV market, but a handful of brands are finally gaining traction with new models now on sale.",
+    "source_url": "https://electrek.co/2026/07/10/top-10-best-selling-evs-us-first-half-2026/",
+    "source_name": "Electrek",
+    "category": "Vehicles",
+    "timestamp": "2026-07-10T18:44:58+00:00",
+    "created_at": "2026-07-10T19:14:00.577155+00:00"
+  },
+  {
+    "title": "Tesla Starts Rolling Out FSD V14 Lite Internationally",
+    "slug": "tesla-starts-rolling-out-fsd-v14-lite-internationally",
+    "summary": "Tesla Starts Rolling Out FSD V14 Lite Internationally",
+    "source_url": "https://www.notateslaapp.com/news/4418/tesla-starts-rolling-out-fsd-v14-lite-internationally",
+    "source_name": "Not a Tesla App",
+    "category": "FSD/Autopilot",
+    "timestamp": "2026-07-10T17:59:00+00:00",
+    "created_at": "2026-07-10T19:14:04.267373+00:00"
+  },
+  {
+    "title": "Elon Musk admits he was ‘clearly wrong’ about Anthropic",
+    "slug": "elon-musk-admits-he-was-clearly-wrong-about-anthropic",
+    "summary": "Elon Musk posted a candid admission on his social media platform X on June 9, declaring that he had been “clearly wrong” about Anthropic. The statement marked a notable reversal from his earlier skepticism toward the AI company. In September, Musk had written, “ Winning was never in the set of po...",
+    "source_url": "https://www.teslarati.com/elon-musk-admits-he-was-clearly-wrong-about-anthropic/",
+    "source_name": "Teslarati",
+    "category": "Vehicles",
+    "timestamp": "2026-07-10T16:54:48+00:00",
+    "created_at": "2026-07-10T19:14:01.955214+00:00"
+  },
+  {
+    "title": "Elon Musk SEC settlement raises 'red flags,' judge says",
+    "slug": "elon-musk-sec-settlement-raises-red-flags-judge-says",
+    "summary": "Being the richest person in world history comes with its own headaches, and Elon Musk has a migraine-sized one when it comes to his legal battles. Tesla is being sued for autopilot crashes, for misleading statements about Robotaxi, and for alleged workplace discrimination. Musk himself was recent...",
+    "source_url": "https://www.thestreet.com/personalities/elon-musk-sec-settlement-judge-questions?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "FSD/Autopilot",
+    "timestamp": "2026-07-10T16:47:00+00:00",
+    "created_at": "2026-07-10T19:14:03.245592+00:00"
+  },
+  {
+    "title": "New Jersey Bill Wants Tesla to Add More Sensors to Robotaxis",
+    "slug": "new-jersey-bill-wants-tesla-to-add-more-sensors-to-robotaxis",
+    "summary": "New Jersey Bill Wants Tesla to Add More Sensors to Robotaxis",
+    "source_url": "https://www.notateslaapp.com/news/4417/new-jersey-bill-wants-tesla-to-add-more-sensors-to-robotaxis",
+    "source_name": "Not a Tesla App",
+    "category": "Optimus",
+    "timestamp": "2026-07-10T16:04:00+00:00",
+    "created_at": "2026-07-10T19:14:04.283716+00:00"
+  },
+  {
+    "title": "Tesla analyst says Full Self-Driving is about to have its iPhone moment",
+    "slug": "tesla-analyst-says-full-self-driving-is-about-to-have-its-iphone-moment",
+    "summary": "A Tesla analyst believes the company’s Full Self-Driving suite is close to an “inflection point,” where people will finally realize that it is more than what it appears, similar to how many view the iPhone. Pierre Ferragu, an analyst who has covered Tesla for many years at New Street Research, sa...",
+    "source_url": "https://www.teslarati.com/tesla-analyst-full-self-driving-iphone-moment/",
+    "source_name": "Teslarati",
+    "category": "FSD/Autopilot",
+    "timestamp": "2026-07-10T15:50:14+00:00",
+    "created_at": "2026-07-10T19:14:01.975039+00:00"
+  },
+  {
+    "title": "Tesla Q2 Preview: Time Only Makes This Company Finer",
+    "slug": "tesla-q2-preview-time-only-makes-this-company-finer",
+    "summary": "",
+    "source_url": "https://seekingalpha.com/article/4921193-tesla-q2-preview-time-only-makes-this-company-finer?source=feed_symbol_TSLA",
+    "source_name": "Seeking Alpha Tesla",
+    "category": "Finance",
+    "timestamp": "2026-07-10T15:46:17+00:00",
+    "created_at": "2026-07-10T19:14:03.602811+00:00"
+  },
+  {
+    "title": "Why Is Tesla Bringing the Long-Wheelbase Model Y to the US?",
+    "slug": "why-is-tesla-bringing-the-long-wheelbase-model-y-to-the-us",
+    "summary": "TSLA adds the long-wheelbase Model Y to the U.S., bringing a true three-row electric SUV with added space and premium features this fall.",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/why-tesla-bringing-long-wheelbase-150900477.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-10T15:09:00+00:00",
+    "created_at": "2026-07-10T19:14:03.278644+00:00"
+  },
+  {
+    "title": "Australia’s 7 best-selling EVs are now all Chinese — even Tesla’s",
+    "slug": "australias-7-best-selling-evs-are-now-all-chinese-even-teslas",
+    "summary": "Australia just posted its biggest month ever for electric car sales, and for the first time seven different EVs each cleared 1,000 units in a single month. Every one of them is either Chinese-owned or Chinese-built — and that includes the Tesla Model Y that topped the chart, which rolls off the l...",
+    "source_url": "https://electrek.co/2026/07/10/australia-top-7-evs-all-chinese/",
+    "source_name": "Electrek",
+    "category": "Vehicles",
+    "timestamp": "2026-07-10T14:34:47+00:00",
+    "created_at": "2026-07-10T19:14:00.663527+00:00"
+  },
+  {
+    "title": "Prediction: Tesla Stock Will Surprise Investors Over the Next 5 Years",
+    "slug": "prediction-tesla-stock-will-surprise-investors-over-the-next-5-years",
+    "summary": "Tesla (NASDAQ:TSLA) just posted one of its cleanest quarters in years, and the market shrugged. Tesla grew Q1 2026 revenue 15.78% year over year to $22.387 billion, expanded automotive gross margin by 490 basis points to 21.1%, and grew free cash flow 117%. Yet shares are down 12.38% year to date...",
+    "source_url": "https://247wallst.com/investing/2026/07/10/prediction-tesla-stock-will-surprise-investors-over-the-next-5-years/?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-10T14:30:01+00:00",
+    "created_at": "2026-07-10T19:14:03.294780+00:00"
+  },
+  {
+    "title": "Why Tesla Stock Can’t Get Out of Its Own Way",
+    "slug": "why-tesla-stock-cant-get-out-of-its-own-way",
+    "summary": "More robo-taxis would give Tesla stock a boost. Scaling the self-driving taxi business, however, has been harder than investors expect.",
+    "source_url": "https://finance.yahoo.com/m/d85319f5-ccd6-3cd7-bc22-b6153c5c3429/why-tesla-stock-can%E2%80%99t-get-out.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "FSD/Autopilot",
+    "timestamp": "2026-07-10T14:06:00+00:00",
+    "created_at": "2026-07-10T19:14:03.310524+00:00"
+  },
+  {
+    "title": "SpaceX Will Be ‘Worth More Than the Rest of Earth,’ Musk Says. How He Gets There.",
+    "slug": "spacex-will-be-worth-more-than-the-rest-of-earth-musk-says-how-he-gets-there",
+    "summary": "This has been valuation week for  SpaceX  with more than a dozen analysts writing initial research following the company’s record-setting June IPO. Investors have had a lot of estimates, price targets, bull cases, and bear cases to digest. SpaceX CEO Elon Musk also has a thought about SpaceX’s po...",
+    "source_url": "https://finance.yahoo.com/m/5933e137-642b-3e76-a7eb-a802733f6eb9/spacex-will-be-%E2%80%98worth-more.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-10T14:01:00+00:00",
+    "created_at": "2026-07-10T19:14:03.343483+00:00"
+  },
+  {
+    "title": "Tesla Stock Chart Pattern Points to $759 — a 92% Move From Here",
+    "slug": "tesla-stock-chart-pattern-points-to-759-a-92-move-from-here",
+    "summary": "Tesla stock coils between a cup and handle and a triangle. A breakout above $470 could unlock a $759 TSLA target.",
+    "source_url": "https://beincrypto.com/tesla-stock-chart-pattern-points-to-759-a-92-move-from-here/?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-10T13:42:08+00:00",
+    "created_at": "2026-07-10T19:14:03.359333+00:00"
+  },
+  {
     "title": "Rivian Automotive vs. Tesla: What Their Revenue Trends Tell Investors",
     "slug": "rivian-automotive-vs-tesla-what-their-revenue-trends-tell-investors",
     "summary": "Tesla's revenue towers over Rivian's, but one company shows steadier growth while the other fluctuates.",
@@ -28008,25 +28138,5 @@
     "category": "Finance",
     "timestamp": "2026-04-11T19:20:00+00:00",
     "created_at": "2026-04-12T00:00:10.040545+00:00"
-  },
-  {
-    "title": "Tesla Roadster unveiling set for this month: what to expect",
-    "slug": "tesla-roadster-unveiling-set-for-this-month-what-to-expect",
-    "summary": "The Tesla Roadster has been the ultimate carrot on a stick since its 2017 unveiling. Promised as the fastest production car ever made, with 0-60 mph in under two seconds and a top speed over 250 mph, it has endured years of delays. As Tesla finally edges toward production and an updated reveal, e...",
-    "source_url": "https://www.teslarati.com/tesla-roadster-unveiling-what-to-expect/",
-    "source_name": "Teslarati",
-    "category": "Business",
-    "timestamp": "2026-04-11T15:10:45+00:00",
-    "created_at": "2026-04-11T18:00:05.700084+00:00"
-  },
-  {
-    "title": "Anthony Scaramucci Says He Owns SpaceX Stock And Won't Miss Out On The IPO Despite Elon Musk's 'Cult Of Personality' Premium",
-    "slug": "anthony-scaramucci-says-he-owns-spacex-stock-and-wont-miss-out-on-the-ipo-despit",
-    "summary": "Anthony Scaramucci said Thursday he plans to invest in SpaceX's upcoming initial public offering even while acknowledging that Elon Musk's personal following inflates the company's valuation beyond what traditional measures would justify. Scaramucci Sees Premium But Still Buys In a post on X, the...",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/anthony-scaramucci-says-owns-spacex-143105685.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-11T14:31:05+00:00",
-    "created_at": "2026-04-11T18:00:08.488861+00:00"
   }
 ]
