@@ -1,5 +1,35 @@
 [
   {
+    "title": "Tesla makes the cut on California’s newest EV Rebate program",
+    "slug": "tesla-makes-the-cut-on-californias-newest-ev-rebate-program",
+    "summary": "California Governor Gavin Newsom signed SB 168 into law on Monday, July 13, 2026, creating a $270 million EV rebate program that delivers money directly at the dealership rather than as a tax credit applied months later. The program, called MyFirstEV , is funded equally by California’s state budg...",
+    "source_url": "https://www.teslarati.com/tesla-makes-the-cut-on-californias-newest-ev-rebate-program/",
+    "source_name": "Teslarati",
+    "category": "Vehicles",
+    "timestamp": "2026-07-14T06:33:06+00:00",
+    "created_at": "2026-07-14T07:44:53.081139+00:00"
+  },
+  {
+    "title": "Cybercab spotting!",
+    "slug": "cybercab-spotting",
+    "summary": "Looks awesome in person! Saw it while charging around 10pm in the 8 mins from Giga Factory! submitted by /u/Snoo_18581 [link] [comments]",
+    "source_url": "https://www.reddit.com/r/teslamotors/comments/1uvvyhr/cybercab_spotting/",
+    "source_name": "Reddit r/TeslaMotors",
+    "category": "Robotaxi",
+    "timestamp": "2026-07-14T02:29:59+00:00",
+    "created_at": "2026-07-14T07:44:54.019340+00:00"
+  },
+  {
+    "title": "TSLA Stock Back To $400? Jefferies Lays Out Bull Case, Says ​​SpaceX Merger Could Hand Shareholders A Premium",
+    "slug": "tsla-stock-back-to-400-jefferies-lays-out-bull-case-says-spacex-merger-could-han",
+    "summary": "Jefferies said Tesla’s growth and earnings deterioration are beginning to reverse ahead of its July 22 results.",
+    "source_url": "https://stocktwits.com/news-articles/markets/equity/tsla-jefferies-spacex-merger-shareholders-premium/cZZbLuGR7Yv?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-14T01:38:18+00:00",
+    "created_at": "2026-07-14T07:44:54.314072+00:00"
+  },
+  {
     "title": "Top Tesla investor warns Saylor is destroying Bitcoin",
     "slug": "top-tesla-investor-warns-saylor-is-destroying-bitcoin",
     "summary": "Ross Gerber has run out of patience with Michael Saylor. The Gerber Kawasaki CEO and one of Tesla's most prominent public investors posted on Sunday in response to Saylor's latest Bitcoin content on X, a video captioned \"The Right to Bear Arms\", with a bluntness that left little room for ...",
@@ -28018,25 +28048,5 @@
     "category": "Optimus",
     "timestamp": "2026-04-15T09:26:09+00:00",
     "created_at": "2026-04-15T12:00:11.896863+00:00"
-  },
-  {
-    "title": "Elon Musk’s X Launches Smart Cashtags for BTC, ETH, XRP, DOGE, MSTR, COIN, Others",
-    "slug": "elon-musks-x-launches-smart-cashtags-for-btc-eth-xrp-doge-mstr-coin-others",
-    "summary": "Elon Musk’s X has officially debuted Smart Cashtags for stocks and crypto. This new feature adds interactive, real-time financial data to users’ timelines. It supports major crypto and stocks cashtags such as BTC, ETH, XRP, SOL, DOGE, TSLA, MSTR, and COIN.",
-    "source_url": "https://coingape.com/elon-musks-x-launches-smart-cashtags-for-btc-eth-xrp-doge-mstr-coin-others/?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-15T07:23:31+00:00",
-    "created_at": "2026-04-15T12:00:11.908080+00:00"
-  },
-  {
-    "title": "The Starship V3 static fire everyone was waiting for just happened",
-    "slug": "the-starship-v3-static-fire-everyone-was-waiting-for-just-happened",
-    "summary": "SpaceX is that much closer to launching their next-gen Starship after completing today’s full duration static fire of all 33 Raptor 3 engines out of Starbase, Texas. This marks the most powerful rocket engine test ever conducted and a direct signal that Flight 12, the maiden voyage of Starship V3...",
-    "source_url": "https://www.teslarati.com/spacex-starship-v3-static-fire/",
-    "source_name": "Teslarati",
-    "category": "Vehicles",
-    "timestamp": "2026-04-15T06:33:49+00:00",
-    "created_at": "2026-04-15T12:00:09.133912+00:00"
   }
 ]
