@@ -1,5 +1,85 @@
 [
   {
+    "title": "Elon Musk quietly buys a $1 billion gas turbine company to power Grok",
+    "slug": "elon-musk-quietly-buys-a-1-billion-gas-turbine-company-to-power-grok",
+    "summary": "Elon Musk has quietly bought APR Energy, a Jacksonville-based company that operates a fleet of mobile gas and diesel turbines totaling more than 1 GW of generation capacity. The self-styled champion of a “solar electric economy” now owns a fossil fuel power company — and he’s buying it to feed th...",
+    "source_url": "https://electrek.co/2026/07/14/musk-buys-gas-turbine-company-apr-energy-grok/",
+    "source_name": "Electrek",
+    "category": "Energy",
+    "timestamp": "2026-07-14T23:32:50+00:00",
+    "created_at": "2026-07-15T01:15:34.457807+00:00"
+  },
+  {
+    "title": "Tesla Stock Rises After Wave of Wall Street Target Hikes",
+    "slug": "tesla-stock-rises-after-wave-of-wall-street-target-hikes",
+    "summary": "Analysts Boost Tesla Targets, but the Real Catalyst Isn't Earnings",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-rises-wave-wall-215810091.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-14T21:58:10+00:00",
+    "created_at": "2026-07-15T01:15:36.930743+00:00"
+  },
+  {
+    "title": "Elon Musk's Tesla Posts Best Quarter in Two Years",
+    "slug": "elon-musks-tesla-posts-best-quarter-in-two-years",
+    "summary": "Tesla smashed delivery expectations, but was it just a fluke?",
+    "source_url": "https://www.fool.com/investing/2026/07/14/elon-musks-tesla-posts-best-quarter-in-two-years/?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-14T21:53:00+00:00",
+    "created_at": "2026-07-15T01:15:36.946901+00:00"
+  },
+  {
+    "title": "Zipline Accelerates U.S. Growth with 13X Marketplace Expansion, New Leadership Hires, and Launches in Austin and Cleveland",
+    "slug": "zipline-accelerates-us-growth-with-13x-marketplace-expansion-new-leadership-hire",
+    "summary": "Drone delivery leader brings on former Tesla, Waymo, and Uber executives to support rapid expansion of food, retail, healthcare deliveries across U.S. Zipline Surpasses 2.5 million Deliveries and Announces Operations in Austin and Cleveland Zipline, the world's largest and most experienced drone ...",
+    "source_url": "https://finance.yahoo.com/healthcare/articles/zipline-accelerates-u-growth-13x-214100325.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Business",
+    "timestamp": "2026-07-14T21:41:00+00:00",
+    "created_at": "2026-07-15T01:15:36.981230+00:00"
+  },
+  {
+    "title": "Tesla AI Chief Ashok Elluswamy Says Optimus Has 'Big Shoes to Fill' After Model S, X Production Line Closure",
+    "slug": "tesla-ai-chief-ashok-elluswamy-says-optimus-has-big-shoes-to-fill-after-model-s",
+    "summary": "Tesla Inc.‘s artificial intelligence lead, Ashok Elluswamy, hailed the sunset Model S and Model X premium vehicles as the Fremont facility gears up for Optimus humanoid robot production. ‘Big Shoes to Fill’ In a post on X, Elluswamy quoted a...",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/tesla-ai-chief-ashok-elluswamy-203213918.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Optimus",
+    "timestamp": "2026-07-14T20:32:13+00:00",
+    "created_at": "2026-07-15T01:15:37.015768+00:00"
+  },
+  {
+    "title": "Tesla Is Refunding Incorrect Supercharger Fees in Some Areas",
+    "slug": "tesla-is-refunding-incorrect-supercharger-fees-in-some-areas",
+    "summary": "Tesla Is Refunding Incorrect Supercharger Fees in Some Areas",
+    "source_url": "https://www.notateslaapp.com/news/4436/tesla-is-refunding-incorrect-supercharger-fees-in-some-areas",
+    "source_name": "Not a Tesla App",
+    "category": "Vehicles",
+    "timestamp": "2026-07-14T20:18:00+00:00",
+    "created_at": "2026-07-15T01:15:38.098860+00:00"
+  },
+  {
+    "title": "Tesla Stock Gains After Four Price-Target Hikes Ahead Of Q2 Earnings",
+    "slug": "tesla-stock-gains-after-four-price-target-hikes-ahead-of-q2-earnings",
+    "summary": "Wall Street upped its view of Tesla stock ahead of its second-quarter earnings, as investors await news on robotaxis and robots.",
+    "source_url": "https://finance.yahoo.com/m/d24aeb68-b642-32a5-89d5-c5db47fce8f8/tesla-stock-gains-after-four.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-14T19:36:50+00:00",
+    "created_at": "2026-07-15T01:15:37.031919+00:00"
+  },
+  {
+    "title": "Exclusive: Tesla HW4 Vehicles Also Run Distilled FSD Models",
+    "slug": "exclusive-tesla-hw4-vehicles-also-run-distilled-fsd-models",
+    "summary": "Exclusive: Tesla HW4 Vehicles Also Run Distilled FSD Models",
+    "source_url": "https://www.notateslaapp.com/news/4435/exclusive-tesla-hw4-vehicles-also-run-distilled-fsd-models",
+    "source_name": "Not a Tesla App",
+    "category": "FSD/Autopilot",
+    "timestamp": "2026-07-14T19:24:00+00:00",
+    "created_at": "2026-07-15T01:15:38.115137+00:00"
+  },
+  {
     "title": "Tesla Rolls Out FSD V14.3.5: First Impressions & What's New",
     "slug": "tesla-rolls-out-fsd-v1435-first-impressions-whats-new",
     "summary": "Tesla Rolls Out FSD V14.3.5: First Impressions & What's New",
@@ -58,6 +138,16 @@
     "category": "Energy",
     "timestamp": "2026-07-14T14:47:44+00:00",
     "created_at": "2026-07-14T18:59:19.591852+00:00"
+  },
+  {
+    "title": "Elon Musk Dubs Him ‘Scam Altman’ Not Sam — Then Altman Clapped Back: ‘Homeboy You’re The One Selling Space Datacenters’",
+    "slug": "elon-musk-dubs-him-scam-altman-not-sam-then-altman-clapped-back-homeboy-youre-th",
+    "summary": "Elon Musk revived his “Scam Altman” jab after Apple’s lawsuit against OpenAI. Altman fired back, questioning SpaceX’s orbital AI plans as investors weigh the company’s ambitious growth strategy.",
+    "source_url": "https://www.barchart.com/story/news/3276083/elon-musk-dubs-him-scam-altman-not-sam-then-altman-clapped-back-homeboy-you-re-the-one-selling-space-datacenters?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-14T14:32:01+00:00",
+    "created_at": "2026-07-15T01:15:37.096196+00:00"
   },
   {
     "title": "Tesla moves to guarantee resale value for buyers after price cuts",
@@ -27848,125 +27938,5 @@
     "category": "Finance",
     "timestamp": "2026-04-16T02:34:27+00:00",
     "created_at": "2026-04-16T06:00:08.511518+00:00"
-  },
-  {
-    "title": "Tesla analysts get nervous heading into Q1 print",
-    "slug": "tesla-analysts-get-nervous-heading-into-q1-print",
-    "summary": "You wouldn't know it from CEO Elon Musk's racism-baiting posts on X (the former Twitter), but Tesla analysts at TD Cowen and Barclays have some serious concerns heading into the company's first-quarter earnings print. Musk has been on the defensive since the company reported its preliminary Q1 ...",
-    "source_url": "https://www.thestreet.com/investing/tesla-analysts-get-nervous-heading-into-q1-print?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Business",
-    "timestamp": "2026-04-16T01:03:00+00:00",
-    "created_at": "2026-04-16T06:00:08.520387+00:00"
-  },
-  {
-    "title": "Elon Musk's father claims Tesla CEO and his brother hold BTC",
-    "slug": "elon-musks-father-claims-tesla-ceo-and-his-brother-hold-btc",
-    "summary": "Errol Musk, father of Tesla (Nasdaq: TSLA) and SpaceX founder Elon Musk, has revealed that his two sons hold a considerable amount of Bitcoin (BTC). The claim came during an exclusive interview with BeInCrypto, in which the 79-year-old South African engineer also offered an unusually candid view ...",
-    "source_url": "https://www.thestreet.com/crypto/markets/elon-musks-father-reveals-tesla-ceos-personal-bitcoin-holdings?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-16T00:15:00+00:00",
-    "created_at": "2026-04-16T06:00:08.539848+00:00"
-  },
-  {
-    "title": "Dow Jones Futures: S&P 500, Nasdaq Hit New Highs As Tesla, Robinhood Lead; Nvidia Chipmaker On Tap",
-    "slug": "dow-jones-futures-sp-500-nasdaq-hit-new-highs-as-tesla-robinhood-lead-nvidia-chi",
-    "summary": "The S&P 500 and Nasdaq hit highs as Tesla, Robinhood and other former leaders soared. Nvidia chipmaker Taiwan Semi looms.",
-    "source_url": "https://finance.yahoo.com/m/16a723af-04e5-37e5-92ae-a9f8f1f598c7/dow-jones-futures%3A-s%26p-500%2C.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-15T23:39:40+00:00",
-    "created_at": "2026-04-16T00:00:10.156185+00:00"
-  },
-  {
-    "title": "Ford EV and tech chief leaving automaker",
-    "slug": "ford-ev-and-tech-chief-leaving-automaker",
-    "summary": "Doug Field had stints at Apple and Tesla before joining Ford in 2021.",
-    "source_url": "https://finance.yahoo.com/sectors/technology/articles/ford-ev-tech-chief-leaving-215205539.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-15T21:52:05+00:00",
-    "created_at": "2026-04-16T00:00:10.178166+00:00"
-  },
-  {
-    "title": "Gary Black Calls Tesla's FSD Approval In Europe 'Non-Event'—Here's Why",
-    "slug": "gary-black-calls-teslas-fsd-approval-in-europe-non-eventheres-why",
-    "summary": "Investor Gary Black of The Future Fund LLC on Monday outlined multiple reasons why Tesla Inc.‘s Full Self-Driving (FSD) approval by the Netherlands Vehicle Authority (RDW) wasn’t significant. Tesla FSD Europe Approval A ‘Non-Event’ “WS [Wall Street] will view the approval of FSD in the Netherland...",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/gary-black-calls-teslas-fsd-213105394.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "FSD/Autopilot",
-    "timestamp": "2026-04-15T21:31:05+00:00",
-    "created_at": "2026-04-16T00:00:10.186080+00:00"
-  },
-  {
-    "title": "Tesla's Stock Had One of Its Best Days in Months. Here's Why It Popped",
-    "slug": "teslas-stock-had-one-of-its-best-days-in-months-heres-why-it-popped",
-    "summary": "Tesla shares popped nearly 8% after CEO Elon Musk touted advances in its latest chips on social media.",
-    "source_url": "https://www.investopedia.com/tesla-s-stock-had-one-of-its-best-days-in-months-here-s-why-it-popped-tsla-11950831?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-15T21:27:02+00:00",
-    "created_at": "2026-04-16T00:00:10.194419+00:00"
-  },
-  {
-    "title": "Democratic Senator slams X Money in blistering letter to Elon Musk",
-    "slug": "democratic-senator-slams-x-money-in-blistering-letter-to-elon-musk",
-    "summary": "Senator Elizabeth Warren (D-MA) wrote a blistering letter to X Corp. owner Elon Musk on Apr. 14.",
-    "source_url": "https://www.thestreet.com/crypto/markets/democratic-senator-slams-x-money-in-blistering-letter-to-elon-musk?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-15T21:15:05+00:00",
-    "created_at": "2026-04-16T00:00:10.202493+00:00"
-  },
-  {
-    "title": "Stocks Spring Forward in Record-Breaking Day",
-    "slug": "stocks-spring-forward-in-record-breaking-day",
-    "summary": "Buoyed by big gains from the likes of Microsoft and Tesla, the S&P 500 rose 0.8% to 7022.95–rallying into the close to finish comfortably above its previous all-time high set in January. Technology stocks were the big outperformers.",
-    "source_url": "https://finance.yahoo.com/m/21d60714-0d3f-3b75-a460-0dd7014c095e/stocks-spring-forward-in.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-15T20:48:59+00:00",
-    "created_at": "2026-04-16T00:00:10.218060+00:00"
-  },
-  {
-    "title": "Tech Stocks Power S&P 500 and Nasdaq to Records",
-    "slug": "tech-stocks-power-sp-500-and-nasdaq-to-records",
-    "summary": "Surging tech stocks carried the S&P 500 and Nasdaq composite to new records on Wednesday, a milestone in major indexes’ rebound from war-fueled losses. Buoyed by big gains from the likes of  Microsoft  and  Tesla  the S&P 500 rose 0.8% to 7022.95—rallying into the close to finish comfortably abov...",
-    "source_url": "https://finance.yahoo.com/m/aed6936f-fb61-3480-becc-d1810c3d84c6/tech-stocks-power-s%26p-500-and.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-15T20:44:00+00:00",
-    "created_at": "2026-04-16T00:00:10.226177+00:00"
-  },
-  {
-    "title": "The Mystery Behind Tesla Stock’s Sudden Rise",
-    "slug": "the-mystery-behind-tesla-stocks-sudden-rise",
-    "summary": "The gain comes as TD Cowen analyst Itay Michaeli lowered his price target to $490 from $519. CEO Elon Musk appears to be one of the reasons for the stock’s jump. Early Wednesday, Musk tweeted a picture of a Tesla-designed microchip, dubbed AI5.",
-    "source_url": "https://finance.yahoo.com/m/c3f18da0-ca5c-35f5-bfd6-cae86ff70a9f/the-mystery-behind-tesla.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-15T20:25:00+00:00",
-    "created_at": "2026-04-16T00:00:10.233918+00:00"
-  },
-  {
-    "title": "Tesla Regains 50-Day Line. Here's When The Stock Could Become Actionable.",
-    "slug": "tesla-regains-50-day-line-heres-when-the-stock-could-become-actionable",
-    "summary": "On Wednesday, Tesla stock had one of its best days in months, as it looks to end an eight-week losing streak. Tesla stock could become actionable if it makes a decisive move above the 200-day line. Tesla is due to report first-quarter earnings on April 22.",
-    "source_url": "https://finance.yahoo.com/m/800a0cc5-cb38-3dd7-bb87-71200918ca72/tesla-regains-50-day-line..html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Business",
-    "timestamp": "2026-04-15T19:14:20+00:00",
-    "created_at": "2026-04-16T00:00:10.276805+00:00"
-  },
-  {
-    "title": "Stocks making big moves yesterday: Globalstar, Tesla, HighPeak Energy, Shopify, and TransDigm",
-    "slug": "stocks-making-big-moves-yesterday-globalstar-tesla-highpeak-energy-shopify-and-t",
-    "summary": "Check out the companies making headlines yesterday:",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-190627320.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Energy",
-    "timestamp": "2026-04-15T19:06:27+00:00",
-    "created_at": "2026-04-16T00:00:10.285053+00:00"
   }
 ]
