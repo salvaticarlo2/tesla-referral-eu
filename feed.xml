@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://teslablog.eu/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>NTSB findings on fatal Tesla crash tell a very different story</title>
+      <link>https://teslablog.eu/news/ntsb-findings-on-fatal-tesla-crash-tell-a-very-different-story/</link>
+      <description>The National Transportation Safety Board released preliminary findings Wednesday confirming that a Tesla driver, not the vehicle’s software, caused a fatal crash in Katy, Texas in June. The driver, 44-year-old Michael Butler, had engaged Full Self-Driving Supervised mode on Rose Hollow Lane, a re...</description>
+      <guid isPermaLink="true">https://teslablog.eu/news/ntsb-findings-on-fatal-tesla-crash-tell-a-very-different-story/</guid>
+      <pubDate>Thu, 16 Jul 2026 06:05:41 +0000</pubDate>
+    </item>
+    <item>
       <title>Energy business, used car business, and plain ol’ business business</title>
       <link>https://teslablog.eu/news/energy-business-used-car-business-and-plain-ol-business-business/</link>
       <description>Today’s episode of Quick Charge means business – the business of buying up power stations to power up the pet AI that says it would have picked you over Michael Jordan in the 1984 NBA draft and the business of fleecing well-heeled car collectors out of an extra $100,000 on a (mostly) new Tesla Mo...</description>
@@ -348,13 +355,6 @@
       <description>Elon Musk revived his “Scam Altman” jab after Apple’s lawsuit against OpenAI. Altman fired back, questioning SpaceX’s orbital AI plans as investors weigh the company’s ambitious growth strategy.</description>
       <guid isPermaLink="true">https://teslablog.eu/news/elon-musk-dubs-him-scam-altman-not-sam-then-altman-clapped-back-homeboy-youre-th/</guid>
       <pubDate>Tue, 14 Jul 2026 14:32:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla moves to guarantee resale value for buyers after price cuts</title>
-      <link>https://teslablog.eu/news/tesla-moves-to-guarantee-resale-value-for-buyers-after-price-cuts/</link>
-      <description>Tesla is launching a new “guaranteed future value” (GFV) program that locks in a pre-set resale price for buyers financing a new Model Y or Model 3. The move directly targets the depreciation fears that have followed Tesla’s own aggressive price cuts over the last two years.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-moves-to-guarantee-resale-value-for-buyers-after-price-cuts/</guid>
-      <pubDate>Tue, 14 Jul 2026 13:32:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
