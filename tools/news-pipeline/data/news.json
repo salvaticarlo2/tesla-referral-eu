@@ -1,5 +1,85 @@
 [
   {
+    "title": "Tesla Cleared in Recent Texas Crash. Why the Stock Is Down Anyway.",
+    "slug": "tesla-cleared-in-recent-texas-crash-why-the-stock-is-down-anyway",
+    "summary": "Tesla’s FSD driver assistance product was cleared in a recent tragic crash in Texas that killed one person.",
+    "source_url": "https://finance.yahoo.com/m/5cc777c4-8566-3a45-8b6e-9a0a1683f92c/tesla-cleared-in-recent-texas.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "FSD/Autopilot",
+    "timestamp": "2026-07-16T12:54:00+00:00",
+    "created_at": "2026-07-16T13:15:32.538950+00:00"
+  },
+  {
+    "title": "Morgan Stanley Resets Tesla Stock Price Target for 2027",
+    "slug": "morgan-stanley-resets-tesla-stock-price-target-for-2027",
+    "summary": "Morgan Stanley Sends Mixed Signal on Tesla: Higher Target, Same Rating",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-resets-tesla-stock-122107015.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-16T12:21:07+00:00",
+    "created_at": "2026-07-16T13:15:32.554448+00:00"
+  },
+  {
+    "title": "Cathie Wood’s ARK Buys SpaceX Stock Ahead of Starship Test 13",
+    "slug": "cathie-woods-ark-buys-spacex-stock-ahead-of-starship-test-13",
+    "summary": "SpaceX  stock has lost altitude recently, creating an opportunity for Cathie Wood’s ARK Invest. ARK is a big believer in Elon Musk. Coming into Thursday trading, SpaceX stock was down for three consecutive days and seven of the past nine days, leaving shares just 27 cents above the $135 IPO price.",
+    "source_url": "https://finance.yahoo.com/m/90124813-58be-31e6-ba23-f0a1c0ef5a68/cathie-wood%E2%80%99s-ark-buys-spacex.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-16T11:32:00+00:00",
+    "created_at": "2026-07-16T13:15:32.584790+00:00"
+  },
+  {
+    "title": "SpaceX IPO & why oil could hit $150: Robinhood Exec",
+    "slug": "spacex-ipo-why-oil-could-hit-150-robinhood-exec",
+    "summary": "Robinhood executives Stephanie Guild and Steve Quirk join Yahoo Finance Executive Editor Brian Sozzi to break down the unprecedented wave of upcoming AI and SpaceX IPOs, the risks of the \"Magnificent Seven\" market concentration, and why a looming $150 oil shock could test the stock market this su...",
+    "source_url": "https://finance.yahoo.com/video/spacex-ipo-why-oil-could-100000270.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-16T10:00:00+00:00",
+    "created_at": "2026-07-16T13:15:32.616730+00:00"
+  },
+  {
+    "title": "Traders cool on Tesla-SpaceX merger as Polymarket odds slide",
+    "slug": "traders-cool-on-tesla-spacex-merger-as-polymarket-odds-slide",
+    "summary": "Traders on Polymarket have sharply scaled back bets that a Tesla-SpaceX merger will be announced this year, even as Wall Street analysts insist a tie-up is only a matter of time. The prediction market now puts just an 11% chance on an official announcement by 30 September, down 28 percentage...",
+    "source_url": "https://www.proactiveinvestors.com/companies/news/1095553/traders-cool-on-tesla-spacex-merger-as-polymarket-odds-slide-1095553.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-16T09:55:00+00:00",
+    "created_at": "2026-07-16T13:15:32.632206+00:00"
+  },
+  {
+    "title": "TSLA Stock Eyes Weekly Loss: Retail Investors Grill Musk On Missed Robotaxi Targets Ahead Of Q2 Earnings",
+    "slug": "tsla-stock-eyes-weekly-loss-retail-investors-grill-musk-on-missed-robotaxi-targe",
+    "summary": "Optimus is the second-biggest concern, with investors seeking production and deployment updates.",
+    "source_url": "https://stocktwits.com/news-articles/markets/equity/tsla-retail-musk-robotaxi-targets-q2-earnings/cZZE55JR7rC?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Optimus",
+    "timestamp": "2026-07-16T08:30:21+00:00",
+    "created_at": "2026-07-16T13:15:32.648947+00:00"
+  },
+  {
+    "title": "Tesla Q2 Earnings: Elon Musk's Pay Package, Cybercab and Optimus Lead Top Investor Questions",
+    "slug": "tesla-q2-earnings-elon-musks-pay-package-cybercab-and-optimus-lead-top-investor",
+    "summary": "As Elon Musk-led automaker Tesla Inc. (NASDAQ:TSLA) is set to hold its second-quarter earnings call with investors next week, here are some top questions investors have submitted for the EV giant’s management. Robotaxi, Optimus Under Spotlight On Wednesday, influencer Sawyer Merritt took to X, sh...",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/tesla-q2-earnings-elon-musks-073359970.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Optimus",
+    "timestamp": "2026-07-16T07:33:59+00:00",
+    "created_at": "2026-07-16T13:15:32.665387+00:00"
+  },
+  {
+    "title": "The Zacks Analyst Blog Highlights Tesla, Space Exploration Technologies, Amazon.com and Microsoft",
+    "slug": "the-zacks-analyst-blog-highlights-tesla-space-exploration-technologies-amazoncom",
+    "summary": "Space Exploration Technologies is emerging as Elon Musk's biggest value creator, driven by Starlink, launch leadership and expanding AI ambitions.",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-tesla-072400595.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-16T07:24:00+00:00",
+    "created_at": "2026-07-16T13:15:32.680535+00:00"
+  },
+  {
     "title": "NTSB findings on fatal Tesla crash tell a very different story",
     "slug": "ntsb-findings-on-fatal-tesla-crash-tell-a-very-different-story",
     "summary": "The National Transportation Safety Board released preliminary findings Wednesday confirming that a Tesla driver, not the vehicle’s software, caused a fatal crash in Katy, Texas in June. The driver, 44-year-old Michael Butler, had engaged Full Self-Driving Supervised mode on Rose Hollow Lane, a re...",
@@ -27768,115 +27848,5 @@
     "category": "Finance",
     "timestamp": "2026-04-17T13:31:10+00:00",
     "created_at": "2026-04-17T18:00:11.314880+00:00"
-  },
-  {
-    "title": "Gear Up for Tesla (TSLA) Q1 Earnings: Wall Street Estimates for Key Metrics",
-    "slug": "gear-up-for-tesla-tsla-q1-earnings-wall-street-estimates-for-key-metrics",
-    "summary": "Looking beyond Wall Street's top-and-bottom-line estimate forecasts for Tesla (TSLA), delve into some of its key metrics to gain a deeper insight into the company's potential performance for the quarter ended March 2026.",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/gear-tesla-tsla-q1-earnings-131507487.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-17T13:15:07+00:00",
-    "created_at": "2026-04-17T18:00:11.321296+00:00"
-  },
-  {
-    "title": "Big Ass Fans Parent Madison Air Is Just the Start. Why Mega-IPOs Are Taking Over.",
-    "slug": "big-ass-fans-parent-madison-air-is-just-the-start-why-mega-ipos-are-taking-over",
-    "summary": "With the S&P 500 and Nasdaq at record highs, the window is open for SpaceX as well as OpenAI and, Anthropic to make their public debuts.",
-    "source_url": "https://finance.yahoo.com/m/4e66e571-7806-3423-af40-63160d4917e3/big-ass-fans-parent-madison.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-17T13:12:00+00:00",
-    "created_at": "2026-04-17T18:00:11.330862+00:00"
-  },
-  {
-    "title": "Tesla Nears $400 Ahead of Q1 Earnings",
-    "slug": "tesla-nears-400-ahead-of-q1-earnings",
-    "summary": "Analysts remain divided between Tesla's EV pressure and its longer-term AI ambitions",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/tesla-nears-400-ahead-q1-131049615.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Business",
-    "timestamp": "2026-04-17T13:10:49+00:00",
-    "created_at": "2026-04-17T18:00:11.336127+00:00"
-  },
-  {
-    "title": "Tesla stock poised to snap 8-week losing streak with earnings ahead",
-    "slug": "tesla-stock-poised-to-snap-8-week-losing-streak-with-earnings-ahead",
-    "summary": "Tesla stock rose in early trade and is poised to finish the week higher and snap an eight-week losing streak. The rebound in the stock comes as earnings approach next Wednesday.",
-    "source_url": "https://finance.yahoo.com/markets/stocks/article/tesla-stock-poised-to-snap-8-week-losing-streak-with-earnings-ahead-130116998.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Business",
-    "timestamp": "2026-04-17T13:01:16+00:00",
-    "created_at": "2026-04-17T18:00:11.342068+00:00"
-  },
-  {
-    "title": "Tesla Stock Set to Snap 8-Week Losing Streak—Just in Time For Earnings",
-    "slug": "tesla-stock-set-to-snap-8-week-losing-streakjust-in-time-for-earnings",
-    "summary": "Tesla  stock was advancing early Friday and is on course to snap an extended losing streak. Shares in the electric-vehicle maker were up 1.4% to $394.53 in premarket trading. Alongside broader equity markets, Tesla stock appears to have been lifted by news earlier in the week that the U.S.",
-    "source_url": "https://finance.yahoo.com/m/652d9527-b342-39d5-a638-0b88eda78a86/tesla-stock-set-to-snap.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Business",
-    "timestamp": "2026-04-17T12:31:00+00:00",
-    "created_at": "2026-04-17T18:00:11.348462+00:00"
-  },
-  {
-    "title": "Musk's Father Says Family Holds 23,400 Bitcoin As X Money Due To Go Live This Month",
-    "slug": "musks-father-says-family-holds-23400-bitcoin-as-x-money-due-to-go-live-this-mont",
-    "summary": "Errol Musk claimed in an interview that his sons Elon and Kimbal Musk hold a combined 23,400 Bitcoin, a stash worth roughly $1.7 billion at current prices around $74,000. The claim has not been independently verified. If accurate, it would...",
-    "source_url": "https://finance.yahoo.com/markets/crypto/articles/musks-father-says-family-holds-120114358.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-17T12:01:14+00:00",
-    "created_at": "2026-04-17T18:00:11.360302+00:00"
-  },
-  {
-    "title": "How Tesla Stock Is Set to Snap Its Losing Streak",
-    "slug": "how-tesla-stock-is-set-to-snap-its-losing-streak",
-    "summary": "Tesla  stock was advancing early Friday and is on course to snap an extended losing streak. Shares in the electric-vehicle maker were up 0.8% to $392.00 in premarket trading. Alongside broader equity markets, Tesla stock appears to have been lifted by news earlier in the week that the U.S.",
-    "source_url": "https://finance.yahoo.com/m/652d9527-b342-39d5-a638-0b88eda78a86/how-tesla-stock-is-set-to.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-17T11:33:00+00:00",
-    "created_at": "2026-04-17T12:00:08.997829+00:00"
-  },
-  {
-    "title": "Musk Moving at “Light Speed” to Sign Up Suppliers for $25B Terafab Chip Dream",
-    "slug": "musk-moving-at-light-speed-to-sign-up-suppliers-for-25b-terafab-chip-dream",
-    "summary": "Elon Musk is working at “light speed” to sign up chip suppliers to fulifill his $25B Terafab semiconductor dream. Speedy Price Estimates According to a report on Bloomberg, Musk’s team is reaching out to a number of chip industry suppliers such as Applied Materials (AMAT), Tokyo Electron (TOELY) ...",
-    "source_url": "https://finance.yahoo.com/sectors/technology/articles/musk-moving-light-speed-sign-110616588.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-17T11:06:16+00:00",
-    "created_at": "2026-04-17T12:00:09.005793+00:00"
-  },
-  {
-    "title": "This Is the SpaceX Number No One Is Talking About -- and History Says It May Total $175 Billion",
-    "slug": "this-is-the-spacex-number-no-one-is-talking-about-and-history-says-it-may-total",
-    "summary": "If history rhymes, prospective SpaceX IPO investors will be sorely disappointed.",
-    "source_url": "https://www.fool.com/investing/2026/04/17/the-spacex-number-no-one-is-talking-about-history/?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-17T09:26:00+00:00",
-    "created_at": "2026-04-17T12:00:09.029604+00:00"
-  },
-  {
-    "title": "Tesla in 3 Years: Boom, Bust, or Quietly Crushing It?",
-    "slug": "tesla-in-3-years-boom-bust-or-quietly-crushing-it",
-    "summary": "There's a range of outcomes for the stock over the next few years, but much of its future success rides on its robotaxi service.",
-    "source_url": "https://www.fool.com/investing/2026/04/17/tesla-in-3-years-boom-bust-or-quietly-crushing-it/?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Optimus",
-    "timestamp": "2026-04-17T09:00:00+00:00",
-    "created_at": "2026-04-17T12:00:09.036627+00:00"
-  },
-  {
-    "title": "Should You Buy Tesla Stock Before April 22? The Answer Might Surprise You.",
-    "slug": "should-you-buy-tesla-stock-before-april-22-the-answer-might-surprise-you",
-    "summary": "Investors are about to receive an important progress update from Tesla CEO Elon Musk.",
-    "source_url": "https://www.fool.com/investing/2026/04/17/should-buy-tesla-stock-april-22-answer-surprise-yo/?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-17T08:15:00+00:00",
-    "created_at": "2026-04-17T12:00:09.042865+00:00"
   }
 ]
