@@ -1,5 +1,45 @@
 [
   {
+    "title": "Honda to end Prologue sales in the US",
+    "slug": "honda-to-end-prologue-sales-in-the-us",
+    "summary": "Honda has confirmed that it will discontinue the Prologue after the 2026 model year. The move marks the conclusion of Honda’s Ultium-based EV partnership with General Motors and leaves the brand without a BEV offering in North America.",
+    "source_url": "https://www.electrive.com/2026/07/17/honda-to-end-prologue-sales-in-the-us/",
+    "source_name": "electrive",
+    "category": "Business",
+    "timestamp": "2026-07-17T07:28:25+00:00",
+    "created_at": "2026-07-17T07:50:10.697504+00:00"
+  },
+  {
+    "title": "Elon Musk Has Never Sold His Tesla Vision. Should You Buy the Dip Before July 22?",
+    "slug": "elon-musk-has-never-sold-his-tesla-vision-should-you-buy-the-dip-before-july-22",
+    "summary": "Is Tesla's dip below $400 a buying opportunity, or is Wall Street still pricing in too much optimism? Here's why the answer depends more on your long-term conviction than next week's earnings report.",
+    "source_url": "https://www.fool.com/investing/2026/07/17/elon-musk-has-never-sold-his-tesla-vision-should-y/?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Business",
+    "timestamp": "2026-07-17T07:25:00+00:00",
+    "created_at": "2026-07-17T07:50:08.731241+00:00"
+  },
+  {
+    "title": "TSLA Stock Slips Overnight: Gary Black Says SpaceX Can’t Afford Tesla – ‘The Math Won’t Pass Muster’",
+    "slug": "tsla-stock-slips-overnight-gary-black-says-spacex-cant-afford-tesla-the-math-won",
+    "summary": "Black rejected speculation that SpaceX could acquire Tesla, saying Musk’s voting control does not remove SpaceX’s fiduciary duties.",
+    "source_url": "https://stocktwits.com/news-articles/markets/equity/tsla-gary-black-spacex-tesla-math-wont-pass-muster/cZZ77RTR7tQ?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-17T06:29:19+00:00",
+    "created_at": "2026-07-17T07:50:08.748256+00:00"
+  },
+  {
+    "title": "SpaceX Starship Flight 13 aborted at Zero and Musk just told us what broke",
+    "slug": "spacex-starship-flight-13-aborted-at-zero-and-musk-just-told-us-what-broke",
+    "summary": "SpaceX scrubbed the Starship Flight 13 launch attempt Thursday evening at the last possible moment, after four of the Super Heavy booster’s 33 Raptor 3 engines failed to ignite during the startup sequence. The 90-minute window had opened at 6:45 p.m. EDT from Starbase in Boca Chica, Texas, and th...",
+    "source_url": "https://www.teslarati.com/spacex-starship-flight-13-reason-why-aborted/",
+    "source_name": "Teslarati",
+    "category": "Vehicles",
+    "timestamp": "2026-07-17T05:56:50+00:00",
+    "created_at": "2026-07-17T07:50:06.621525+00:00"
+  },
+  {
     "title": "Tesla finally launches a bike — but it’s not what fans wanted",
     "slug": "tesla-finally-launches-a-bike-but-its-not-what-fans-wanted",
     "summary": "Tesla fans have spent years begging the company to build an e-bike. Tesla just launched a bike — and it has no motor, no pedals, and it’s for toddlers. The new “Balance Bike for Kids” sells for $225 on Tesla’s online shop, and it’s aimed at children aged 2 to 5.",
@@ -27828,25 +27868,5 @@
     "category": "Finance",
     "timestamp": "2026-04-18T09:21:58+00:00",
     "created_at": "2026-04-18T12:00:09.240243+00:00"
-  },
-  {
-    "title": "Tesla (TSLA) Stock Trades Up, Here Is Why",
-    "slug": "tesla-tsla-stock-trades-up-here-is-why",
-    "summary": "Shares of electric vehicle pioneer Tesla (NASDAQ:TSLA) jumped 2.8% in the afternoon session after the announcement that the Strait of Hormuz is \"completely open,\" provided massive relief.",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-stock-trades-why-050426889.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-18T05:04:26+00:00",
-    "created_at": "2026-04-18T06:00:08.959908+00:00"
-  },
-  {
-    "title": "Intel Terafab Alliance Puts Foundry Ambitions And AI Risks In Focus",
-    "slug": "intel-terafab-alliance-puts-foundry-ambitions-and-ai-risks-in-focus",
-    "summary": "Intel (NasdaqGS:INTC) is joining Elon Musk's Terafab AI semiconductor project alongside Tesla, xAI, and SpaceX. The alliance focuses on advanced chip manufacturing for AI, robotics, and space-related computing. The Terafab initiative targets custom, high performance chips aimed at large scale com...",
-    "source_url": "https://finance.yahoo.com/sectors/technology/articles/intel-terafab-alliance-puts-foundry-041913456.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Optimus",
-    "timestamp": "2026-04-18T04:19:13+00:00",
-    "created_at": "2026-04-18T06:00:08.966944+00:00"
   }
 ]
