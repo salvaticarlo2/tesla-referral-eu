@@ -1,5 +1,255 @@
 [
   {
+    "title": "Over 200 Tesla Cybercabs Spotted at Giga Texas",
+    "slug": "over-200-tesla-cybercabs-spotted-at-giga-texas",
+    "summary": "Over 200 Tesla Cybercabs Spotted at Giga Texas",
+    "source_url": "https://www.notateslaapp.com/news/4471/over-200-tesla-cybercabs-spotted-at-giga-texas",
+    "source_name": "Not a Tesla App",
+    "category": "Robotaxi",
+    "timestamp": "2026-07-21T18:37:00+00:00",
+    "created_at": "2026-07-21T19:01:42.982031+00:00"
+  },
+  {
+    "title": "Tesla Is Actually Doing Pretty Well In California Again",
+    "slug": "tesla-is-actually-doing-pretty-well-in-california-again",
+    "summary": "After a rough 2025, Tesla sales are rebounding in America's biggest market for EVs.",
+    "source_url": "https://insideevs.com/news/802336/tesla-california-sales-increase-2026/",
+    "source_name": "InsideEVs",
+    "category": "Vehicles",
+    "timestamp": "2026-07-21T18:35:48+00:00",
+    "created_at": "2026-07-21T19:01:39.212616+00:00"
+  },
+  {
+    "title": "Tesla Is $370: Should You Buy?",
+    "slug": "tesla-is-370-should-you-buy",
+    "summary": "Tesla's latest earnings beat sent bulls scrambling to defend a valuation that prices in three businesses that do not yet exist, while the one that does keeps losing ground. Before Q2 results land on July 22, the gap between story and spreadsheet deserves a hard look.",
+    "source_url": "https://247wallst.com/investing/2026/07/21/tesla-is-370-should-you-buy/?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Business",
+    "timestamp": "2026-07-21T18:21:40+00:00",
+    "created_at": "2026-07-21T19:01:41.548304+00:00"
+  },
+  {
+    "title": "Tesla’s Q2 preview: the numbers will beat, but will the narrative?",
+    "slug": "teslas-q2-preview-the-numbers-will-beat-but-will-the-narrative",
+    "summary": "Investing.com -- Tesla heads into its Q2 2026 earnings report trading at 177 times forward earnings, the highest multiple among the Magnificent 7, leaving almost no room for disappointment when results drop after the close on Wednesday, July 22.",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/tesla-q2-preview-numbers-beat-181919296.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Business",
+    "timestamp": "2026-07-21T18:19:19+00:00",
+    "created_at": "2026-07-21T19:01:41.564990+00:00"
+  },
+  {
+    "title": "SpaceX, Micron, Western Digital, Sandisk, Danaher, and More Stocks That Explain Today’s Market",
+    "slug": "spacex-micron-western-digital-sandisk-danaher-and-more-stocks-that-explain-today",
+    "summary": "The AI trade is back as investors shrug off fears about a slew of cheap Chinese large-language models.",
+    "source_url": "https://finance.yahoo.com/m/fd4ba479-1ed5-34fa-be84-913a88f1ccad/spacex%2C-micron%2C-western.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-21T18:13:00+00:00",
+    "created_at": "2026-07-21T19:01:41.582318+00:00"
+  },
+  {
+    "title": "Tesla spins up robotaxi pilots in Orlando and Tampa ahead of Q2 earnings",
+    "slug": "tesla-spins-up-robotaxi-pilots-in-orlando-and-tampa-ahead-of-q2-earnings",
+    "summary": "The company didn't say how many are in each city, and has taken a far more cautious approach to scaling the network than CEO Elon Musk had promised.",
+    "source_url": "https://finance.yahoo.com/technology/articles/tesla-spins-robotaxi-pilots-orlando-180510924.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Optimus",
+    "timestamp": "2026-07-21T18:05:10+00:00",
+    "created_at": "2026-07-21T19:01:41.600043+00:00"
+  },
+  {
+    "title": "Chevy and Cadillac essentially have no new EVs planned as GM shifts back to gas",
+    "slug": "chevy-and-cadillac-essentially-have-no-new-evs-planned-as-gm-shifts-back-to-gas",
+    "summary": "Chevrolet is the second most popular EV brand in the US behind Tesla, while Cadillac carved out a market in the luxury space. With essentially zero new or updated EVs now planned over the next few years, GM is leaving the door wide open for rivals to take the lead.",
+    "source_url": "https://electrek.co/2026/07/21/chevy-cadillac-no-new-evs-planned-gm-shifts-back-to-gas/",
+    "source_name": "Electrek",
+    "category": "Vehicles",
+    "timestamp": "2026-07-21T17:52:52+00:00",
+    "created_at": "2026-07-21T19:01:38.807408+00:00"
+  },
+  {
+    "title": "Tesla Rallies Ahead of Earnings as Options Signal 6% Stock Swing",
+    "slug": "tesla-rallies-ahead-of-earnings-as-options-signal-6-stock-swing",
+    "summary": "Tesla Rises Before Earnings; Options Traders Expect Major Breakout",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/tesla-rallies-ahead-earnings-options-174159353.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Business",
+    "timestamp": "2026-07-21T17:41:59+00:00",
+    "created_at": "2026-07-21T19:01:41.616824+00:00"
+  },
+  {
+    "title": "Elon Musk Says He’s Got No Problem Being Hated  — ‘I’ll Say What I Want to Say and if the Consequence Is Losing Money, So Be It’",
+    "slug": "elon-musk-says-hes-got-no-problem-being-hated-ill-say-what-i-want-to-say-and-if",
+    "summary": "Most executives spend years trying not to offend customers, advertisers or investors. Tesla and SpaceX CEO Elon Musk has taken the opposite approach, arguing that worrying about being liked is a weakness—and one he’s never wanted to have. \"I’ll say...",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-got-no-163026945.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-21T16:30:26+00:00",
+    "created_at": "2026-07-21T19:01:41.636868+00:00"
+  },
+  {
+    "title": "Tesla Announces Summer Update: Grok Vehicle Commands, Preferred Routes, Add Vehicle Wraps in App and More",
+    "slug": "tesla-announces-summer-update-grok-vehicle-commands-preferred-routes-add-vehicle",
+    "summary": "Tesla Announces Summer Update: Grok Vehicle Commands, Preferred Routes, Add Vehicle Wraps in App and More",
+    "source_url": "https://www.notateslaapp.com/news/4469/tesla-announces-summer-update-grok-vehicle-commands-preferred-routes-add-vehicle-wraps-in-app-and-more",
+    "source_name": "Not a Tesla App",
+    "category": "Vehicles",
+    "timestamp": "2026-07-21T16:16:00+00:00",
+    "created_at": "2026-07-21T19:01:43.000201+00:00"
+  },
+  {
+    "title": "TSLA Stock Gains For First Time In Five Sessions – Tesla Expands Robotaxi Service In Florida Ahead Of Q2 Earnings",
+    "slug": "tsla-stock-gains-for-first-time-in-five-sessions-tesla-expands-robotaxi-service",
+    "summary": "Tesla launched its Robotaxi service in Orlando and Tampa, its third launch in Florida after debuting the autonomous service in Miami earlier this month.",
+    "source_url": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-gains-for-first-time-in-five-sessions-tesla-expands-robotaxi-service-in-florida-ahead-of-q2-earnings/cZZSWpBR7vj?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Optimus",
+    "timestamp": "2026-07-21T15:55:52+00:00",
+    "created_at": "2026-07-21T19:01:41.655205+00:00"
+  },
+  {
+    "title": "Tesla Robotaxi Launches Unsupervised Rides in Orlando, Tampa",
+    "slug": "tesla-robotaxi-launches-unsupervised-rides-in-orlando-tampa",
+    "summary": "Tesla Robotaxi Launches Unsupervised Rides in Orlando, Tampa",
+    "source_url": "https://www.notateslaapp.com/news/4470/tesla-robotaxi-launches-unsupervised-rides-in-orlando-tampa",
+    "source_name": "Not a Tesla App",
+    "category": "Optimus",
+    "timestamp": "2026-07-21T15:46:00+00:00",
+    "created_at": "2026-07-21T19:01:43.016360+00:00"
+  },
+  {
+    "title": "Tesla Widens Robotaxi Rollout Ahead of Q2 Results",
+    "slug": "tesla-widens-robotaxi-rollout-ahead-of-q2-results",
+    "summary": "The service now runs in Austin, Dallas, Houston, Miami and both new Florida markets",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/tesla-widens-robotaxi-rollout-ahead-154307779.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Optimus",
+    "timestamp": "2026-07-21T15:43:07+00:00",
+    "created_at": "2026-07-21T19:01:41.671022+00:00"
+  },
+  {
+    "title": "Tesla’s 2026 Summer Update: auto navigation, Grok phone calls, Caraoke scoring, and more",
+    "slug": "teslas-2026-summer-update-auto-navigation-grok-phone-calls-caraoke-scoring-and-m",
+    "summary": "Tesla started rolling out its 2026 Summer Update, and the automaker published the full release notes on X. The headline additions: Grok can finally control more of the car, Caraoke now keeps score, navigation learns your routine, and several features move to the mobile app. Here’s every item in t...",
+    "source_url": "https://electrek.co/2026/07/21/tesla-2026-summer-update-release-notes/",
+    "source_name": "Electrek",
+    "category": "Vehicles",
+    "timestamp": "2026-07-21T15:34:43+00:00",
+    "created_at": "2026-07-21T19:01:38.874923+00:00"
+  },
+  {
+    "title": "Tesla reveals 2026 Summer Update with crazy fixes to Nav and more",
+    "slug": "tesla-reveals-2026-summer-update-with-crazy-fixes-to-nav-and-more",
+    "summary": "Tesla has officially revealed its 2026 Summer Update, which comes with a variety of crazy new features, including Navigation fixes that owners have been wanting for months. Tesla routinely releases a larger update with the Spring, Summer, Fall, and Winter updates, where it ships a variety of new ...",
+    "source_url": "https://www.teslarati.com/tesla-reveals-2026-summer-update-crazy-fixes-nav-more/",
+    "source_name": "Teslarati",
+    "category": "Vehicles",
+    "timestamp": "2026-07-21T15:30:28+00:00",
+    "created_at": "2026-07-21T19:01:40.170016+00:00"
+  },
+  {
+    "title": "Tesla’s reason for Starlink integration on Cybercab might surprise you",
+    "slug": "teslas-reason-for-starlink-integration-on-cybercab-might-surprise-you",
+    "summary": "Tesla’s reason for Starlink integration on Cybercab might surprise you, as the company’s Head of AI, Ashok Elluswamy, finally shed some light on the reason they are putting a satellite internet terminal on its ride-hailing-geared vehicle. On Monday, Tesla officially confirmed that it would integr...",
+    "source_url": "https://www.teslarati.com/teslas-reason-for-starlink-integration-on-cybercab-might-surprise-you/",
+    "source_name": "Teslarati",
+    "category": "Robotaxi",
+    "timestamp": "2026-07-21T15:14:35+00:00",
+    "created_at": "2026-07-21T19:01:40.187346+00:00"
+  },
+  {
+    "title": "A Tesla-SpaceX Merger Brewing? Here's What Investors Need to Know",
+    "slug": "a-tesla-spacex-merger-brewing-heres-what-investors-need-to-know",
+    "summary": "TSLA-SPCX merger rumors highlight major AI, manufacturing and connectivity synergies, but governance, regulatory and capital risks remain.",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-brewing-heres-144700913.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Finance",
+    "timestamp": "2026-07-21T14:47:00+00:00",
+    "created_at": "2026-07-21T19:01:41.718753+00:00"
+  },
+  {
+    "title": "Tesla adds Robotaxi in Tampa and Orlando as Austin stalls at 17 cars",
+    "slug": "tesla-adds-robotaxi-in-tampa-and-orlando-as-austin-stalls-at-17-cars",
+    "summary": "Tesla switched on its “Robotaxi” service in Tampa and Orlando on Monday, adding two Florida cities to a driverless network that still runs on a couple dozen cars. The company’s @robotaxi account announced it in a four-word post: “Robotaxi now in Tampa & Orlando!” The timing isn’t subtle. Tesla re...",
+    "source_url": "https://electrek.co/2026/07/21/tesla-robotaxi-tampa-orlando-austin-fleet-stalls/",
+    "source_name": "Electrek",
+    "category": "Optimus",
+    "timestamp": "2026-07-21T14:39:28+00:00",
+    "created_at": "2026-07-21T19:01:38.891382+00:00"
+  },
+  {
+    "title": "Tesla Expands Robotaxi Service To Orlando, Tampa A Day Before Earnings Report",
+    "slug": "tesla-expands-robotaxi-service-to-orlando-tampa-a-day-before-earnings-report",
+    "summary": "The state of Tesla's robotaxi service will be a key topic of discussion during its earnings call on Wednesday. The stock rose more than 2.5%.",
+    "source_url": "https://finance.yahoo.com/m/2a4232f1-af61-3572-a0d5-60b3b2c8b431/tesla-expands-robotaxi.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Optimus",
+    "timestamp": "2026-07-21T14:36:55+00:00",
+    "created_at": "2026-07-21T19:01:41.735522+00:00"
+  },
+  {
+    "title": "This Is the Mag 7’s Worst Performer Right Now. Can Q2 Change the Story?",
+    "slug": "this-is-the-mag-7s-worst-performer-right-now-can-q2-change-the-story",
+    "summary": "Tesla sits dead last among the Magnificent 7 in 2026, weighed down by inventory creep, collapsing energy revenue, and a valuation that makes even bulls sweat. But Q2 earnings could rewrite the narrative entirely, and prediction markets are already placing their bets.",
+    "source_url": "https://247wallst.com/investing/2026/07/21/this-is-the-mag-7s-worst-performer-right-now-can-q2-change-the-story/?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Business",
+    "timestamp": "2026-07-21T14:30:47+00:00",
+    "created_at": "2026-07-21T19:01:41.752710+00:00"
+  },
+  {
+    "title": "SpaceX to report first earnings on Aug. 4: What to expect",
+    "slug": "spacex-to-report-first-earnings-on-aug-4-what-to-expect",
+    "summary": "Since going public on June 12, SpaceX (SPCX) confirmed that it will report its first quarterly earnings results on Tuesday, August 4. Yahoo Finance Senior Business Reporter Ines Ferre and Senior Reporter Brooke DiPalma join the Opening Bid panel to talk more about what investors could be expectin...",
+    "source_url": "https://finance.yahoo.com/video/spacex-to-report-first-earnings-on-aug-4-what-to-expect-141408232.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Business",
+    "timestamp": "2026-07-21T14:14:08+00:00",
+    "created_at": "2026-07-21T19:01:41.769182+00:00"
+  },
+  {
+    "title": "Tesla Robotaxi program expands in Florida to two new cities",
+    "slug": "tesla-robotaxi-program-expands-in-florida-to-two-new-cities",
+    "summary": "Tesla has expanded its Robotaxi program in Florida to include two new cities: Tampa and Orlando. This marks the second and third cities to be added to the company’s available locations for autonomous ride-hailing in the Sunshine State, joining Miami, which was the first Florida city to offer Robo...",
+    "source_url": "https://www.teslarati.com/tesla-robotaxi-program-expands-florida-two-new-cities/",
+    "source_name": "Teslarati",
+    "category": "Robotaxi",
+    "timestamp": "2026-07-21T14:04:23+00:00",
+    "created_at": "2026-07-21T19:01:40.204797+00:00"
+  },
+  {
+    "title": "What Construction Of Elon Musk's Terafab Would Mean For Tesla, SpaceX",
+    "slug": "what-construction-of-elon-musks-terafab-would-mean-for-tesla-spacex",
+    "summary": "Elon Musk wants to build the largest semiconductor factory in the world to supply Tesla and SpaceX with AI chips.",
+    "source_url": "https://finance.yahoo.com/m/8d4cd9b9-0f40-37ee-98c0-2f2dc73336dc/what-construction-of-elon.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Business",
+    "timestamp": "2026-07-21T13:57:52+00:00",
+    "created_at": "2026-07-21T19:01:41.800947+00:00"
+  },
+  {
+    "title": "Tesla expands robotaxi service to Orlando, Tampa ahead of earnings",
+    "slug": "tesla-expands-robotaxi-service-to-orlando-tampa-ahead-of-earnings",
+    "summary": "Tesla on Tuesday expanded its robotaxi service to Orlando and Tampa, as ‌the electric-vehicle maker races to prove that ‌it can scale its autonomous ride-hailing business beyond its initial ​launch markets. The move comes a day before Tesla reports second-quarter earnings, with Wall Street closel...",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/tesla-expands-robotaxi-orlando-tampa-133753618.html?.tsrc=rss",
+    "source_name": "Yahoo Finance TSLA",
+    "category": "Robotaxi",
+    "timestamp": "2026-07-21T13:37:53+00:00",
+    "created_at": "2026-07-21T19:01:41.835545+00:00"
+  },
+  {
+    "title": "Tesla FSD V14 Lite for HW3 Vehicles Begins Public Rollout",
+    "slug": "tesla-fsd-v14-lite-for-hw3-vehicles-begins-public-rollout",
+    "summary": "Tesla FSD V14 Lite for HW3 Vehicles Begins Public Rollout",
+    "source_url": "https://www.notateslaapp.com/news/4468/tesla-fsd-v14-lite-starts-rolling-out-publicly",
+    "source_name": "Not a Tesla App",
+    "category": "FSD/Autopilot",
+    "timestamp": "2026-07-21T13:33:00+00:00",
+    "created_at": "2026-07-21T19:01:43.032839+00:00"
+  },
+  {
     "title": "Tesla Cash Burn Puts AI Spending in Focus",
     "slug": "tesla-cash-burn-puts-ai-spending-in-focus",
     "summary": "Heavy investment in robotaxis and robotics is raising pressure on near-term cash flow.",
@@ -27568,175 +27818,5 @@
     "category": "Business",
     "timestamp": "2026-04-22T20:05:06+00:00",
     "created_at": "2026-04-23T00:00:06.047747+00:00"
-  },
-  {
-    "title": "SpaceX is following in Tesla’s footsteps in a way nobody expected",
-    "slug": "spacex-is-following-in-teslas-footsteps-in-a-way-nobody-expected",
-    "summary": "When Elon Musk founded Tesla in 2003, it was a plucky electric car startup betting everything on lithium-ion batteries and a niche luxury Roadster. Two decades later, Tesla is far more than a car company. Its valuation increasingly hinges on Full Self-Driving software, the Optimus humanoid robot,...",
-    "source_url": "https://www.teslarati.com/spacex-following-tesla-footsteps-way-nobody-expected/",
-    "source_name": "Teslarati",
-    "category": "Optimus",
-    "timestamp": "2026-04-22T18:45:29+00:00",
-    "created_at": "2026-04-23T00:00:06.057734+00:00"
-  },
-  {
-    "title": "Tesla Earnings, Elon Musk Due With Stock Near Key Levels; What To Look For",
-    "slug": "tesla-earnings-elon-musk-due-with-stock-near-key-levels-what-to-look-for",
-    "summary": "Tesla earnings are expected to rise, but the focus will be on CEO Elon Musk and robotaxi news. Tesla stock is near key levels",
-    "source_url": "https://finance.yahoo.com/m/b52c0f67-0f81-3fc2-9cef-71997c28622f/tesla-earnings%2C-elon-musk-due.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Optimus",
-    "timestamp": "2026-04-22T17:57:52+00:00",
-    "created_at": "2026-04-22T18:00:12.027359+00:00"
-  },
-  {
-    "title": "BMW and Mercedes Just Proved Tesla Was Right About Self Driving",
-    "slug": "bmw-and-mercedes-just-proved-tesla-was-right-about-self-driving",
-    "summary": "BMW and Mercedes are stepping back from Level 3 autonomy. Both had bet heavily on eyes-off driving , but high costs, limited use cases, and weak demand killed the push. In walking away, they’ve handed a quiet vindication to Tesla , the company the industry spent years mocking for refusing to go d...",
-    "source_url": "https://www.reddit.com/r/teslamotors/comments/1ssszdf/bmw_and_mercedes_just_proved_tesla_was_right/",
-    "source_name": "Reddit r/TeslaMotors",
-    "category": "Vehicles",
-    "timestamp": "2026-04-22T17:54:41+00:00",
-    "created_at": "2026-04-28T12:00:13.953027+00:00"
-  },
-  {
-    "title": "BMW unveils the new i7 with nearly 450 miles of range and Neue Klasse style [Images]",
-    "slug": "bmw-unveils-the-new-i7-with-nearly-450-miles-of-range-and-neue-klasse-style-imag",
-    "summary": "BMW gave its flagship electric sedan an overhaul for the 2027 model year. The new BMW i7 offers nearly 450 miles of range, advanced new tech, and an updated Neue Klasse design. more…",
-    "source_url": "https://electrek.co/2026/04/22/bmw-unveils-new-i7-450-miles-range-neue-klasse-style-images/",
-    "source_name": "Electrek",
-    "category": "Vehicles",
-    "timestamp": "2026-04-22T17:49:11+00:00",
-    "created_at": "2026-04-22T18:00:07.441309+00:00"
-  },
-  {
-    "title": "Stock Market Today: Dow Gains, Nasdaq Heads Near Record On Trump Ceasefire; Palantir Jumps (Live Coverage)",
-    "slug": "stock-market-today-dow-gains-nasdaq-heads-near-record-on-trump-ceasefire-palanti",
-    "summary": "Stock Market Today: The Dow Jones index rose Wednesday after Trump extended the U.S.-Iran ceasefire. Tesla earnings are due late.",
-    "source_url": "https://finance.yahoo.com/m/7ab1524e-92c4-32c9-81b7-f9d2fd027cef/stock-market-today%3A-dow.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Business",
-    "timestamp": "2026-04-22T17:43:35+00:00",
-    "created_at": "2026-04-22T18:00:12.050678+00:00"
-  },
-  {
-    "title": "Tesla Earnings: financial expectations and what we should to hear about",
-    "slug": "tesla-earnings-financial-expectations-and-what-we-should-to-hear-about",
-    "summary": "Tesla ( NASDAQ: TSLA ) will report its earnings for the first quarter of 2026 this evening after the market closes, and analysts have already put out their expectations from a financial standpoint for the company’s first three months of the year. Additionally, there will be plenty of things that ...",
-    "source_url": "https://www.teslarati.com/tesla-tsla-earnings-financial-expectations-what-should-hear/",
-    "source_name": "Teslarati",
-    "category": "Finance",
-    "timestamp": "2026-04-22T17:02:42+00:00",
-    "created_at": "2026-04-22T18:00:09.233983+00:00"
-  },
-  {
-    "title": "Americans would get ‘universal high income’ via steady federal checks under Elon Musk’s new proposal. Will it happen?",
-    "slug": "americans-would-get-universal-high-income-via-steady-federal-checks-under-elon-m",
-    "summary": "“Everyone can have a penthouse if they want.”",
-    "source_url": "https://finance.yahoo.com/economy/policy/articles/americans-universal-high-income-via-160900822.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-22T16:09:00+00:00",
-    "created_at": "2026-04-22T18:00:12.095907+00:00"
-  },
-  {
-    "title": "Tesla Sees 30% Profit Growth As AI Focus Drives Investor Debate",
-    "slug": "tesla-sees-30-profit-growth-as-ai-focus-drives-investor-debate",
-    "summary": "Projected earnings rebound may be overshadowed by scrutiny on robotics, AI progress, and stretched valuation",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/tesla-sees-30-profit-growth-154931846.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Optimus",
-    "timestamp": "2026-04-22T15:49:31+00:00",
-    "created_at": "2026-04-22T18:00:12.107399+00:00"
-  },
-  {
-    "title": "Tesla Has Made Robo-Taxi Progress",
-    "slug": "tesla-has-made-robo-taxi-progress",
-    "summary": "In January, Musk said Tesla robo-taxis could be in dozens of cities by the end of 2026. Tesla launched a robo-taxi service in Austin, Texas, in June, with safety monitors in the front passenger seat. Bulls believe robo-taxis will eventually be cheaper than owning cars, disrupting personal transpo...",
-    "source_url": "https://finance.yahoo.com/m/50c84d51-a4c9-37c7-b3ab-b82ead116a19/tesla-has-made-robo-taxi.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Robotaxi",
-    "timestamp": "2026-04-22T15:44:07+00:00",
-    "created_at": "2026-04-22T18:00:12.118183+00:00"
-  },
-  {
-    "title": "What Wall Street Is Focused On",
-    "slug": "what-wall-street-is-focused-on",
-    "summary": "Wall Street bulls and bears don’t always agree on Tesla stock. “The single most important [guidance] item on this earnings call is whether management provides any credible update on the transition to driverless [robo-taxi] operations,” wrote GLJ Research analyst Gordon Johnson in a preview report.",
-    "source_url": "https://finance.yahoo.com/m/e6f4e6db-b309-3071-a8b6-0cd1856b2696/what-wall-street-is-focused-on.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-22T15:18:16+00:00",
-    "created_at": "2026-04-22T18:00:12.128985+00:00"
-  },
-  {
-    "title": "Top Stocks That Are Powering the EV and AV Revolution",
-    "slug": "top-stocks-that-are-powering-the-ev-and-av-revolution",
-    "summary": "From charging infrastructure to self-driving tech to zero-emission vehicles, Beam Global, Innoviz and NIO offer distinct ways to play the EV and AV trends.",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/top-stocks-powering-ev-av-151800188.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "FSD/Autopilot",
-    "timestamp": "2026-04-22T15:18:00+00:00",
-    "created_at": "2026-04-22T18:00:12.140121+00:00"
-  },
-  {
-    "title": "Elon Musk Says If You Plan In Retiring In 10-20 Years Don't Stress If You've Got Nothing Saved — 'It Won't Matter' Anyway",
-    "slug": "elon-musk-says-if-you-plan-in-retiring-in-10-20-years-dont-stress-if-youve-got-n",
-    "summary": "Retirement advice usually comes with a calculator and a warning. Elon Musk brought neither. The Tesla and SpaceX CEO is floating a future where the entire idea of grinding toward a nest egg might not even apply by the time...",
-    "source_url": "https://finance.yahoo.com/economy/policy/articles/elon-musk-says-plan-retiring-144603493.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-22T14:46:03+00:00",
-    "created_at": "2026-04-22T18:00:12.153777+00:00"
-  },
-  {
-    "title": "Tesla Q1 earnings: Should investors be betting against Elon Musk?",
-    "slug": "tesla-q1-earnings-should-investors-be-betting-against-elon-musk",
-    "summary": "Tesla (TSLA) is set to report first quarter earnings after Wednesday's closing bell. As Wall Street prepares to hear what CEO Elon Musk has to say on the earnings call, what aspects of the EV company will investors focus on as it leans heavier into robotics? Annandale Capital founder George Seay ...",
-    "source_url": "https://finance.yahoo.com/video/tesla-q1-earnings-should-investors-be-betting-against-elon-musk-141449359.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-22T14:14:49+00:00",
-    "created_at": "2026-04-22T18:00:12.182627+00:00"
-  },
-  {
-    "title": "Tesla Stock Is Up Ahead of Earnings",
-    "slug": "tesla-stock-is-up-ahead-of-earnings",
-    "summary": "Tesla stock rose in early trading Wednesday, before the company reports first-quarter earnings after the market close. Shares were at $391.34, up 1.3%, while the S&P 500 was 0.6% higher. Early gains left shares down about 9% since Tesla reported fourth-quarter numbers on Jan.",
-    "source_url": "https://finance.yahoo.com/m/2c8370f2-0940-3d9e-8120-f4e4fd640ce5/tesla-stock-is-up-ahead-of.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Business",
-    "timestamp": "2026-04-22T14:03:34+00:00",
-    "created_at": "2026-04-22T18:00:12.194166+00:00"
-  },
-  {
-    "title": "Tesla Finally Has What Wall St. Wants–A New Model",
-    "slug": "tesla-finally-has-what-wall-st-wantsa-new-model",
-    "summary": "One of the primary criticisms of Tesla (NASDAQ: TSLA) is that its models are old. The fact that their software is updated “over-the-air” isn’t good enough for some investors. It has killed the Model S and Model X.",
-    "source_url": "https://247wallst.com/investing/2026/04/22/tesla-finally-has-what-wall-st-wants-a-new-model/?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-22T13:51:55+00:00",
-    "created_at": "2026-04-22T18:00:12.205579+00:00"
-  },
-  {
-    "title": "Musk's $60 Billion Cursor Bet Comes With a $10 Billion Exit Cost",
-    "slug": "musks-60-billion-cursor-bet-comes-with-a-10-billion-exit-cost",
-    "summary": "SpaceX secures the right to acquire coding startup Cursor",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/musks-60-billion-cursor-bet-135134112.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-22T13:51:34+00:00",
-    "created_at": "2026-04-22T18:00:12.217755+00:00"
-  },
-  {
-    "title": "SpaceX Lines Up $60 Billion Deal for AI Start-Up. It’s Taking on OpenAI and Anthropic.",
-    "slug": "spacex-lines-up-60-billion-deal-for-ai-start-up-its-taking-on-openai-and-anthrop",
-    "summary": "The rocket manufacturer is piling into the AI coding race, a battle that will pit it against the likes of OpenAI and Anthropic.",
-    "source_url": "https://finance.yahoo.com/m/bdfa8ac6-b79a-3c63-ae05-89ec1d4e1949/spacex-lines-up-%2460-billion.html?.tsrc=rss",
-    "source_name": "Yahoo Finance TSLA",
-    "category": "Finance",
-    "timestamp": "2026-04-22T13:33:00+00:00",
-    "created_at": "2026-04-22T18:00:12.249426+00:00"
   }
 ]
