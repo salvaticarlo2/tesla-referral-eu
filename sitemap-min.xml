@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://teslablog.eu/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-24</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-24</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/privacy/</loc>
@@ -95,6 +95,10 @@
   <url>
     <loc>https://teslablog.eu/blog/tesla-europe-july-2026-buyer-check/</loc>
     <lastmod>2026-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://teslablog.eu/blog/tesla-europe-week-2026-07-24/</loc>
+    <lastmod>2026-07-24</lastmod>
   </url>
   <url>
     <loc>https://teslablog.eu/blog/tesla-fared-worse-than-any-automaker-in-eu-in-2025-even-as-e/</loc>
@@ -342,6 +346,6 @@
   </url>
   <url>
     <loc>https://teslablog.eu/news/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-24</lastmod>
   </url>
 </urlset>
