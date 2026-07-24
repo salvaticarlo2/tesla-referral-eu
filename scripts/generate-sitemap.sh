@@ -68,9 +68,7 @@ done < <(find blog -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort)
 # News: only the section index belongs in the sitemap.
 # Individual /news/ items and pagination pages are noindex (thin aggregated
 # content) and must stay out of the sitemap. Do not re-add them.
-if [ -f "news/index.html" ]; then
-  emit_url "/news/" "$(lastmod_for "news/index.html")"
-fi
+# /news/ removed 2026-07-24. Nothing under /news/ belongs in the sitemap.
 
 echo "</urlset>" >> "$TMP_FILE"
 

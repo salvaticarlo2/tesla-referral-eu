@@ -1,360 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>TeslaBlog.eu — Tesla News &amp; Updates</title>
+    <title>TeslaBlog.eu</title>
     <link>https://teslablog.eu</link>
-    <description>Latest Tesla news, deals, and updates across Europe and beyond.</description>
+    <description>Independent Tesla guides and analysis for European drivers, written by an owner.</description>
     <language>en</language>
     <atom:link href="https://teslablog.eu/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Musk Is Losing His Magic—and Tesla Is Paying the Price</title>
-      <link>https://teslablog.eu/news/musk-is-losing-his-magicand-tesla-is-paying-the-price/</link>
-      <description>Whether to buy or sell the stock has never been about fundamentals. It has always been a bet on the future and Musk’s ability to see it more clearly than anyone else.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/musk-is-losing-his-magicand-tesla-is-paying-the-price/</guid>
-      <pubDate>Fri, 24 Jul 2026 07:30:00 +0000</pubDate>
+      <title>Tesla in Europe, Week of July 24, 2026: France Blocks the FSD Fast Track</title>
+      <link>https://teslablog.eu/blog/tesla-europe-week-2026-07-24/</link>
+      <description>France became the first EU government to publicly reject the Dutch-led FSD approval route, Tesla&#x27;s Q2 profit fell 57% on record revenue, and Grok went Europe-wide. What it means for European buyers.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-europe-week-2026-07-24/</guid>
+      <pubDate>Fri, 24 Jul 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SpaceX Starship Flight 13 faces wrath of the Texas skies</title>
-      <link>https://teslablog.eu/news/spacex-starship-flight-13-faces-wrath-of-the-texas-skies/</link>
-      <description>SpaceX called off Thursday’s launch attempt of Starship Flight 13, pushing the mission to Friday because of weather tied to Tropical Storm Bertha. The company confirmed the delay on X , noting “Now targeting Friday, July 24 for Starship’s thirteenth flight test, due to weather. A key objective fo...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/spacex-starship-flight-13-faces-wrath-of-the-texas-skies/</guid>
-      <pubDate>Fri, 24 Jul 2026 06:10:32 +0000</pubDate>
+      <title>Tesla Q2 2026 Earnings: Why TSLA Fell 14.5% on Record Revenue</title>
+      <link>https://teslablog.eu/blog/tesla-q2-2026-earnings-margin-collapse/</link>
+      <description>Tesla&#x27;s gross profit actually rose 22% in Q2 2026. Operating income still fell 57%. A line-by-line read of the 10-Q showing what really collapsed: operating expenses, energy margins, and regulatory credits.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-q2-2026-earnings-margin-collapse/</guid>
+      <pubDate>Fri, 24 Jul 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Shares skid in Asia in sell-off of AI-related shares as Brent oil trades near $100 per barrel</title>
-      <link>https://teslablog.eu/news/shares-skid-in-asia-in-sell-off-of-ai-related-shares-as-brent-oil-trades-near-10/</link>
-      <description>Shares skidded Friday in Asia after Brent crude shot to its highest price since May as heavy fighting in the Middle East again threatened to slow the global flow of oil and gas. U.S. futures were little changed after tumbles for two of Wall Street’s most influential companies, Alphabet and Tesla,...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/shares-skid-in-asia-in-sell-off-of-ai-related-shares-as-brent-oil-trades-near-10/</guid>
-      <pubDate>Fri, 24 Jul 2026 05:13:38 +0000</pubDate>
+      <title>11 Tesla Accessories I Actually Bought and Still Use (Owner Review, 2026)</title>
+      <link>https://teslablog.eu/blog/tesla-accessories-owner-tested-2026/</link>
+      <description>Not a scraped top-10 list: eleven Model Y and Model 3 accessories from my own Amazon order history, what each one does, and honest notes after months of daily use.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-accessories-owner-tested-2026/</guid>
+      <pubDate>Sat, 04 Jul 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MU Stock Loses Some Steam After Korea Chip Selloff — But Retail Is Eyeing Clean Rebound Above $1,000</title>
-      <link>https://teslablog.eu/news/mu-stock-loses-some-steam-after-korea-chip-selloff-but-retail-is-eyeing-clean-re/</link>
-      <description>Alphabet’s capex forecast raise and a hat tip from Elon Musk boosted sentiment for MU stock.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/mu-stock-loses-some-steam-after-korea-chip-selloff-but-retail-is-eyeing-clean-re/</guid>
-      <pubDate>Fri, 24 Jul 2026 04:11:21 +0000</pubDate>
+      <title>Tesla in Europe, July 2026: Sales Rebound, Prices, FSD, and a Buyer Checklist</title>
+      <link>https://teslablog.eu/blog/tesla-europe-july-2026-buyer-check/</link>
+      <description>Tesla&#x27;s European comeback in numbers: June registrations by country, what drove record Q2 deliveries, Model YL and Model 3 Standard, FSD status, and what to verify before ordering.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-europe-july-2026-buyer-check/</guid>
+      <pubDate>Sat, 04 Jul 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Prediction: This Autonomous Driving Stock Will Be a Much Better Buy Than Tesla Over the Long Term</title>
-      <link>https://teslablog.eu/news/prediction-this-autonomous-driving-stock-will-be-a-much-better-buy-than-tesla-ov/</link>
-      <description>Uber is taking a unique approach to the autonomous driving revolution.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/prediction-this-autonomous-driving-stock-will-be-a-much-better-buy-than-tesla-ov/</guid>
-      <pubDate>Fri, 24 Jul 2026 03:20:00 +0000</pubDate>
+      <title>Tesla Model Y L Launches in the US at $61,990: What European Buyers Now Know</title>
+      <link>https://teslablog.eu/blog/tesla-model-y-l-us-launch-europe-2026/</link>
+      <description>Tesla just launched the 6-seat Model Y L in the US at $61,990 with confirmed specs. Here is what that reveals for European family buyers still stuck with the cramped 7-seat option, and what to verify.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-model-y-l-us-launch-europe-2026/</guid>
+      <pubDate>Sat, 04 Jul 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wall Street Analyst Says AI Spending Arms Race Is at 15% After Tesla and Google Selloff</title>
-      <link>https://teslablog.eu/news/wall-street-analyst-says-ai-spending-arms-race-is-at-15-after-tesla-and-google-s/</link>
-      <description>A leading Wall Street analyst says the AI spending arms race is still early, even as Tesla and Alphabet shares sink.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/wall-street-analyst-says-ai-spending-arms-race-is-at-15-after-tesla-and-google-s/</guid>
-      <pubDate>Fri, 24 Jul 2026 02:53:35 +0000</pubDate>
+      <title>Tesla Q2 2026: Record Deliveries, a 7% Sell-Off, and the Valuation Question</title>
+      <link>https://teslablog.eu/blog/tesla-q2-2026-deliveries-stock-analysis/</link>
+      <description>Tesla delivered a record 480,126 vehicles in Q2 2026 and the stock still fell 7%. What drove the beat, why the market sold it, and what to watch into July 22 earnings.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-q2-2026-deliveries-stock-analysis/</guid>
+      <pubDate>Sat, 04 Jul 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ford set to challenge Tesla after big new deal with tech giant</title>
-      <link>https://teslablog.eu/news/ford-set-to-challenge-tesla-after-big-new-deal-with-tech-giant/</link>
-      <description>Doug Field spent years at Apple working on a car the company never built. When Apple shut down Project Titan in early 2024, Field moved to Ford. He's been leading the automaker's technology strategy since.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/ford-set-to-challenge-tesla-after-big-new-deal-with-tech-giant/</guid>
-      <pubDate>Fri, 24 Jul 2026 02:47:00 +0000</pubDate>
+      <title>Tesla and SpaceX Merger Watch: The Evidence Tracker (July 2026)</title>
+      <link>https://teslablog.eu/blog/tesla-spacex-merger-watch/</link>
+      <description>Will SpaceX acquire Tesla? An evidence-based tracker with confidence tiers: what is officially filed, what is credible signal, what is noise. Status: no announced transaction.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-spacex-merger-watch/</guid>
+      <pubDate>Sat, 04 Jul 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Why Tesla Stock Crashed Today</title>
-      <link>https://teslablog.eu/news/why-tesla-stock-crashed-today/</link>
-      <description>The automaker's &quot;massive capex year&quot; is driving investors toward the exit lane.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/why-tesla-stock-crashed-today/</guid>
-      <pubDate>Fri, 24 Jul 2026 02:46:00 +0000</pubDate>
+      <title>Tesla Model 3 vs VW ID.3 2026 — Price, Range &amp; Features Compared | TeslaBlog.eu</title>
+      <link>https://teslablog.eu/blog/tesla-model-3-vs-vw-id3-2026/</link>
+      <description>Tesla Model 3 vs VW ID.3 in Europe 2026: side-by-side comparison of price, range, charging speed, features and 3-year cost of ownership. Which affordable EV wins?</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-model-3-vs-vw-id3-2026/</guid>
+      <pubDate>Sun, 19 Apr 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>TSLA Stock Sinks Toward Worst Week This Year After Weak Q2 — But CEO Elon Musk Is A 'Big Fan' Of His Insightful Retail Investor Army</title>
-      <link>https://teslablog.eu/news/tsla-stock-sinks-toward-worst-week-this-year-after-weak-q2-but-ceo-elon-musk-is/</link>
-      <description>Musk also said that SpaceX went public partly to let ordinary investors participate, even as its shares head toward a third straight weekly decline.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tsla-stock-sinks-toward-worst-week-this-year-after-weak-q2-but-ceo-elon-musk-is/</guid>
-      <pubDate>Fri, 24 Jul 2026 02:16:17 +0000</pubDate>
+      <title>Tesla Model Y vs BMW iX3 2026: Price, Range &amp; Features Compared</title>
+      <link>https://teslablog.eu/blog/tesla-model-y-vs-bmw-ix3-2026/</link>
+      <description>Tesla Model Y vs BMW iX3 in Europe 2026: side-by-side comparison of price, range, charging speed, features and cost of ownership. Find out which premium EV wins for your needs.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-model-y-vs-bmw-ix3-2026/</guid>
+      <pubDate>Fri, 17 Apr 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>FSD v14 Lite is getting a free trial - and I have proof!</title>
-      <link>https://teslablog.eu/news/fsd-v14-lite-is-getting-a-free-trial-and-i-have-proof/</link>
-      <description>Just shot this at the Supercharger after getting my update. Clearly there is a bug exposing a trial for cars that don't currently have FSD, even though mine does at the moment. Seems like this hasn't been discussed yet submitted by /u/fiehlsport [link] [comments]</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/fsd-v14-lite-is-getting-a-free-trial-and-i-have-proof/</guid>
-      <pubDate>Fri, 24 Jul 2026 02:14:07 +0000</pubDate>
+      <title>Tesla Stock 2026: AI5 Chip, SpaceX IPO &amp; the $8.5 Trillion Question | TeslaBlog.eu</title>
+      <link>https://teslablog.eu/blog/tesla-stock-spacex-ipo-analysis-2026/</link>
+      <description>Data-driven analysis of TSLA in April 2026: the AI5 chip milestone, SpaceX&#x27;s $1.75T IPO, merger odds, and what Musk&#x27;s $1T pay package means for shareholders.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-stock-spacex-ipo-analysis-2026/</guid>
+      <pubDate>Thu, 16 Apr 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Nasdaq, S&amp;P 500, Dow Futures Shake Off Iran Jitters As Investors Turn To AI Hyperscaler Earnings: INTC, TSLA, TTD, HIMS In Focus</title>
-      <link>https://teslablog.eu/news/nasdaq-sp-500-dow-futures-shake-off-iran-jitters-as-investors-turn-to-ai-hypersc/</link>
-      <description>Markets were primarily focused on earnings from major companies, alongside rising oil prices due to the continued tensions between the U.S. and Iran.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/nasdaq-sp-500-dow-futures-shake-off-iran-jitters-as-investors-turn-to-ai-hypersc/</guid>
-      <pubDate>Fri, 24 Jul 2026 01:46:05 +0000</pubDate>
+      <title>Tesla FSD vs Enhanced Autopilot Europe 2026: Which to Buy?</title>
+      <link>https://teslablog.eu/blog/tesla-fsd-vs-enhanced-autopilot-europe-2026/</link>
+      <description>Feature-by-feature comparison of Tesla FSD Supervised vs Enhanced Autopilot in Europe. Pricing, capabilities, and which option is right for your driving needs in 2026.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-fsd-vs-enhanced-autopilot-europe-2026/</guid>
+      <pubDate>Thu, 09 Apr 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Dow Jones Futures: Market Sells Off On Oil Prices, Google, Tesla; Intel Jumps Late</title>
-      <link>https://teslablog.eu/news/dow-jones-futures-market-sells-off-on-oil-prices-google-tesla-intel-jumps-late/</link>
-      <description>The Nasdaq undercut key levels as Google and Tesla led titans lower while oil prices soared. Intel jumped late.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/dow-jones-futures-market-sells-off-on-oil-prices-google-tesla-intel-jumps-late/</guid>
-      <pubDate>Fri, 24 Jul 2026 01:06:29 +0000</pubDate>
+      <title>Tesla FSD Netherlands 2026: Live Now — Price &amp; Setup</title>
+      <link>https://teslablog.eu/blog/tesla-fsd-netherlands-2026/</link>
+      <description>Tesla FSD is live in the Netherlands (RDW approved March 2026). Pricing, activation steps &amp; compatibility for Dutch Tesla owners.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-fsd-netherlands-2026/</guid>
+      <pubDate>Tue, 31 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Alphabet And Tesla's Blowout Capex Plans Are Shifting Investor Perceptions And Valuation Metrics</title>
-      <link>https://teslablog.eu/news/alphabet-and-teslas-blowout-capex-plans-are-shifting-investor-perceptions-and-va/</link>
-      <description>A regime shift driven by higher interest rates and an elevated cost of capital is creating valuation and profitability challenges for tech giants as investors pay keen attention to profitability metrics.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/alphabet-and-teslas-blowout-capex-plans-are-shifting-investor-perceptions-and-va/</guid>
-      <pubDate>Fri, 24 Jul 2026 00:40:02 +0000</pubDate>
+      <title>Tesla FSD Price Europe 2026 — How Much Will It Cost?</title>
+      <link>https://teslablog.eu/blog/tesla-fsd-price-europe-2026/</link>
+      <description>Tesla FSD pricing in Europe for 2026: one-time purchase vs monthly subscription, US vs EU price comparison, and Enhanced Autopilot vs FSD — what you get for the money.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-fsd-price-europe-2026/</guid>
+      <pubDate>Tue, 31 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tesla's Operating Margin Just Fell to 1.4% and Free Cash Flow Went Negative. Here's Where the Money Is Going.</title>
-      <link>https://teslablog.eu/news/teslas-operating-margin-just-fell-to-14-and-free-cash-flow-went-negative-heres-w/</link>
-      <description>A record quarter for revenue was also the thinnest for profit in a while. But the spending behind that gap is the real story.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/teslas-operating-margin-just-fell-to-14-and-free-cash-flow-went-negative-heres-w/</guid>
-      <pubDate>Fri, 24 Jul 2026 00:20:00 +0000</pubDate>
+      <title>When Will Tesla FSD Come to My Country? Full Europe Guide (2026)</title>
+      <link>https://teslablog.eu/blog/when-will-tesla-fsd-come-to-my-country/</link>
+      <description>Country-by-country Tesla FSD status for Germany, France, Italy, Spain, UK, Norway, Austria, and Switzerland. Regulatory bodies, current status, and expected timelines for FSD Supervised in Europe.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/when-will-tesla-fsd-come-to-my-country/</guid>
+      <pubDate>Tue, 31 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Two Mag-7 Giants Hold Stakes In SPCX As Alphabet Discloses $94B Position</title>
-      <link>https://teslablog.eu/news/two-mag-7-giants-hold-stakes-in-spcx-as-alphabet-discloses-94b-position/</link>
-      <description>Alphabet’s investment implies about 6% stake in SpaceX.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/two-mag-7-giants-hold-stakes-in-spcx-as-alphabet-discloses-94b-position/</guid>
-      <pubDate>Thu, 23 Jul 2026 23:53:16 +0000</pubDate>
+      <title>Germany EV Subsidy Is Back: Up to €6,000 Off Your Tesla in 2026</title>
+      <link>https://teslablog.eu/blog/tesla-germany-ev-subsidy-2026/</link>
+      <description>Germany restored EV subsidies in 2026 — up to €6,000 back on your Tesla, retroactive to January 1. Eligibility, income limits, how to combine with referral code carlo719460 for maximum savings.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-germany-ev-subsidy-2026/</guid>
+      <pubDate>Wed, 25 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Is Tesla’s Earnings Miss and Negative Free Cash Flow a Red Flag for Rivian and Lucid Investors?</title>
-      <link>https://teslablog.eu/news/is-teslas-earnings-miss-and-negative-free-cash-flow-a-red-flag-for-rivian-and-lu/</link>
-      <description>Tesla shares sank heavily after reporting quarterly earnings.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/is-teslas-earnings-miss-and-negative-free-cash-flow-a-red-flag-for-rivian-and-lu/</guid>
-      <pubDate>Thu, 23 Jul 2026 23:40:01 +0000</pubDate>
+      <title>Tesla Model 3 Price Drop Europe 2026: Save €4,000</title>
+      <link>https://teslablog.eu/blog/tesla-model-3-price-drop-europe-march-2026/</link>
+      <description>Tesla Model 3 is €4,000 cheaper in Italy, Spain, Portugal &amp; Luxembourg via Tesla Bonus (2026).</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-model-3-price-drop-europe-march-2026/</guid>
+      <pubDate>Wed, 18 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tesla's Robotaxi Stalls And Its Valuation Decline Starts</title>
-      <link>https://teslablog.eu/news/teslas-robotaxi-stalls-and-its-valuation-decline-starts/</link>
-      <description/>
-      <guid isPermaLink="true">https://teslablog.eu/news/teslas-robotaxi-stalls-and-its-valuation-decline-starts/</guid>
-      <pubDate>Thu, 23 Jul 2026 23:17:56 +0000</pubDate>
+      <title>Cheapest Country to Buy a Tesla in Europe 2026 — Price Comparison by Country</title>
+      <link>https://teslablog.eu/blog/cheapest-country-tesla-europe-2026/</link>
+      <description>Buying a Tesla in Europe in 2026? We compare Model 3 &amp; Model Y prices across 10 countries — including Norway, Switzerland, Germany, France &amp; Portugal. See where you save the most.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/cheapest-country-tesla-europe-2026/</guid>
+      <pubDate>Sun, 15 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tesla (TSLA) Is Down 18.3% After Record Revenue But Weak Q2 Profitability And Cash Flow - Has The Bull Case Changed?</title>
-      <link>https://teslablog.eu/news/tesla-tsla-is-down-183-after-record-revenue-but-weak-q2-profitability-and-cash-f/</link>
-      <description>Tesla’s Q2 2026 results showed record revenue of US$28.24 billion and record deliveries of 480,126 vehicles, but earnings, margins, and free cash flow weakened as higher operating expenses and capital spending on AI, robotics, and new products reduced profitability. The company’s first quarter of...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-tsla-is-down-183-after-record-revenue-but-weak-q2-profitability-and-cash-f/</guid>
-      <pubDate>Thu, 23 Jul 2026 23:16:37 +0000</pubDate>
+      <title>Tesla FSD Early Access in Europe 2026: Invites Rolling Out Now, Rebrand &amp; V14 Lite Explained</title>
+      <link>https://teslablog.eu/blog/tesla-navigate-on-autosteer-europe-2026/</link>
+      <description>Tesla FSD Early Access invites are now going out to European owners (March 2026). Netherlands RDW approved FSD in Feb 2026. Tesla renamed FSD to Navigate on Autosteer. V14 Lite coming June 2026.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-navigate-on-autosteer-europe-2026/</guid>
+      <pubDate>Sun, 15 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tesla: Why I Am Cutting My Price Target After Q2 Earnings (Rating Downgrade)</title>
-      <link>https://teslablog.eu/news/tesla-why-i-am-cutting-my-price-target-after-q2-earnings-rating-downgrade/</link>
-      <description/>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-why-i-am-cutting-my-price-target-after-q2-earnings-rating-downgrade/</guid>
-      <pubDate>Thu, 23 Jul 2026 23:07:10 +0000</pubDate>
+      <title>Tesla in Norway 2026: The Complete Buyer&#x27;s Guide (Prices, Tax &amp; Referral Code)</title>
+      <link>https://teslablog.eu/blog/tesla-norway-guide-2026/</link>
+      <description>Tesla in Norway 2026: prices in NOK, zero purchase tax, VAT exemption, 98% EV market. Referral benefits apply only when a referral is active; verify before ordering.&lt;meta name=</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-norway-guide-2026/</guid>
+      <pubDate>Sun, 15 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wall St falls as tech earnings spark AI spending worries</title>
-      <link>https://teslablog.eu/news/wall-st-falls-as-tech-earnings-spark-ai-spending-worries/</link>
-      <description>STORY: Wall Street stocks plummeted on Thursday, with the Dow dropping about 1%, the S&amp;P 500 shedding 1.2% and the Nasdaq tumbling more than 2%. The latest earnings results from large tech companies such as Alphabet and Tesla revived concerns about heavy AI spending, says Keith Buchanan, senior p...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/wall-st-falls-as-tech-earnings-spark-ai-spending-worries/</guid>
-      <pubDate>Thu, 23 Jul 2026 23:04:17 +0000</pubDate>
+      <title>Tesla Referral Program March 2026 Update: What Changed (And What Didn&#x27;t)</title>
+      <link>https://teslablog.eu/blog/tesla-referral-program-march-2026-update/</link>
+      <description>Tesla just changed its referral program — but NOT in Europe. Each owner code has a yearly referral limit, and this site&#x27;s code is currently capped for 2026. Here is what changed for EU buyers.&lt;meta name=</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-referral-program-march-2026-update/</guid>
+      <pubDate>Sun, 15 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>S&amp;P 500, Dow, Nasdaq End Lower Over Capex Concerns, Surging Oil — CBRS, AMD, GOOGL, TSLA, MSTR In Focus</title>
-      <link>https://teslablog.eu/news/sp-500-dow-nasdaq-end-lower-over-capex-concerns-surging-oil-cbrs-amd-googl-tsla/</link>
-      <description>Brent crude topped $100 a barrel, stoking inflation fears and driving Treasury yields to their highest levels of the year.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/sp-500-dow-nasdaq-end-lower-over-capex-concerns-surging-oil-cbrs-amd-googl-tsla/</guid>
-      <pubDate>Thu, 23 Jul 2026 22:34:00 +0000</pubDate>
+      <title>Tesla Roadster Europe 2026 — April 1 Reveal, Price &amp; EU Availability</title>
+      <link>https://teslablog.eu/blog/tesla-roadster-europe-2026/</link>
+      <description>Tesla Roadster finally reveals on April 1, 2026. What European buyers need to know: specs, price (~€180K+), EU delivery timeline, and how to order with a referral code.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-roadster-europe-2026/</guid>
+      <pubDate>Sun, 15 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>2018 Model 3!! Finally!!</title>
-      <link>https://teslablog.eu/news/2018-model-3-finally/</link>
-      <description>I’ve literally been refreshing the app every couple hours! FSD drives me to work and back everyday but parks terribly - when it does even attempt to park. I’m super excited to see if this can fix that last 10 feet for me!</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/2018-model-3-finally/</guid>
-      <pubDate>Thu, 23 Jul 2026 22:26:08 +0000</pubDate>
+      <title>Tesla Referral Code Denmark 2026 (Anbefalingskode): How It Works</title>
+      <link>https://teslablog.eu/blog/tesla-referral-code-denmark/</link>
+      <description>Tesla referral code Denmark 2026. How the Tesla referral code works in 2026, its current status, and how to verify an active referral before ordering.&lt;meta name=</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-referral-code-denmark/</guid>
+      <pubDate>Sat, 14 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Alphabet Just Revealed Its Big Stake in SpaceX</title>
-      <link>https://teslablog.eu/news/alphabet-just-revealed-its-big-stake-in-spacex/</link>
-      <description>Google parent company Alphabet said it had roughly $94.1 billion worth of SpaceX stock.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/alphabet-just-revealed-its-big-stake-in-spacex/</guid>
-      <pubDate>Thu, 23 Jul 2026 22:21:10 +0000</pubDate>
+      <title>Tesla Referral Code Finland 2026 (Suosittelukoodi): How It Works</title>
+      <link>https://teslablog.eu/blog/tesla-referral-code-finland/</link>
+      <description>Tesla referral code Finland 2026. How the Tesla referral code works in 2026, its current status, and how to verify an active referral before ordering.&lt;meta name=</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-referral-code-finland/</guid>
+      <pubDate>Sat, 14 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tesla stock tumbles after earnings, one of its sharpest single-day declines</title>
-      <link>https://teslablog.eu/news/tesla-stock-tumbles-after-earnings-one-of-its-sharpest-single-day-declines/</link>
-      <description>Tesla stock ( NASDAQ: TSLA ) endured one of its sharpest single-day declines in years on July 23, tumbling approximately 14.5 percent and closing near $320 after opening the session around $374. The drop erased more than $140 billion in market value amid heavy trading volume and left the shares a...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-stock-tumbles-after-earnings-one-of-its-sharpest-single-day-declines/</guid>
-      <pubDate>Thu, 23 Jul 2026 22:09:57 +0000</pubDate>
+      <title>Tesla Referral Code Ireland 2026: How It Works</title>
+      <link>https://teslablog.eu/blog/tesla-referral-code-ireland/</link>
+      <description>Tesla referral code Ireland 2026. How the Tesla referral code works in 2026, its current status, and how to verify an active referral before ordering.&lt;meta name=</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-referral-code-ireland/</guid>
+      <pubDate>Sat, 14 Mar 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Stock Market Today, July 23: Tesla Drops 15%, Leading Tech Stock Slide</title>
-      <link>https://teslablog.eu/news/stock-market-today-july-23-tesla-drops-15-leading-tech-stock-slide/</link>
-      <description>On July 23, 2026, massive capital expenditure plans triggered a broad retreat across technology stocks, as soaring crude oil added to inflation fears.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/stock-market-today-july-23-tesla-drops-15-leading-tech-stock-slide/</guid>
-      <pubDate>Thu, 23 Jul 2026 21:30:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla sends a quiet but powerful message on Bitcoin</title>
-      <link>https://teslablog.eu/news/tesla-sends-a-quiet-but-powerful-message-on-bitcoin/</link>
-      <description>Tesla made no Bitcoin sales in the second quarter of 2026. In a market starved for institutional conviction, that decision to hold speaks louder than most announcements. The electric vehicle maker disclosed its Q2 financial results on Wednesday, confirming it still holds the same Bitcoin position...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-sends-a-quiet-but-powerful-message-on-bitcoin/</guid>
-      <pubDate>Thu, 23 Jul 2026 21:21:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stock Market Today, July 23: Tesla Stock Crashes on Earnings Miss and Rising AI Spending</title>
-      <link>https://teslablog.eu/news/stock-market-today-july-23-tesla-stock-crashes-on-earnings-miss-and-rising-ai-sp/</link>
-      <description>Today, July 23, 2026, analysts cut price targets as margin pressure and autonomous-driving caution weigh on the EV leader.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/stock-market-today-july-23-tesla-stock-crashes-on-earnings-miss-and-rising-ai-sp/</guid>
-      <pubDate>Thu, 23 Jul 2026 21:19:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla Robotaxi Hits 380K Unsupervised Miles, Names Next Markets</title>
-      <link>https://teslablog.eu/news/tesla-robotaxi-hits-380k-unsupervised-miles-names-next-markets/</link>
-      <description>Tesla Robotaxi Hits 380K Unsupervised Miles, Names Next Markets</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-robotaxi-hits-380k-unsupervised-miles-names-next-markets/</guid>
-      <pubDate>Thu, 23 Jul 2026 21:07:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla record revenue masks cash burn, $1B SpaceX swing</title>
-      <link>https://teslablog.eu/news/tesla-record-revenue-masks-cash-burn-1b-spacex-swing/</link>
-      <description>Every public company has a number it wants you to see and a number it hopes you scroll past. Earnings season is built on that tension. The revenue line is the easy one.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-record-revenue-masks-cash-burn-1b-spacex-swing/</guid>
-      <pubDate>Thu, 23 Jul 2026 21:03:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla Confirms FSD Is Coming to the Tesla Semi</title>
-      <link>https://teslablog.eu/news/tesla-confirms-fsd-is-coming-to-the-tesla-semi/</link>
-      <description>Tesla Confirms FSD Is Coming to the Tesla Semi</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-confirms-fsd-is-coming-to-the-tesla-semi/</guid>
-      <pubDate>Thu, 23 Jul 2026 19:33:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>v14 was just pushed to my 2021 Model Y (HW3 Intel)</title>
-      <link>https://teslablog.eu/news/v14-was-just-pushed-to-my-2021-model-y-hw3-intel/</link>
-      <description>Finally! It is here! V14 Lite Updating as we speak.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/v14-was-just-pushed-to-my-2021-model-y-hw3-intel/</guid>
-      <pubDate>Thu, 23 Jul 2026 19:28:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Elon Musk is not happy about this Tesla Full Self-Driving approval delay</title>
-      <link>https://teslablog.eu/news/elon-musk-is-not-happy-about-this-tesla-full-self-driving-approval-delay/</link>
-      <description>Elon Musk clapped back at France’s decision to withhold the approval for Tesla’s Full Self-Driving (FSD) Supervised system, projecting a clear and blunt message to French Transport Minister Phillippe Tabarot, after he publicly rejected the technology in its current form. Tabarot outlines several ...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/elon-musk-is-not-happy-about-this-tesla-full-self-driving-approval-delay/</guid>
-      <pubDate>Thu, 23 Jul 2026 19:04:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla Reports $1 Billion Gain On Its SpaceX Equity Stake</title>
-      <link>https://teslablog.eu/news/tesla-reports-1-billion-gain-on-its-spacex-equity-stake/</link>
-      <description>Tesla recorded a $1 billion net gain on its investment in Space Exploration Technologies, commonly known as SpaceX, following its IPO last month, according to SEC filings. Elon Musk's electric vehicle company had a stake in SpaceX through a $2 billion investment his AI lab xAI made in January. Wh...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-reports-1-billion-gain-on-its-spacex-equity-stake/</guid>
-      <pubDate>Thu, 23 Jul 2026 18:14:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stock Market Today: Nasdaq Pounded As Oil Surges; Honeywell Crosses Trendline (Live Coverage)</title>
-      <link>https://teslablog.eu/news/stock-market-today-nasdaq-pounded-as-oil-surges-honeywell-crosses-trendline-live/</link>
-      <description>The Nasdaq composite plunged and the Dow Jones Industrial Average moved sharply lower Thursday as major indexes struggled to lift off their intraday lows. Google-parent Alphabet and Tesla led the sell-off on the stock market today after their quarterly earnings reports. In Thursday morning action...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/stock-market-today-nasdaq-pounded-as-oil-surges-honeywell-crosses-trendline-live/</guid>
-      <pubDate>Thu, 23 Jul 2026 18:05:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla Robotaxis Are Already Running FSD V15</title>
-      <link>https://teslablog.eu/news/tesla-robotaxis-are-already-running-fsd-v15/</link>
-      <description>Tesla Robotaxis Are Already Running FSD V15</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-robotaxis-are-already-running-fsd-v15/</guid>
-      <pubDate>Thu, 23 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla (TSLA) Stock Trades Down, Here Is Why</title>
-      <link>https://teslablog.eu/news/tesla-tsla-stock-trades-down-here-is-why/</link>
-      <description>Shares of electric vehicle pioneer Tesla (NASDAQ:TSLA) fell 13% in the afternoon session after the company reported a sharp second-quarter earnings miss and negative free cash flow, driven by surging costs to fund its artificial intelligence and robotics projects. Despite beating revenue estimate...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-tsla-stock-trades-down-here-is-why/</guid>
-      <pubDate>Thu, 23 Jul 2026 17:56:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla Launches Robotaxi in Tampa &amp; Orlando, + Big Change Coming to FSD!</title>
-      <link>https://teslablog.eu/news/tesla-launches-robotaxi-in-tampa-orlando-big-change-coming-to-fsd/</link>
-      <description>Tesla Robotaxi Service in Florida Tesla has now launched its robotaxi service in Tampa and Orlando, Florida. Service is pretty limited right now, but we have someone on our team who lives right next to the service area and will report back on using it once he has that opportunity. ...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-launches-robotaxi-in-tampa-orlando-big-change-coming-to-fsd/</guid>
-      <pubDate>Thu, 23 Jul 2026 17:55:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>3 Tesla shareholders speak out after mixed Q2 earnings</title>
-      <link>https://teslablog.eu/news/3-tesla-shareholders-speak-out-after-mixed-q2-earnings/</link>
-      <description>It's hard to get a handle on Tesla's current position in the market after two asymmetrical quarters. Tesla reported second-quarter revenue of $28.2 billion, a record that topped analyst estimates of $27.6 billion. However, the 33 cents per share the company reported missed estimates from analysts...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/3-tesla-shareholders-speak-out-after-mixed-q2-earnings/</guid>
-      <pubDate>Thu, 23 Jul 2026 17:49:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Update: Equity Markets Fall Intraday as Brent Crosses $100; Alphabet, Tesla Tumble</title>
-      <link>https://teslablog.eu/news/update-equity-markets-fall-intraday-as-brent-crosses-100-alphabet-tesla-tumble/</link>
-      <description>(Updates with latest market prices and developments.) US benchmark equity indexes were lower intr</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/update-equity-markets-fall-intraday-as-brent-crosses-100-alphabet-tesla-tumble/</guid>
-      <pubDate>Thu, 23 Jul 2026 17:44:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>TSLA, GOOGL Stocks Lead 'Magnificent Seven' Rout – MAGS ETF On Track For Biggest Single-Day Loss This Year</title>
-      <link>https://teslablog.eu/news/tsla-googl-stocks-lead-magnificent-seven-rout-mags-etf-on-track-for-biggest-sing/</link>
-      <description>The broader technology sector weakened after renewed geopolitical tensions in the Middle East weighed on investor sentiment.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tsla-googl-stocks-lead-magnificent-seven-rout-mags-etf-on-track-for-biggest-sing/</guid>
-      <pubDate>Thu, 23 Jul 2026 17:43:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Here's Why This Tesla-Focused ETF Crashed Today</title>
-      <link>https://teslablog.eu/news/heres-why-this-tesla-focused-etf-crashed-today/</link>
-      <description>Tesla's disappointing margins and cautious robotaxi outlook triggered the stock's decline to the detriment of this ETF.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/heres-why-this-tesla-focused-etf-crashed-today/</guid>
-      <pubDate>Thu, 23 Jul 2026 17:26:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alphabet and Tesla Are Tanking These Sectors</title>
-      <link>https://teslablog.eu/news/alphabet-and-tesla-are-tanking-these-sectors/</link>
-      <description>Consumer discretionary and communication services indexes are having their worst day since April 2025. The S&amp;P 500’s consumer discretionary sector was down 4.8% in recent trading, which put the sector on track for its biggest daily drop since it fell 6.5% on April 3, 2025. Tesla, with a market ca...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/alphabet-and-tesla-are-tanking-these-sectors/</guid>
-      <pubDate>Thu, 23 Jul 2026 17:08:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla and Alphabet Trigger Nasdaq 2.5% Selloff as Oil Nears $100</title>
-      <link>https://teslablog.eu/news/tesla-and-alphabet-trigger-nasdaq-25-selloff-as-oil-nears-100/</link>
-      <description>Nasdaq Sinks 2.5% as Tesla Crashes, Alphabet's AI Spending Sparks Tech Selloff</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-and-alphabet-trigger-nasdaq-25-selloff-as-oil-nears-100/</guid>
-      <pubDate>Thu, 23 Jul 2026 17:07:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Two Blowout Quarters, Two Selloffs: What Tesla and Alphabet Reveal About our Price Target</title>
-      <link>https://teslablog.eu/news/two-blowout-quarters-two-selloffs-what-tesla-and-alphabet-reveal-about-our-price/</link>
-      <description>Tesla and Alphabet both delivered blowout quarters and both got punished by the market anyway. Before you follow the crowd and sell, our price targets reveal why the selloff reaction may be telling the wrong story entirely.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/two-blowout-quarters-two-selloffs-what-tesla-and-alphabet-reveal-about-our-price/</guid>
-      <pubDate>Thu, 23 Jul 2026 17:00:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla Q2: Why I Still Can't Be Bullish</title>
-      <link>https://teslablog.eu/news/tesla-q2-why-i-still-cant-be-bullish/</link>
-      <description/>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-q2-why-i-still-cant-be-bullish/</guid>
-      <pubDate>Thu, 23 Jul 2026 17:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tesla and Google’s AI splurge sparks tech sell-off</title>
-      <link>https://teslablog.eu/news/tesla-and-googles-ai-splurge-sparks-tech-sell-off/</link>
-      <description>Technology giants suffered a brutal sell-off on Thursday after heavy AI spending by Tesla and Google spooked investors.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/tesla-and-googles-ai-splurge-sparks-tech-sell-off/</guid>
-      <pubDate>Thu, 23 Jul 2026 16:59:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Magnificent 7 Loses $767 Billion as AI Skeptics Dump Tech Stocks</title>
-      <link>https://teslablog.eu/news/magnificent-7-loses-767-billion-as-ai-skeptics-dump-tech-stocks/</link>
-      <description>(Bloomberg) -- The Magnificent Seven group of megacap technology stocks is on track for its biggest one-day drop since the tariff tantrum in April 2025 as results from Alphabet Inc. and Tesla Inc. are casting doubt on the durability of the artificial intelligence trade that has powered the stock ...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/magnificent-7-loses-767-billion-as-ai-skeptics-dump-tech-stocks/</guid>
-      <pubDate>Thu, 23 Jul 2026 16:53:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nvidia, Tesla, Alphabet, Lockheed, AT&amp;T, and More Stocks That Explain Today’s Market</title>
-      <link>https://teslablog.eu/news/nvidia-tesla-alphabet-lockheed-att-and-more-stocks-that-explain-todays-market/</link>
-      <description>Alphabet and Tesla shares fall as investors worry about a rally in oil prices that could drive inflation higher.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/nvidia-tesla-alphabet-lockheed-att-and-more-stocks-that-explain-todays-market/</guid>
-      <pubDate>Thu, 23 Jul 2026 16:52:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google’s massive stake in SpaceX will shock you</title>
-      <link>https://teslablog.eu/news/googles-massive-stake-in-spacex-will-shock-you/</link>
-      <description>In a striking revelation that underscores the lucrative crossover between Big Tech and space exploration, Alphabet Inc., Google’s parent company, disclosed a massive $94.1 billion equity stake in SpaceX following the rocket company’s blockbuster initial public offering earlier this year. The disc...</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/googles-massive-stake-in-spacex-will-shock-you/</guid>
-      <pubDate>Thu, 23 Jul 2026 16:38:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>As Wall Street Cuts Tesla, Morgan Stanley Raises Its Apple Target</title>
-      <link>https://teslablog.eu/news/as-wall-street-cuts-tesla-morgan-stanley-raises-its-apple-target/</link>
-      <description>Tesla just delivered one of its ugliest earnings prints in years while Apple quietly shattered revenue records, and the gap between these two titans is widening fast enough to reshape how analysts are pricing both stocks right now.</description>
-      <guid isPermaLink="true">https://teslablog.eu/news/as-wall-street-cuts-tesla-morgan-stanley-raises-its-apple-target/</guid>
-      <pubDate>Thu, 23 Jul 2026 16:30:30 +0000</pubDate>
+      <title>Tesla Referral Code Turkey 2026 — 1,000 km Free Supercharging</title>
+      <link>https://teslablog.eu/blog/tesla-referral-code-turkey/</link>
+      <description>Tesla referral code for Turkey (Türkiye) 2026. Use code carlo719460 (Tesla tavsiye kodu) and get 1,000 km free Supercharging on your new Model 3 or Y. Referral program activated March 2026.</description>
+      <guid isPermaLink="true">https://teslablog.eu/blog/tesla-referral-code-turkey/</guid>
+      <pubDate>Sat, 14 Mar 2026 08:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

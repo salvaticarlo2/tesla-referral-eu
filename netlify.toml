@@ -8,3 +8,11 @@
   to = "https://teslablog.eu/:splat"
   status = 301
   force = true
+
+# /news/ removed 2026-07-24. 410 Gone is a stronger, faster removal signal to
+# search engines than a plain 404. Reverse by deleting this block.
+[[redirects]]
+  from = "/news/*"
+  to = "/gone.html"
+  status = 410
+  force = true

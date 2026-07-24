@@ -32,7 +32,6 @@ def masthead(active='EN'):
   <div class="tb-masthead">
     <a href="/" class="tb-logo">TESLABLOG<span>.EU</span></a>
     <nav class="tb-nav">
-      <a href="/news/">News</a>
       <a href="/blog/">Blog</a>
       <a href="/gear/">Gear</a>
       <a href="/referral/">Referral</a>
@@ -246,7 +245,9 @@ jsonld_posts = json.dumps([{
     "datePublished": p['date']
 } for p in en_posts[:5]], indent=6)
 
-news_rows, latest_news_dt = render_news_rows()
+# News section removed 2026-07-24 (see .github/workflows/news-pipeline.yml).
+# To restore: revert this line to render_news_rows().
+news_rows, latest_news_dt = '', None
 article_rows = '\n'.join(render_article_row(p) for p in top_home)
 
 updated_dt = latest_news_dt or (en_posts[0]['dt'] if en_posts else datetime.now())
