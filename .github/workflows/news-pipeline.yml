@@ -1,9 +1,14 @@
 # News pipeline: RSS -> HTML -> commit -> Netlify deploy.
-# Replaces the Hetzner VPS cron (migrated 2026-07-07). Runs 4x/day like the old cron.
+# Replaces the Hetzner VPS cron (migrated 2026-07-07).
+#
+# RETIRED 2026-07-24 with the /news/ section. tools/news-pipeline/pipeline.sh
+# exits immediately, so every run was a 2m17s no-op that still burned Actions
+# minutes. The schedule is removed rather than the file, so reversing the
+# retirement is just restoring the cron line below.
 name: news-pipeline
 on:
-  schedule:
-    - cron: '0 0,6,12,18 * * *'   # UTC; 5-30 min slack is fine for news
+  # schedule:
+  #   - cron: '0 0,6,12,18 * * *'   # UTC; disabled 2026-07-27, see above
   workflow_dispatch: {}
 
 permissions:
@@ -44,9 +49,12 @@ jobs:
 
       - name: Verify site reachable
         run: |
+          # Checks the homepage. Used to poll /news/, which has returned 410
+          # Gone since 2026-07-24, so this step spent 120s timing out on every
+          # run before warning about a page that is meant to be gone.
           for i in $(seq 1 12); do
-            code=$(curl -s -o /dev/null -w "%{http_code}" https://teslablog.eu/news/ || echo 000)
+            code=$(curl -s -o /dev/null -w "%{http_code}" https://teslablog.eu/ || echo 000)
             if [ "$code" = "200" ]; then echo "Site OK (HTTP $code)"; exit 0; fi
             sleep 10
           done
-          echo "::warning::teslablog.eu/news/ not reachable after 120s"
+          echo "::warning::teslablog.eu not reachable after 120s"
