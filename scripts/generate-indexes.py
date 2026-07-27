@@ -442,3 +442,12 @@ try:
                    timeout=300, check=False)
 except Exception as e:
     print(f'og-images skipped: {e}')
+
+
+# ── RSS feed. Used to be step 4 of the news pipeline, which was retired on
+# 2026-07-24; that left feed.xml frozen. Generating it here means the documented
+# publish flow ("add the post, run generate-indexes.py") keeps the feed current.
+# Not guarded: a silently stale feed is the exact bug this replaces.
+import subprocess
+subprocess.run(['python3', str(SITE_ROOT / 'scripts' / 'generate-feed.py')],
+               timeout=120, check=True)

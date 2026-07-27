@@ -1,31 +1,45 @@
 #!/usr/bin/env python3
-"""Generate /feed.xml from blog posts and news items.
+"""Generate /feed.xml from the real blog posts.
 
-RETIRED 2026-07-24. Superseded by scripts/generate-feed.py, which is blog-only.
+Replaces tools/news-pipeline/generate_feed.py, which only ran as step 4 of the
+news pipeline. That pipeline was retired on 2026-07-24, which left feed.xml
+frozen at its last news-era build: new blog posts never reached the feed.
 
-Do not run this script. data/news.json is still present for rollback, so this
-would rebuild feed.xml with /news/ URLs that now return 410 Gone. It is only
-reachable via pipeline.sh, which exits before calling it.
+This version reads blog/ only. It deliberately does not touch
+tools/news-pipeline/data/news.json, which is still in the repo for rollback:
+those /news/ URLs return 410 Gone and must never re-enter the feed.
+
+Run directly, or let scripts/generate-indexes.py call it (it does, at the end).
 """
 import json
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom.minidom import parseString
 
-# Script lives at <repo>/tools/news-pipeline/; data sits alongside it.
-REPO_DIR = str(Path(__file__).resolve().parents[2])
+REPO_DIR = str(Path(__file__).resolve().parents[1])
 SITE_URL = 'https://teslablog.eu'
 FEED_TITLE = 'TeslaBlog.eu — Tesla News & Updates'
 FEED_DESC = 'Latest Tesla news, deals, and updates across Europe and beyond.'
-NEWS_DATA = str(Path(__file__).resolve().parent / 'data' / 'news.json')
+MAX_ITEMS = 50
+
+# Posts use BlogPosting; older ones use Article, one uses NewsArticle.
+LD_RE = re.compile(
+    r'<script\s+type="application/ld\+json">\s*'
+    r'(\{[^<]*"@type"\s*:\s*"(?:Article|BlogPosting|NewsArticle)"[^<]*\})\s*</script>',
+    re.DOTALL,
+)
+
+# The channel declares <language>en</language>, and translated posts have their
+# own /de/ /es/ /fr/ /it/ /nl/ trees, so keep the feed English-only.
+LANG_RE = re.compile(r'<html[^>]*\blang="([a-z-]+)"', re.IGNORECASE)
 
 
 def extract_blog_posts():
-    """Extract metadata from blog/*/index.html via JSON-LD."""
+    """Extract post metadata from blog/*/index.html via JSON-LD."""
     posts = []
     blog_dir = os.path.join(REPO_DIR, 'blog')
     for slug in sorted(os.listdir(blog_dir)):
@@ -34,10 +48,10 @@ def extract_blog_posts():
             continue
         with open(index, 'r', encoding='utf-8') as f:
             html = f.read()
-        m = re.search(
-            r'<script\s+type="application/ld\+json">\s*(\{[^<]*"@type"\s*:\s*"Article"[^<]*\})\s*</script>',
-            html, re.DOTALL
-        )
+        lang = LANG_RE.search(html)
+        if lang and not lang.group(1).lower().startswith('en'):
+            continue
+        m = LD_RE.search(html)
         if not m:
             continue
         try:
@@ -52,21 +66,6 @@ def extract_blog_posts():
             'guid': f'{SITE_URL}/blog/{slug}/',
         })
     return posts
-
-
-def load_news_items():
-    """Load news items from news.json if it exists."""
-    if not os.path.isfile(NEWS_DATA):
-        return []
-    with open(NEWS_DATA, 'r', encoding='utf-8') as f:
-        items = json.load(f)
-    return [{
-        'title': it['title'],
-        'link': f'{SITE_URL}/news/{it["slug"]}/',
-        'description': it.get('summary', ''),
-        'pubDate': it.get('timestamp', ''),
-        'guid': f'{SITE_URL}/news/{it["slug"]}/',
-    } for it in items]
 
 
 def build_rss(items):
@@ -85,7 +84,7 @@ def build_rss(items):
     atom_link.set('type', 'application/rss+xml')
 
     items.sort(key=lambda x: x.get('pubDate', ''), reverse=True)
-    for it in items[:50]:
+    for it in items[:MAX_ITEMS]:
         item = SubElement(channel, 'item')
         SubElement(item, 'title').text = it['title']
         SubElement(item, 'link').text = it['link']
@@ -94,6 +93,10 @@ def build_rss(items):
         if it.get('pubDate'):
             try:
                 dt = datetime.fromisoformat(it['pubDate'].replace('Z', '+00:00'))
+                # datePublished is usually a bare date; treat it as UTC so the
+                # feed emits "+0000" rather than the "-0000" (unknown zone) form.
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
                 SubElement(item, 'pubDate').text = format_datetime(dt)
             except (ValueError, TypeError):
                 SubElement(item, 'pubDate').text = it['pubDate']
@@ -108,13 +111,13 @@ def build_rss(items):
 
 def main():
     posts = extract_blog_posts()
-    news = load_news_items()
-    all_items = posts + news
-    xml = build_rss(all_items)
+    if not posts:
+        raise SystemExit('generate-feed: no blog posts found, refusing to write an empty feed')
+    xml = build_rss(posts)
     out = os.path.join(REPO_DIR, 'feed.xml')
     with open(out, 'w', encoding='utf-8') as f:
         f.write(xml)
-    print(f'Generated feed.xml ({len(all_items)} items)')
+    print(f'✓ feed.xml written ({len(posts)} posts)')
 
 
 if __name__ == '__main__':
