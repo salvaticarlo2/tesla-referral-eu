@@ -3,8 +3,10 @@
 # Alerting: GitHub can email on failed workflow runs without secrets.
 name: health-watchdog
 on:
+  # Every 6h. Was */30, which meant a single stale check emailed ~48x/day:
+  # that is how the retired-news-feed check produced 13 alerts over one weekend.
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '17 */6 * * *'
   workflow_dispatch: {}
 
 jobs:
@@ -41,12 +43,25 @@ jobs:
           fi
 
           curl -fsSL https://teslablog.eu/feed.xml -o feed.xml
+          item_count=$(grep -c '<item>' feed.xml)
+          echo "feed items: $item_count"
+          [ "$item_count" -ge 1 ] || { echo "::error::feed.xml has no items"; exit 1; }
+
+          if grep -q '<link>https://teslablog.eu/news/' feed.xml; then
+            echo "::error::410'd /news/ URLs are back in feed.xml"
+            exit 1
+          fi
+
+          # Publishing is roughly weekly, so this only fires if the Friday
+          # scheduled task has been silently failing for about three weeks.
+          # It is NOT the old 48h news-pipeline check, which was retired
+          # together with /news/ on 2026-07-24.
           last=$(grep -oE '<pubDate>[^<]+' feed.xml | head -1 | sed 's/<pubDate>//')
           echo "newest feed item: $last"
           [ -n "$last" ] || { echo "::error::feed.xml has no pubDate"; exit 1; }
-          age=$(( ( $(date +%s) - $(date -d "$last" +%s) ) / 3600 ))
-          echo "feed age: ${age}h"
-          [ "$age" -lt 48 ] || {
-            echo "::error::news feed is ${age}h old; pipeline may be stalled"
+          age_days=$(( ( $(date +%s) - $(date -d "$last" +%s) ) / 86400 ))
+          echo "newest post age: ${age_days}d"
+          [ "$age_days" -lt 21 ] || {
+            echo "::error::newest post is ${age_days}d old; the weekly report task may have stopped publishing"
             exit 1
           }
