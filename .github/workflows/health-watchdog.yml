@@ -52,8 +52,8 @@ jobs:
             exit 1
           fi
 
-          # Publishing is roughly weekly, so this only fires if the Friday
-          # scheduled task has been silently failing for about three weeks.
+          # Publishing is monthly (cadence changed 2026-08-24), so this only
+          # fires if roughly three monthly posts in a row have been missed.
           # It is NOT the old 48h news-pipeline check, which was retired
           # together with /news/ on 2026-07-24.
           last=$(grep -oE '<pubDate>[^<]+' feed.xml | head -1 | sed 's/<pubDate>//')
@@ -61,7 +61,7 @@ jobs:
           [ -n "$last" ] || { echo "::error::feed.xml has no pubDate"; exit 1; }
           age_days=$(( ( $(date +%s) - $(date -d "$last" +%s) ) / 86400 ))
           echo "newest post age: ${age_days}d"
-          [ "$age_days" -lt 21 ] || {
-            echo "::error::newest post is ${age_days}d old; the weekly report task may have stopped publishing"
+          [ "$age_days" -lt 90 ] || {
+            echo "::error::newest post is ${age_days}d old; the monthly publishing task may have stopped"
             exit 1
           }
