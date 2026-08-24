@@ -17,17 +17,22 @@ jobs:
         run: |
           set -euo pipefail
 
-          code=$(curl -s -o /dev/null -w "%{http_code}" https://teslablog.eu/)
+          # Retry transient network flakes so a single runner-to-Netlify blip
+          # does not email a failure (2026-08-24: one connect timeout on
+          # robots.txt failed the run one second after the homepage passed).
+          CURL="curl --retry 3 --retry-connrefused --retry-delay 5 --connect-timeout 20 --max-time 60"
+
+          code=$($CURL -s -o /dev/null -w "%{http_code}" https://teslablog.eu/)
           echo "homepage HTTP $code"
           [ "$code" = "200" ] || { echo "::error::teslablog.eu returned $code"; exit 1; }
 
-          curl -fsSL https://teslablog.eu/robots.txt -o robots.txt
+          $CURL -fsSL https://teslablog.eu/robots.txt -o robots.txt
           grep -q '^Sitemap: https://teslablog.eu/sitemap.xml$' robots.txt || {
             echo "::error::robots.txt does not point at the clean sitemap.xml"
             exit 1
           }
 
-          curl -fsSL https://teslablog.eu/sitemap.xml -o sitemap.xml
+          $CURL -fsSL https://teslablog.eu/sitemap.xml -o sitemap.xml
           url_count=$(grep -c '<url>' sitemap.xml)
           echo "sitemap URLs: $url_count"
           [ "$url_count" -ge 50 ] && [ "$url_count" -le 120 ] || {
@@ -42,7 +47,7 @@ jobs:
             exit 1
           fi
 
-          curl -fsSL https://teslablog.eu/feed.xml -o feed.xml
+          $CURL -fsSL https://teslablog.eu/feed.xml -o feed.xml
           item_count=$(grep -c '<item>' feed.xml)
           echo "feed items: $item_count"
           [ "$item_count" -ge 1 ] || { echo "::error::feed.xml has no items"; exit 1; }
