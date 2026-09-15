@@ -64,12 +64,13 @@ def render(title, kicker, footer_label, out_path):
     if kicker:
         d.text((PAD, PAD + 84), kicker.upper(), font=load('GeistMono-500.ttf', 26), fill=ORANGE)
 
-    # Title, auto-sized
+    # Title, auto-sized: must fit the width AND stop above the footer row
     max_w = W - 2 * PAD
+    max_h = (H - PAD - 34) - 16 - (PAD + 136)
     for size in (76, 66, 58, 50):
         f = load('Geist-700.ttf', size)
         lines = wrap(d, title, f, max_w)
-        if len(lines) <= 4:
+        if len(lines) <= 4 and len(lines) * int(size * 1.14) <= max_h:
             break
     y = PAD + 136
     for ln in lines[:4]:
