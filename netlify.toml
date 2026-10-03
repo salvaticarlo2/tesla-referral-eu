@@ -16,3 +16,246 @@
   to = "/gone.html"
   status = 410
   force = true
+
+# Referral consolidation 2026-10-03: 20 near-duplicate country/guide pages -> language hubs.
+# Rollback: git tag pre-referral-consolidation-2026-10-03
+[[redirects]]
+  from = "/blog/tesla-referral-code-germany/*"
+  to = "/de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-germany"
+  to = "/de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-austria/*"
+  to = "/de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-austria"
+  to = "/de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-switzerland/*"
+  to = "/de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-switzerland"
+  to = "/de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-france/*"
+  to = "/fr/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-france"
+  to = "/fr/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/code-parrainage-tesla-guide-2026/*"
+  to = "/fr/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/code-parrainage-tesla-guide-2026"
+  to = "/fr/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-netherlands/*"
+  to = "/nl/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-netherlands"
+  to = "/nl/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-italy/*"
+  to = "/it/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-italy"
+  to = "/it/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-spain/*"
+  to = "/es/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-spain"
+  to = "/es/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-belgium/*"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-belgium"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-denmark/*"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-denmark"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-finland/*"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-finland"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-ireland/*"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-ireland"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-poland/*"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-poland"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-portugal/*"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-portugal"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-sweden/*"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-sweden"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-turkey/*"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-turkey"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-europe/*"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-europe"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-europe-2026-guide/*"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-code-europe-2026-guide"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-europe-guide/*"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-europe-guide"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-program-march-2026-update/*"
+  to = "/referral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/tesla-referral-program-march-2026-update"
+  to = "/referral/"
+  status = 301
+  force = true
+
